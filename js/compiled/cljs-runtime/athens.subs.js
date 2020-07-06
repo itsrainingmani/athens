@@ -2,177 +2,240 @@ goog.provide('athens.subs');
 goog.require('cljs.core');
 goog.require('day8.re_frame.tracing');
 goog.require('re_frame.core');
-var G__58077_58108 = new cljs.core.Keyword(null,"user","user",1532431356);
-var G__58078_58109 = (function (db,_){
+var G__58165_58219 = new cljs.core.Keyword(null,"user","user",1532431356);
+var G__58166_58220 = (function (db,_){
 return new cljs.core.Keyword(null,"user","user",1532431356).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58077_58108,G__58078_58109) : re_frame.core.reg_sub.call(null,G__58077_58108,G__58078_58109));
-var G__58079_58110 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
-var G__58080_58111 = (function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58165_58219,G__58166_58220) : re_frame.core.reg_sub.call(null,G__58165_58219,G__58166_58220));
+var G__58167_58221 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
+var G__58168_58222 = (function (db,_){
 return db;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58079_58110,G__58080_58111) : re_frame.core.reg_sub.call(null,G__58079_58110,G__58080_58111));
-var G__58081_58112 = new cljs.core.Keyword(null,"errors","errors",-908790718);
-var G__58082_58113 = (function (db,_){
-return new cljs.core.Keyword(null,"errors","errors",-908790718).cljs$core$IFn$_invoke$arity$1(db);
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58167_58221,G__58168_58222) : re_frame.core.reg_sub.call(null,G__58167_58221,G__58168_58222));
+var G__58169_58223 = new cljs.core.Keyword(null,"alert","alert",-571950580);
+var G__58170_58224 = (function (db,_){
+return new cljs.core.Keyword(null,"alert","alert",-571950580).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58081_58112,G__58082_58113) : re_frame.core.reg_sub.call(null,G__58081_58112,G__58082_58113));
-var G__58083_58114 = new cljs.core.Keyword(null,"loading","loading",-737050189);
-var G__58084_58115 = (function (db,_){
-return new cljs.core.Keyword(null,"loading","loading",-737050189).cljs$core$IFn$_invoke$arity$1(db);
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58169_58223,G__58170_58224) : re_frame.core.reg_sub.call(null,G__58169_58223,G__58170_58224));
+var G__58171_58225 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
+var G__58172_58226 = (function (db,_){
+return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58083_58114,G__58084_58115) : re_frame.core.reg_sub.call(null,G__58083_58114,G__58084_58115));
-var G__58085_58116 = new cljs.core.Keyword(null,"athena","athena",-1523991628);
-var G__58086_58117 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58171_58225,G__58172_58226) : re_frame.core.reg_sub.call(null,G__58171_58225,G__58172_58226));
+var G__58173_58227 = new cljs.core.Keyword("athena","open","athena/open",1253777725);
+var G__58174_58228 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"athena","athena",-1523991628),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("athena","open","athena/open",1253777725),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"athena","athena",-1523991628).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("athena","open","athena/open",1253777725).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"athena","athena",-1523991628),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("athena","open","athena/open",1253777725),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58087){var e = e58087;
+return result__54415__auto__;
+}catch (e58175){var e = e58175;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"athena","athena",-1523991628).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("athena","open","athena/open",1253777725).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58085_58116,G__58086_58117) : re_frame.core.reg_sub.call(null,G__58085_58116,G__58086_58117));
-var G__58088_58126 = new cljs.core.Keyword(null,"devtool","devtool",1338288336);
-var G__58089_58127 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58173_58227,G__58174_58228) : re_frame.core.reg_sub.call(null,G__58173_58227,G__58174_58228));
+var G__58176_58229 = new cljs.core.Keyword("devtool","open","devtool/open",-1176270029);
+var G__58177_58230 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("devtool","open","devtool/open",-1176270029),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"devtool","devtool",1338288336).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("devtool","open","devtool/open",-1176270029).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("devtool","open","devtool/open",-1176270029),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58090){var e = e58090;
+return result__54415__auto__;
+}catch (e58178){var e = e58178;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"devtool","devtool",1338288336).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("devtool","open","devtool/open",-1176270029).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58088_58126,G__58089_58127) : re_frame.core.reg_sub.call(null,G__58088_58126,G__58089_58127));
-var G__58091_58131 = new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357);
-var G__58092_58132 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58176_58229,G__58177_58230) : re_frame.core.reg_sub.call(null,G__58176_58229,G__58177_58230));
+var G__58179_58231 = new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270);
+var G__58180_58232 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58093){var e = e58093;
+return result__54415__auto__;
+}catch (e58181){var e = e58181;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58091_58131,G__58092_58132) : re_frame.core.reg_sub.call(null,G__58091_58131,G__58092_58132));
-var G__58094_58136 = new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618);
-var G__58095_58137 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58179_58231,G__58180_58232) : re_frame.core.reg_sub.call(null,G__58179_58231,G__58180_58232));
+var G__58182_58233 = new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133);
+var G__58183_58234 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58096){var e = e58096;
+return result__54415__auto__;
+}catch (e58184){var e = e58184;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58094_58136,G__58095_58137) : re_frame.core.reg_sub.call(null,G__58094_58136,G__58095_58137));
-var G__58097_58138 = new cljs.core.Keyword(null,"merge-prompt","merge-prompt",1428758084);
-var G__58098_58139 = (function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58182_58233,G__58183_58234) : re_frame.core.reg_sub.call(null,G__58182_58233,G__58183_58234));
+var G__58187_58235 = new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733);
+var G__58188_58236 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+
+return result__54415__auto__;
+})());
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+
+return result__54415__auto__;
+}catch (e58192){var e = e58192;
+throw e;
+}}):(function (db,_){
+return new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733).cljs$core$IFn$_invoke$arity$1(db);
+}));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58187_58235,G__58188_58236) : re_frame.core.reg_sub.call(null,G__58187_58235,G__58188_58236));
+var G__58196_58237 = new cljs.core.Keyword(null,"merge-prompt","merge-prompt",1428758084);
+var G__58197_58238 = (function (db,_){
 return new cljs.core.Keyword(null,"merge-prompt","merge-prompt",1428758084).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58097_58138,G__58098_58139) : re_frame.core.reg_sub.call(null,G__58097_58138,G__58098_58139));
-var G__58099_58140 = new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377);
-var G__58100_58141 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58196_58237,G__58197_58238) : re_frame.core.reg_sub.call(null,G__58196_58237,G__58197_58238));
+var G__58198_58239 = new cljs.core.Keyword("editing","uid","editing/uid",974963040);
+var G__58199_58240 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("editing","uid","editing/uid",974963040),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("editing","uid","editing/uid",974963040).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("editing","uid","editing/uid",974963040),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58101){var e = e58101;
+return result__54415__auto__;
+}catch (e58203){var e = e58203;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("editing","uid","editing/uid",974963040).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58099_58140,G__58100_58141) : re_frame.core.reg_sub.call(null,G__58099_58140,G__58100_58141));
-var G__58102_58142 = new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452);
-var G__58103_58143 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58198_58239,G__58199_58240) : re_frame.core.reg_sub.call(null,G__58198_58239,G__58199_58240));
+var G__58204_58241 = new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099);
+var G__58205_58242 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
-try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58104){var e = e58104;
+return result__54415__auto__;
+}catch (e58209){var e = e58209;
 throw e;
 }}):(function (db,_){
-return new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452).cljs$core$IFn$_invoke$arity$1(db);
+return new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58102_58142,G__58103_58143) : re_frame.core.reg_sub.call(null,G__58102_58142,G__58103_58143));
-var G__58105_58144 = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411);
-var G__58106_58145 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58204_58241,G__58205_58242) : re_frame.core.reg_sub.call(null,G__58204_58241,G__58205_58242));
+var G__58210_58243 = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411);
+var G__58211_58244 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
-var opts__54408__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411).cljs$core$IFn$_invoke$arity$1((function (){var opts__54408__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54409__auto__ = db;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54409__auto__;
+return result__54415__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54409__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54409__auto__;
-}catch (e58107){var e = e58107;
+return result__54415__auto__;
+}catch (e58212){var e = e58212;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58105_58144,G__58106_58145) : re_frame.core.reg_sub.call(null,G__58105_58144,G__58106_58145));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58210_58243,G__58211_58244) : re_frame.core.reg_sub.call(null,G__58210_58243,G__58211_58244));
+var G__58213_58245 = new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573);
+var G__58214_58246 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+
+return result__54415__auto__;
+})());
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+
+return result__54415__auto__;
+}catch (e58215){var e = e58215;
+throw e;
+}}):(function (db,_){
+return new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573).cljs$core$IFn$_invoke$arity$1(db);
+}));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58213_58245,G__58214_58246) : re_frame.core.reg_sub.call(null,G__58213_58245,G__58214_58246));
+var G__58216_58247 = new cljs.core.Keyword("athena","get-recent","athena/get-recent",141186072);
+var G__58217_58248 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
+try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
+
+var opts__54414__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227).cljs$core$IFn$_invoke$arity$1((function (){var opts__54414__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54415__auto__ = db;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"db","db",-1661185010,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+
+return result__54415__auto__;
+})());
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+
+return result__54415__auto__;
+}catch (e58218){var e = e58218;
+throw e;
+}}):(function (db,_){
+return new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227).cljs$core$IFn$_invoke$arity$1(db);
+}));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58216_58247,G__58217_58248) : re_frame.core.reg_sub.call(null,G__58216_58247,G__58217_58248));
 
 //# sourceMappingURL=athens.subs.js.map

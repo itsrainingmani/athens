@@ -32,14 +32,14 @@ return (rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node
  */
 rewrite_clj.zip.editz.edit = (function rewrite_clj$zip$editz$edit(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30476 = arguments.length;
-var i__4790__auto___30477 = (0);
+var len__4789__auto___30474 = arguments.length;
+var i__4790__auto___30475 = (0);
 while(true){
-if((i__4790__auto___30477 < len__4789__auto___30476)){
-args__4795__auto__.push((arguments[i__4790__auto___30477]));
+if((i__4790__auto___30475 < len__4789__auto___30474)){
+args__4795__auto__.push((arguments[i__4790__auto___30475]));
 
-var G__30478 = (i__4790__auto___30477 + (1));
-i__4790__auto___30477 = G__30478;
+var G__30476 = (i__4790__auto___30475 + (1));
+i__4790__auto___30475 = G__30476;
 continue;
 } else {
 }
@@ -138,9 +138,9 @@ throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$ari
 }
 });
 rewrite_clj.zip.editz.suffix = (function rewrite_clj$zip$editz$suffix(zloc,s){
-var G__30474 = rewrite_clj.zip.base.tag(zloc);
-var G__30474__$1 = (((G__30474 instanceof cljs.core.Keyword))?G__30474.fqn:null);
-switch (G__30474__$1) {
+var G__30473 = rewrite_clj.zip.base.tag(zloc);
+var G__30473__$1 = (((G__30473 instanceof cljs.core.Keyword))?G__30473.fqn:null);
+switch (G__30473__$1) {
 case "token":
 return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__30472_SHARP_){
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__30472_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
@@ -158,7 +158,7 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(cljs.core.butlast(lines),[
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__30474__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__30473__$1)].join('')));
 
 }
 });

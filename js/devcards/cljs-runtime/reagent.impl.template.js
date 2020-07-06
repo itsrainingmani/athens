@@ -109,14 +109,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 var G__31720 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31721__i = 0, G__31721__a = new Array(arguments.length -  0);
-while (G__31721__i < G__31721__a.length) {G__31721__a[G__31721__i] = arguments[G__31721__i + 0]; ++G__31721__i;}
-  args = new cljs.core.IndexedSeq(G__31721__a,0,null);
+var G__31723__i = 0, G__31723__a = new Array(arguments.length -  0);
+while (G__31723__i < G__31723__a.length) {G__31723__a[G__31723__i] = arguments[G__31723__i + 0]; ++G__31723__i;}
+  args = new cljs.core.IndexedSeq(G__31723__a,0,null);
 } 
 return G__31720__delegate.call(this,args);};
 G__31720.cljs$lang$maxFixedArity = 0;
-G__31720.cljs$lang$applyTo = (function (arglist__31722){
-var args = cljs.core.seq(arglist__31722);
+G__31720.cljs$lang$applyTo = (function (arglist__31727){
+var args = cljs.core.seq(arglist__31727);
 return G__31720__delegate(args);
 });
 G__31720.cljs$core$IFn$_invoke$arity$variadic = G__31720__delegate;
@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31682_31728 = reagent.impl.template.custom_prop_name_cache;
-var G__31683_31729 = cljs.core.name(k);
-var G__31684_31730 = v;
-goog.object.set(G__31682_31728,G__31683_31729,G__31684_31730);
+var G__31682_31730 = reagent.impl.template.custom_prop_name_cache;
+var G__31683_31731 = cljs.core.name(k);
+var G__31684_31732 = v;
+goog.object.set(G__31682_31730,G__31683_31731,G__31684_31732);
 
 return v;
 } else {
