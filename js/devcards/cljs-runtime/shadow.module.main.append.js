@@ -1,2 +1,0 @@
-
-athens.devcards.main();
