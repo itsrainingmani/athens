@@ -137,9 +137,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__65816),null);
 }
 } else {
 var child = cljs.core.first(s__65814__$2);
-return cljs.core.cons((function (){var map__65819 = child;
-var map__65819__$1 = (((((!((map__65819 == null))))?(((((map__65819.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65819.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65819):map__65819);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__65819__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+return cljs.core.cons((function (){var map__65820 = child;
+var map__65820__$1 = (((((!((map__65820 == null))))?(((((map__65820.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65820.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65820):map__65820);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__65820__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })(),athens$devcards$block_page$block_page_el_$_iter__65813(cljs.core.rest(s__65814__$2)));
 }

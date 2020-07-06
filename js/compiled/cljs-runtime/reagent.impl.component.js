@@ -647,56 +647,56 @@ return c;
 }
 }
 })();
-var elem = (function (){var or__4185__auto__ = (function (){var G__32351 = instance;
-if((G__32351 == null)){
+var elem = (function (){var or__4185__auto__ = (function (){var G__32355 = instance;
+if((G__32355 == null)){
 return null;
 } else {
-return goog.object.get(G__32351,"_currentElement");
+return goog.object.get(G__32355,"_currentElement");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__32356 = instance;
-if((G__32356 == null)){
+var G__32357 = instance;
+if((G__32357 == null)){
 return null;
 } else {
-return G__32356._currentElement;
+return G__32357._currentElement;
 }
 }
 })();
-var name = (function (){var G__32357 = elem;
-var G__32357__$1 = (((G__32357 == null))?null:G__32357.type);
-if((G__32357__$1 == null)){
+var name = (function (){var G__32362 = elem;
+var G__32362__$1 = (((G__32362 == null))?null:G__32362.type);
+if((G__32362__$1 == null)){
 return null;
 } else {
-return G__32357__$1.displayName;
+return G__32362__$1.displayName;
 }
 })();
-var owner = (function (){var or__4185__auto__ = (function (){var G__32365 = elem;
-if((G__32365 == null)){
+var owner = (function (){var or__4185__auto__ = (function (){var G__32371 = elem;
+if((G__32371 == null)){
 return null;
 } else {
-return goog.object.get(G__32365,"_owner");
+return goog.object.get(G__32371,"_owner");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__32368 = elem;
-if((G__32368 == null)){
+var G__32373 = elem;
+if((G__32373 == null)){
 return null;
 } else {
-return G__32368._owner;
+return G__32373._owner;
 }
 }
 })();
-var path = (function (){var G__32373 = owner;
-var G__32373__$1 = (((G__32373 == null))?null:(reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1(G__32373) : reagent.impl.component.component_path.call(null,G__32373)));
-if((G__32373__$1 == null)){
+var path = (function (){var G__32378 = owner;
+var G__32378__$1 = (((G__32378 == null))?null:(reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1(G__32378) : reagent.impl.component.component_path.call(null,G__32378)));
+if((G__32378__$1 == null)){
 return null;
 } else {
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32373__$1)," > "].join('');
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32378__$1)," > "].join('');
 }
 })();
 var res = [path,cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)].join('');

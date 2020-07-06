@@ -65,10 +65,10 @@ throw cljs.core.missing_protocol("ToURI.to-uri",x);
  */
 sablono.util.as_str = (function sablono$util$as_str(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___48508 = arguments.length;
+var len__4789__auto___48509 = arguments.length;
 var i__4790__auto___48510 = (0);
 while(true){
-if((i__4790__auto___48510 < len__4789__auto___48508)){
+if((i__4790__auto___48510 < len__4789__auto___48509)){
 args__4795__auto__.push((arguments[i__4790__auto___48510]));
 
 var G__48514 = (i__4790__auto___48510 + (1));
@@ -210,12 +210,12 @@ goog.object.set(G__48499_48521,G__48500_48522,G__48501_48523);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
-var G__48502_48525 = sablono.util.to_str;
-var G__48503_48526 = "_";
-var G__48504_48527 = (function (x){
+var G__48502_48524 = sablono.util.to_str;
+var G__48503_48525 = "_";
+var G__48504_48526 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__48502_48525,G__48503_48526,G__48504_48527);
+goog.object.set(G__48502_48524,G__48503_48525,G__48504_48526);
 (goog.Uri.prototype.sablono$util$ToURI$ = cljs.core.PROTOCOL_SENTINEL);
 
 (goog.Uri.prototype.sablono$util$ToURI$to_uri$arity$1 = (function (x){

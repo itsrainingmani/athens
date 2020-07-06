@@ -104,24 +104,24 @@ return rewrite_clj.zip.base.edn(G__30376__$1);
  * Create string representing the current zipper location.
  */
 rewrite_clj.zip.base.string = (function rewrite_clj$zip$base$string(zloc){
-var G__30379 = zloc;
-var G__30379__$1 = (((G__30379 == null))?null:clojure.zip.node(G__30379));
-if((G__30379__$1 == null)){
+var G__30378 = zloc;
+var G__30378__$1 = (((G__30378 == null))?null:clojure.zip.node(G__30378));
+if((G__30378__$1 == null)){
 return null;
 } else {
-return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30379__$1) : rewrite_clj.node.string.call(null,G__30379__$1));
+return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30378__$1) : rewrite_clj.node.string.call(null,G__30378__$1));
 }
 });
 /**
  * Create string representing the zipped-up zipper.
  */
 rewrite_clj.zip.base.root_string = (function rewrite_clj$zip$base$root_string(zloc){
-var G__30381 = zloc;
-var G__30381__$1 = (((G__30381 == null))?null:clojure.zip.root(G__30381));
-if((G__30381__$1 == null)){
+var G__30380 = zloc;
+var G__30380__$1 = (((G__30380 == null))?null:clojure.zip.root(G__30380));
+if((G__30380__$1 == null)){
 return null;
 } else {
-return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30381__$1) : rewrite_clj.node.string.call(null,G__30381__$1));
+return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30380__$1) : rewrite_clj.node.string.call(null,G__30380__$1));
 }
 });
 

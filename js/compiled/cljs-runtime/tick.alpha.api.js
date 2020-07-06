@@ -662,8 +662,8 @@ while(true){
 if((i__4790__auto___63471 < len__4789__auto___63470)){
 args_arr__4810__auto__.push((arguments[i__4790__auto___63471]));
 
-var G__63472 = (i__4790__auto___63471 + (1));
-i__4790__auto___63471 = G__63472;
+var G__63473 = (i__4790__auto___63471 + (1));
+i__4790__auto___63471 = G__63473;
 continue;
 } else {
 }
@@ -688,12 +688,12 @@ return tick.core._LT_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._LT_(x,y))){
 if(cljs.core.next(more)){
-var G__63473 = y;
-var G__63474 = cljs.core.first(more);
-var G__63475 = cljs.core.next(more);
-x = G__63473;
-y = G__63474;
-more = G__63475;
+var G__63474 = y;
+var G__63475 = cljs.core.first(more);
+var G__63476 = cljs.core.next(more);
+x = G__63474;
+y = G__63475;
+more = G__63476;
 continue;
 } else {
 return tick.core._LT_(y,cljs.core.first(more));

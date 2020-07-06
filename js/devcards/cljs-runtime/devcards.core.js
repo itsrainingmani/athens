@@ -234,14 +234,14 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 }));
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42181 = arguments.length;
-var i__4790__auto___42182 = (0);
+var len__4789__auto___42178 = arguments.length;
+var i__4790__auto___42179 = (0);
 while(true){
-if((i__4790__auto___42182 < len__4789__auto___42181)){
-args__4795__auto__.push((arguments[i__4790__auto___42182]));
+if((i__4790__auto___42179 < len__4789__auto___42178)){
+args__4795__auto__.push((arguments[i__4790__auto___42179]));
 
-var G__42183 = (i__4790__auto___42182 + (1));
-i__4790__auto___42182 = G__42183;
+var G__42180 = (i__4790__auto___42179 + (1));
+i__4790__auto___42179 = G__42180;
 continue;
 } else {
 }
