@@ -10,16 +10,16 @@ var temp__5733__auto__ = (rewrite_clj.reader.peek_char.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(temp__5733__auto__)){
 var c = temp__5733__auto__;
 if((c === ":")){
-var G__30219 = rewrite_clj.reader.read_keyword(reader,":");
-var G__30220 = true;
-return (rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$2(G__30219,G__30220) : rewrite_clj.node.keyword_node.call(null,G__30219,G__30220));
+var G__49913 = rewrite_clj.reader.read_keyword(reader,":");
+var G__49914 = true;
+return (rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$2(G__49913,G__49914) : rewrite_clj.node.keyword_node.call(null,G__49913,G__49914));
 } else {
-var G__30221_30225 = reader;
-var G__30222_30226 = ":";
-(rewrite_clj.reader.unread.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.reader.unread.cljs$core$IFn$_invoke$arity$2(G__30221_30225,G__30222_30226) : rewrite_clj.reader.unread.call(null,G__30221_30225,G__30222_30226));
+var G__49915_49918 = reader;
+var G__49916_49919 = ":";
+(rewrite_clj.reader.unread.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.reader.unread.cljs$core$IFn$_invoke$arity$2(G__49915_49918,G__49916_49919) : rewrite_clj.reader.unread.call(null,G__49915_49918,G__49916_49919));
 
-var G__30223 = rewrite_clj.reader.read_keyword(reader,":");
-return (rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$1(G__30223) : rewrite_clj.node.keyword_node.call(null,G__30223));
+var G__49917 = rewrite_clj.reader.read_keyword(reader,":");
+return (rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.keyword_node.cljs$core$IFn$_invoke$arity$1(G__49917) : rewrite_clj.node.keyword_node.call(null,G__49917));
 }
 } else {
 return rewrite_clj.reader.throw_reader(reader,"unexpected EOF while reading keyword.");

@@ -31,17 +31,17 @@ posh.lib.graph.remove_output = (function posh$lib$graph$remove_output(graph,item
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(graph,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [item_k,new cljs.core.Keyword(null,"outputs","outputs",-1896513034)], null),cljs.core.disj,output);
 });
 posh.lib.graph.remove_dep = (function posh$lib$graph$remove_dep(graph,k,dep_k){
-return cljs.core.update.cljs$core$IFn$_invoke$arity$3(graph,k,(function (p1__47262_SHARP_){
-return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(p1__47262_SHARP_,dep_k);
+return cljs.core.update.cljs$core$IFn$_invoke$arity$3(graph,k,(function (p1__69364_SHARP_){
+return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(p1__69364_SHARP_,dep_k);
 }));
 });
 posh.lib.graph.remove_item = (function posh$lib$graph$remove_item(graph,item_k){
 var temp__5733__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(graph,item_k);
 if(cljs.core.truth_(temp__5733__auto__)){
-var map__47263 = temp__5733__auto__;
-var map__47263__$1 = (((((!((map__47263 == null))))?(((((map__47263.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__47263.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__47263):map__47263);
-var inputs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47263__$1,new cljs.core.Keyword(null,"inputs","inputs",865803858));
-var outputs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47263__$1,new cljs.core.Keyword(null,"outputs","outputs",-1896513034));
+var map__69365 = temp__5733__auto__;
+var map__69365__$1 = (((((!((map__69365 == null))))?(((((map__69365.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__69365.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__69365):map__69365);
+var inputs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__69365__$1,new cljs.core.Keyword(null,"inputs","inputs",865803858));
+var outputs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__69365__$1,new cljs.core.Keyword(null,"outputs","outputs",-1896513034));
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (gr,output_k){
 return posh.lib.graph.remove_output(gr,output_k,item_k);
 }),cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(posh.lib.graph.remove_item,graph,outputs),inputs),item_k);

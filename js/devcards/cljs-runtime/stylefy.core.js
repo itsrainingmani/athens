@@ -61,8 +61,8 @@ goog.require('stylefy.impl.styles');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__38865 = arguments.length;
-switch (G__38865) {
+var G__61835 = arguments.length;
+switch (G__61835) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -107,8 +107,8 @@ return stylefy.impl.styles.use_style_BANG_(style,options,stylefy.impl.dom.save_s
  * take a look at sub-style function.
  */
 stylefy.core.use_sub_style = (function stylefy$core$use_sub_style(var_args){
-var G__38873 = arguments.length;
-switch (G__38873) {
+var G__61851 = arguments.length;
+switch (G__61851) {
 case 2:
 return stylefy.core.use_sub_style.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -148,14 +148,14 @@ return stylefy.impl.styles.use_sub_style_BANG_(style,sub_style,options,stylefy.i
  */
 stylefy.core.sub_style = (function stylefy$core$sub_style(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38909 = arguments.length;
-var i__4790__auto___38910 = (0);
+var len__4789__auto___61982 = arguments.length;
+var i__4790__auto___61983 = (0);
 while(true){
-if((i__4790__auto___38910 < len__4789__auto___38909)){
-args__4795__auto__.push((arguments[i__4790__auto___38910]));
+if((i__4790__auto___61983 < len__4789__auto___61982)){
+args__4795__auto__.push((arguments[i__4790__auto___61983]));
 
-var G__38912 = (i__4790__auto___38910 + (1));
-i__4790__auto___38910 = G__38912;
+var G__61985 = (i__4790__auto___61983 + (1));
+i__4790__auto___61983 = G__61985;
 continue;
 } else {
 }
@@ -178,11 +178,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 (stylefy.core.sub_style.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq38881){
-var G__38882 = cljs.core.first(seq38881);
-var seq38881__$1 = cljs.core.next(seq38881);
+(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq61852){
+var G__61853 = cljs.core.first(seq61852);
+var seq61852__$1 = cljs.core.next(seq61852);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38882,seq38881__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__61853,seq61852__$1);
 }));
 
 /**
@@ -217,8 +217,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38882,seq38881
  *                            This value is also used as suffix in caching.
  */
 stylefy.core.init = (function stylefy$core$init(var_args){
-var G__38892 = arguments.length;
-switch (G__38892) {
+var G__61859 = arguments.length;
+switch (G__61859) {
 case 0:
 return stylefy.core.init.cljs$core$IFn$_invoke$arity$0();
 
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38922 = arguments.length;
-var i__4790__auto___38924 = (0);
+var len__4789__auto___61998 = arguments.length;
+var i__4790__auto___61999 = (0);
 while(true){
-if((i__4790__auto___38924 < len__4789__auto___38922)){
-args__4795__auto__.push((arguments[i__4790__auto___38924]));
+if((i__4790__auto___61999 < len__4789__auto___61998)){
+args__4795__auto__.push((arguments[i__4790__auto___61999]));
 
-var G__38925 = (i__4790__auto___38924 + (1));
-i__4790__auto___38924 = G__38925;
+var G__62003 = (i__4790__auto___61999 + (1));
+i__4790__auto___61999 = G__62003;
 continue;
 } else {
 }
@@ -309,11 +309,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq38894){
-var G__38895 = cljs.core.first(seq38894);
-var seq38894__$1 = cljs.core.next(seq38894);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq61861){
+var G__61862 = cljs.core.first(seq61861);
+var seq61861__$1 = cljs.core.next(seq61861);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38895,seq38894__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__61862,seq61861__$1);
 }));
 
 /**
