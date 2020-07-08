@@ -82,8 +82,8 @@ return reitit.core.match_by_name.cljs$core$IFn$_invoke$arity$3(router,name,path_
  *   Enables request coercion. See [[reitit.core/router]] for details on options.
  */
 reitit.frontend.router = (function reitit$frontend$router(var_args){
-var G__50207 = arguments.length;
-switch (G__50207) {
+var G__50206 = arguments.length;
+switch (G__50206) {
 case 1:
 return reitit.frontend.router.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

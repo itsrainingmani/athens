@@ -2,11 +2,11 @@ goog.provide('athens.subs');
 goog.require('cljs.core');
 goog.require('day8.re_frame.tracing');
 goog.require('re_frame.core');
-var G__55652_55698 = new cljs.core.Keyword(null,"user","user",1532431356);
-var G__55653_55699 = (function (db,_){
+var G__55655_55698 = new cljs.core.Keyword(null,"user","user",1532431356);
+var G__55656_55699 = (function (db,_){
 return new cljs.core.Keyword(null,"user","user",1532431356).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55652_55698,G__55653_55699) : re_frame.core.reg_sub.call(null,G__55652_55698,G__55653_55699));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55655_55698,G__55656_55699) : re_frame.core.reg_sub.call(null,G__55655_55698,G__55656_55699));
 var G__55657_55700 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
 var G__55658_55701 = (function (db,_){
 return db;
@@ -43,8 +43,8 @@ throw e;
 return new cljs.core.Keyword("athena","open","athena/open",1253777725).cljs$core$IFn$_invoke$arity$1(db);
 }));
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55663_55706,G__55664_55707) : re_frame.core.reg_sub.call(null,G__55663_55706,G__55664_55707));
-var G__55666_55708 = new cljs.core.Keyword("devtool","open","devtool/open",-1176270029);
-var G__55667_55709 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var G__55669_55708 = new cljs.core.Keyword("devtool","open","devtool/open",-1176270029);
+var G__55670_55709 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("devtool","open","devtool/open",-1176270029),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -63,7 +63,7 @@ throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("devtool","open","devtool/open",-1176270029).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55666_55708,G__55667_55709) : re_frame.core.reg_sub.call(null,G__55666_55708,G__55667_55709));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55669_55708,G__55670_55709) : re_frame.core.reg_sub.call(null,G__55669_55708,G__55670_55709));
 var G__55672_55710 = new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270);
 var G__55673_55711 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
