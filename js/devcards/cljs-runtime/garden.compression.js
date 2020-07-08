@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__33393){
-var vec__33395 = p__33393;
+garden.compression.token_fn = (function garden$compression$token_fn(p__33394){
+var vec__33395 = p__33394;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33395,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33395,(1),null);
 return (function (s){
@@ -32,8 +32,8 @@ while(true){
 if((i__4790__auto___33412 < len__4789__auto___33411)){
 args__4795__auto__.push((arguments[i__4790__auto___33412]));
 
-var G__33413 = (i__4790__auto___33412 + (1));
-i__4790__auto___33412 = G__33413;
+var G__33416 = (i__4790__auto___33412 + (1));
+i__4790__auto___33412 = G__33416;
 continue;
 } else {
 }
@@ -47,8 +47,8 @@ return garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic(argseq_
 (garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic = (function (tags_PLUS_regexes){
 var fs = cljs.core.map.cljs$core$IFn$_invoke$arity$2(garden.compression.token_fn,tags_PLUS_regexes);
 return (function (s){
-return cljs.core.some((function (p1__33399_SHARP_){
-return (p1__33399_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__33399_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__33399_SHARP_.call(null,s));
+return cljs.core.some((function (p1__33404_SHARP_){
+return (p1__33404_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__33404_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__33404_SHARP_.call(null,s));
 }),fs);
 });
 }));
@@ -56,9 +56,9 @@ return (p1__33399_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__33399_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33401){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33405){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33401));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33405));
 }));
 
 /**
@@ -79,10 +79,10 @@ var map__33406__$1 = (((((!((map__33406 == null))))?(((((map__33406.cljs$lang$pr
 var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33406__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33406__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33406__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-var G__33430 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__33431 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33409 = tag;
-var G__33409__$1 = (((G__33409 instanceof cljs.core.Keyword))?G__33409.fqn:null);
-switch (G__33409__$1) {
+var G__33431 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
+var G__33432 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33410 = tag;
+var G__33410__$1 = (((G__33410 instanceof cljs.core.Keyword))?G__33410.fqn:null);
+switch (G__33410__$1) {
 case "string":
 return chunk;
 
@@ -132,8 +132,8 @@ return chunk;
 
 }
 })())].join('');
-s1 = G__33430;
-s2 = G__33431;
+s1 = G__33431;
+s2 = G__33432;
 continue;
 } else {
 return s2;

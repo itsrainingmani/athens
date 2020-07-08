@@ -43,12 +43,12 @@ return cljs.core.native_satisfies_QMARK_(garden.selectors.ICSSSelector,x);
 });
 goog.object.set(garden.selectors.ICSSSelector,"string",true);
 
-var G__33747_33852 = garden.selectors.css_selector;
-var G__33748_33853 = "string";
-var G__33749_33854 = (function (this$){
+var G__33752_33896 = garden.selectors.css_selector;
+var G__33753_33897 = "string";
+var G__33754_33898 = (function (this$){
 return this$;
 });
-goog.object.set(G__33747_33852,G__33748_33853,G__33749_33854);
+goog.object.set(G__33752_33896,G__33753_33897,G__33754_33898);
 
 (cljs.core.Keyword.prototype.garden$selectors$ICSSSelector$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -98,18 +98,18 @@ var this__4439__auto____$1 = this;
 return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__auto__,null);
 }));
 
-(garden.selectors.CSSSelector.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k33755,else__4442__auto__){
+(garden.selectors.CSSSelector.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k33761,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__33761 = k33755;
-var G__33761__$1 = (((G__33761 instanceof cljs.core.Keyword))?G__33761.fqn:null);
-switch (G__33761__$1) {
+var G__33766 = k33761;
+var G__33766__$1 = (((G__33766 instanceof cljs.core.Keyword))?G__33766.fqn:null);
+switch (G__33766__$1) {
 case "selector":
 return self__.selector;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k33755,else__4442__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k33761,else__4442__auto__);
 
 }
 }));
@@ -117,10 +117,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k33755,else__
 (garden.selectors.CSSSelector.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__33762){
-var vec__33763 = p__33762;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33763,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33763,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__33767){
+var vec__33769 = p__33767;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33769,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33769,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -134,10 +134,10 @@ return cljs.core.pr_sequential_writer(writer__4454__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__4454__auto__,pr_pair__4456__auto__,"#garden.selectors.CSSSelector{",", ","}",opts__4455__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"selector","selector",762528866),self__.selector],null))], null),self__.__extmap));
 }));
 
-(garden.selectors.CSSSelector.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__33754){
+(garden.selectors.CSSSelector.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__33760){
 var self__ = this;
-var G__33754__$1 = this;
-return (new cljs.core.RecordIter((0),G__33754__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selector","selector",762528866)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__33760__$1 = this;
+return (new cljs.core.RecordIter((0),G__33760__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selector","selector",762528866)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (garden.selectors.CSSSelector.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4437__auto__){
@@ -165,10 +165,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__33766 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__33778 = (function (coll__4436__auto__){
 return (-1534393016 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__33766(this__4435__auto____$1);
+return fexpr__33778(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -176,10 +176,10 @@ return h__4297__auto____$1;
 }
 }));
 
-(garden.selectors.CSSSelector.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this33756,other33757){
+(garden.selectors.CSSSelector.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this33762,other33763){
 var self__ = this;
-var this33756__$1 = this;
-return (((!((other33757 == null)))) && ((this33756__$1.constructor === other33757.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33756__$1.selector,other33757.selector)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33756__$1.__extmap,other33757.__extmap)));
+var this33762__$1 = this;
+return (((!((other33763 == null)))) && ((this33762__$1.constructor === other33763.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33762__$1.selector,other33763.selector)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this33762__$1.__extmap,other33763.__extmap)));
 }));
 
 (garden.selectors.CSSSelector.prototype.garden$selectors$ICSSSelector$ = cljs.core.PROTOCOL_SENTINEL);
@@ -200,18 +200,18 @@ return (new garden.selectors.CSSSelector(self__.selector,self__.__meta,cljs.core
 }
 }));
 
-(garden.selectors.CSSSelector.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__33754){
+(garden.selectors.CSSSelector.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__33760){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__33767 = cljs.core.keyword_identical_QMARK_;
-var expr__33768 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__33770 = new cljs.core.Keyword(null,"selector","selector",762528866);
-var G__33771 = expr__33768;
-return (pred__33767.cljs$core$IFn$_invoke$arity$2 ? pred__33767.cljs$core$IFn$_invoke$arity$2(G__33770,G__33771) : pred__33767.call(null,G__33770,G__33771));
+var pred__33780 = cljs.core.keyword_identical_QMARK_;
+var expr__33781 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__33784 = new cljs.core.Keyword(null,"selector","selector",762528866);
+var G__33785 = expr__33781;
+return (pred__33780.cljs$core$IFn$_invoke$arity$2 ? pred__33780.cljs$core$IFn$_invoke$arity$2(G__33784,G__33785) : pred__33780.call(null,G__33784,G__33785));
 })())){
-return (new garden.selectors.CSSSelector(G__33754,self__.__meta,self__.__extmap,null));
+return (new garden.selectors.CSSSelector(G__33760,self__.__meta,self__.__extmap,null));
 } else {
-return (new garden.selectors.CSSSelector(self__.selector,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__33754),null));
+return (new garden.selectors.CSSSelector(self__.selector,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__33760),null));
 }
 }));
 
@@ -221,10 +221,10 @@ var this__4451__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"selector","selector",762528866),self__.selector,null))], null),self__.__extmap));
 }));
 
-(garden.selectors.CSSSelector.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__33754){
+(garden.selectors.CSSSelector.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__33760){
 var self__ = this;
 var this__4438__auto____$1 = this;
-return (new garden.selectors.CSSSelector(self__.selector,G__33754,self__.__extmap,self__.__hash));
+return (new garden.selectors.CSSSelector(self__.selector,G__33760,self__.__extmap,self__.__hash));
 }));
 
 (garden.selectors.CSSSelector.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4444__auto__,entry__4445__auto__){
@@ -240,8 +240,8 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core._conj,this__4444
 (garden.selectors.CSSSelector.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__33772 = (arguments.length - (1));
-switch (G__33772) {
+var G__33787 = (arguments.length - (1));
+switch (G__33787) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -332,10 +332,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(garden.selectors.CSSSelector.prototype.apply = (function (self__,args33760){
+(garden.selectors.CSSSelector.prototype.apply = (function (self__,args33765){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args33760)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args33765)));
 }));
 
 (garden.selectors.CSSSelector.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){
@@ -488,15 +488,15 @@ return (new garden.selectors.CSSSelector(selector,null,null,null));
 /**
  * Factory function for garden.selectors/CSSSelector, taking a map of keywords to field values.
  */
-garden.selectors.map__GT_CSSSelector = (function garden$selectors$map__GT_CSSSelector(G__33758){
-var extmap__4478__auto__ = (function (){var G__33790 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__33758,new cljs.core.Keyword(null,"selector","selector",762528866));
-if(cljs.core.record_QMARK_(G__33758)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__33790);
+garden.selectors.map__GT_CSSSelector = (function garden$selectors$map__GT_CSSSelector(G__33764){
+var extmap__4478__auto__ = (function (){var G__33791 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__33764,new cljs.core.Keyword(null,"selector","selector",762528866));
+if(cljs.core.record_QMARK_(G__33764)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__33791);
 } else {
-return G__33790;
+return G__33791;
 }
 })();
-return (new garden.selectors.CSSSelector(new cljs.core.Keyword(null,"selector","selector",762528866).cljs$core$IFn$_invoke$arity$1(G__33758),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new garden.selectors.CSSSelector(new cljs.core.Keyword(null,"selector","selector",762528866).cljs$core$IFn$_invoke$arity$1(G__33764),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 garden.selectors.selector = (function garden$selectors$selector(x){
@@ -1213,50 +1213,50 @@ garden.selectors.valid = garden.selectors.selector(":valid");
  */
 garden.selectors.visited = garden.selectors.selector(":visited");
 garden.selectors.lang = cljs.core.with_meta((function() { 
-var garden$selectors$lang__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (language){
+var garden$selectors$lang__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (language){
 return cljs.core.name(language);
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","lang","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","lang","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$lang = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33930__i = 0, G__33930__a = new Array(arguments.length -  0);
-while (G__33930__i < G__33930__a.length) {G__33930__a[G__33930__i] = arguments[G__33930__i + 0]; ++G__33930__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33930__a,0,null);
+var G__33935__i = 0, G__33935__a = new Array(arguments.length -  0);
+while (G__33935__i < G__33935__a.length) {G__33935__a[G__33935__i] = arguments[G__33935__i + 0]; ++G__33935__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33935__a,0,null);
 } 
-return garden$selectors$lang__delegate.call(this,args__33593__auto__);};
+return garden$selectors$lang__delegate.call(this,args__33627__auto__);};
 garden$selectors$lang.cljs$lang$maxFixedArity = 0;
-garden$selectors$lang.cljs$lang$applyTo = (function (arglist__33931){
-var args__33593__auto__ = cljs.core.seq(arglist__33931);
-return garden$selectors$lang__delegate(args__33593__auto__);
+garden$selectors$lang.cljs$lang$applyTo = (function (arglist__33936){
+var args__33627__auto__ = cljs.core.seq(arglist__33936);
+return garden$selectors$lang__delegate(args__33627__auto__);
 });
 garden$selectors$lang.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$lang__delegate;
 return garden$selectors$lang;
 })()
 ,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"rettag","rettag",-602973235),null], null));
 garden.selectors.not = cljs.core.with_meta((function() { 
-var garden$selectors$not__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (selector){
+var garden$selectors$not__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (selector){
 return garden.selectors.css_selector(selector);
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","not","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","not","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$not = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33932__i = 0, G__33932__a = new Array(arguments.length -  0);
-while (G__33932__i < G__33932__a.length) {G__33932__a[G__33932__i] = arguments[G__33932__i + 0]; ++G__33932__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33932__a,0,null);
+var G__33937__i = 0, G__33937__a = new Array(arguments.length -  0);
+while (G__33937__i < G__33937__a.length) {G__33937__a[G__33937__i] = arguments[G__33937__i + 0]; ++G__33937__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33937__a,0,null);
 } 
-return garden$selectors$not__delegate.call(this,args__33593__auto__);};
+return garden$selectors$not__delegate.call(this,args__33627__auto__);};
 garden$selectors$not.cljs$lang$maxFixedArity = 0;
-garden$selectors$not.cljs$lang$applyTo = (function (arglist__33933){
-var args__33593__auto__ = cljs.core.seq(arglist__33933);
-return garden$selectors$not__delegate(args__33593__auto__);
+garden$selectors$not.cljs$lang$applyTo = (function (arglist__33938){
+var args__33627__auto__ = cljs.core.seq(arglist__33938);
+return garden$selectors$not__delegate(args__33627__auto__);
 });
 garden$selectors$not.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$not__delegate;
 return garden$selectors$not;
@@ -1285,29 +1285,29 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Selector must be either a
  * CSS :nth-child pseudo class selector.
  */
 garden.selectors.nth_child = cljs.core.with_meta((function() { 
-var garden$selectors$nth_child__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
+var garden$selectors$nth_child__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
 if(typeof x === 'number'){
 return garden.selectors.nth_x([cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),"n"].join(''));
 } else {
 return garden.selectors.nth_x(x);
 }
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","nth-child","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","nth-child","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$nth_child = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33934__i = 0, G__33934__a = new Array(arguments.length -  0);
-while (G__33934__i < G__33934__a.length) {G__33934__a[G__33934__i] = arguments[G__33934__i + 0]; ++G__33934__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33934__a,0,null);
+var G__33944__i = 0, G__33944__a = new Array(arguments.length -  0);
+while (G__33944__i < G__33944__a.length) {G__33944__a[G__33944__i] = arguments[G__33944__i + 0]; ++G__33944__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33944__a,0,null);
 } 
-return garden$selectors$nth_child__delegate.call(this,args__33593__auto__);};
+return garden$selectors$nth_child__delegate.call(this,args__33627__auto__);};
 garden$selectors$nth_child.cljs$lang$maxFixedArity = 0;
-garden$selectors$nth_child.cljs$lang$applyTo = (function (arglist__33935){
-var args__33593__auto__ = cljs.core.seq(arglist__33935);
-return garden$selectors$nth_child__delegate(args__33593__auto__);
+garden$selectors$nth_child.cljs$lang$applyTo = (function (arglist__33945){
+var args__33627__auto__ = cljs.core.seq(arglist__33945);
+return garden$selectors$nth_child__delegate(args__33627__auto__);
 });
 garden$selectors$nth_child.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$nth_child__delegate;
 return garden$selectors$nth_child;
@@ -1317,25 +1317,25 @@ return garden$selectors$nth_child;
  * CSS :nth-last-child pseudo class selector.
  */
 garden.selectors.nth_last_child = cljs.core.with_meta((function() { 
-var garden$selectors$nth_last_child__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
+var garden$selectors$nth_last_child__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
 return garden.selectors.nth_x(x);
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","nth-last-child","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","nth-last-child","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$nth_last_child = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33936__i = 0, G__33936__a = new Array(arguments.length -  0);
-while (G__33936__i < G__33936__a.length) {G__33936__a[G__33936__i] = arguments[G__33936__i + 0]; ++G__33936__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33936__a,0,null);
+var G__33946__i = 0, G__33946__a = new Array(arguments.length -  0);
+while (G__33946__i < G__33946__a.length) {G__33946__a[G__33946__i] = arguments[G__33946__i + 0]; ++G__33946__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33946__a,0,null);
 } 
-return garden$selectors$nth_last_child__delegate.call(this,args__33593__auto__);};
+return garden$selectors$nth_last_child__delegate.call(this,args__33627__auto__);};
 garden$selectors$nth_last_child.cljs$lang$maxFixedArity = 0;
-garden$selectors$nth_last_child.cljs$lang$applyTo = (function (arglist__33937){
-var args__33593__auto__ = cljs.core.seq(arglist__33937);
-return garden$selectors$nth_last_child__delegate(args__33593__auto__);
+garden$selectors$nth_last_child.cljs$lang$applyTo = (function (arglist__33947){
+var args__33627__auto__ = cljs.core.seq(arglist__33947);
+return garden$selectors$nth_last_child__delegate(args__33627__auto__);
 });
 garden$selectors$nth_last_child.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$nth_last_child__delegate;
 return garden$selectors$nth_last_child;
@@ -1345,25 +1345,25 @@ return garden$selectors$nth_last_child;
  * CSS :nth-of-type pseudo class selector.
  */
 garden.selectors.nth_of_type = cljs.core.with_meta((function() { 
-var garden$selectors$nth_of_type__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
+var garden$selectors$nth_of_type__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
 return garden.selectors.nth_x(x);
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","nth-of-type","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","nth-of-type","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$nth_of_type = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33938__i = 0, G__33938__a = new Array(arguments.length -  0);
-while (G__33938__i < G__33938__a.length) {G__33938__a[G__33938__i] = arguments[G__33938__i + 0]; ++G__33938__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33938__a,0,null);
+var G__33949__i = 0, G__33949__a = new Array(arguments.length -  0);
+while (G__33949__i < G__33949__a.length) {G__33949__a[G__33949__i] = arguments[G__33949__i + 0]; ++G__33949__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33949__a,0,null);
 } 
-return garden$selectors$nth_of_type__delegate.call(this,args__33593__auto__);};
+return garden$selectors$nth_of_type__delegate.call(this,args__33627__auto__);};
 garden$selectors$nth_of_type.cljs$lang$maxFixedArity = 0;
-garden$selectors$nth_of_type.cljs$lang$applyTo = (function (arglist__33939){
-var args__33593__auto__ = cljs.core.seq(arglist__33939);
-return garden$selectors$nth_of_type__delegate(args__33593__auto__);
+garden$selectors$nth_of_type.cljs$lang$applyTo = (function (arglist__33950){
+var args__33627__auto__ = cljs.core.seq(arglist__33950);
+return garden$selectors$nth_of_type__delegate(args__33627__auto__);
 });
 garden$selectors$nth_of_type.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$nth_of_type__delegate;
 return garden$selectors$nth_of_type;
@@ -1373,25 +1373,25 @@ return garden$selectors$nth_of_type;
  * CSS :nth-last-of-type pseudo class selector.
  */
 garden.selectors.nth_last_of_type = cljs.core.with_meta((function() { 
-var garden$selectors$nth_last_of_type__delegate = function (args__33593__auto__){
-var v__33594__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
+var garden$selectors$nth_last_of_type__delegate = function (args__33627__auto__){
+var v__33628__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (x){
 return garden.selectors.nth_x(x);
-}),args__33593__auto__);
-var v__33594__auto____$1 = ((garden.selectors.selector_QMARK_(v__33594__auto__))?garden.selectors.css_selector(v__33594__auto__):v__33594__auto__);
-return garden.selectors.selector([":","nth-last-of-type","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33594__auto____$1),")"].join(''));
+}),args__33627__auto__);
+var v__33628__auto____$1 = ((garden.selectors.selector_QMARK_(v__33628__auto__))?garden.selectors.css_selector(v__33628__auto__):v__33628__auto__);
+return garden.selectors.selector([":","nth-last-of-type","(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v__33628__auto____$1),")"].join(''));
 };
 var garden$selectors$nth_last_of_type = function (var_args){
-var args__33593__auto__ = null;
+var args__33627__auto__ = null;
 if (arguments.length > 0) {
-var G__33940__i = 0, G__33940__a = new Array(arguments.length -  0);
-while (G__33940__i < G__33940__a.length) {G__33940__a[G__33940__i] = arguments[G__33940__i + 0]; ++G__33940__i;}
-  args__33593__auto__ = new cljs.core.IndexedSeq(G__33940__a,0,null);
+var G__33955__i = 0, G__33955__a = new Array(arguments.length -  0);
+while (G__33955__i < G__33955__a.length) {G__33955__a[G__33955__i] = arguments[G__33955__i + 0]; ++G__33955__i;}
+  args__33627__auto__ = new cljs.core.IndexedSeq(G__33955__a,0,null);
 } 
-return garden$selectors$nth_last_of_type__delegate.call(this,args__33593__auto__);};
+return garden$selectors$nth_last_of_type__delegate.call(this,args__33627__auto__);};
 garden$selectors$nth_last_of_type.cljs$lang$maxFixedArity = 0;
-garden$selectors$nth_last_of_type.cljs$lang$applyTo = (function (arglist__33941){
-var args__33593__auto__ = cljs.core.seq(arglist__33941);
-return garden$selectors$nth_last_of_type__delegate(args__33593__auto__);
+garden$selectors$nth_last_of_type.cljs$lang$applyTo = (function (arglist__33956){
+var args__33627__auto__ = cljs.core.seq(arglist__33956);
+return garden$selectors$nth_last_of_type__delegate(args__33627__auto__);
 });
 garden$selectors$nth_last_of_type.cljs$core$IFn$_invoke$arity$variadic = garden$selectors$nth_last_of_type__delegate;
 return garden$selectors$nth_last_of_type;
@@ -1414,8 +1414,8 @@ garden.selectors.first_letter = garden.selectors.selector("::first-letter");
  */
 garden.selectors.first_line = garden.selectors.selector("::first-line");
 garden.selectors.attr = (function garden$selectors$attr(var_args){
-var G__33795 = arguments.length;
-switch (G__33795) {
+var G__33807 = arguments.length;
+switch (G__33807) {
 case 1:
 return garden.selectors.attr.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1464,22 +1464,22 @@ return garden.selectors.attr.cljs$core$IFn$_invoke$arity$3(attr_name,"*=",attr_v
  * Descendant combinator.
  */
 garden.selectors.descendant = (function garden$selectors$descendant(var_args){
-var G__33800 = arguments.length;
-switch (G__33800) {
+var G__33823 = arguments.length;
+switch (G__33823) {
 case 2:
 return garden.selectors.descendant.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___33944 = arguments.length;
-var i__4790__auto___33945 = (0);
+var len__4789__auto___33964 = arguments.length;
+var i__4790__auto___33965 = (0);
 while(true){
-if((i__4790__auto___33945 < len__4789__auto___33944)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___33945]));
+if((i__4790__auto___33965 < len__4789__auto___33964)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___33965]));
 
-var G__33946 = (i__4790__auto___33945 + (1));
-i__4790__auto___33945 = G__33946;
+var G__33966 = (i__4790__auto___33965 + (1));
+i__4790__auto___33965 = G__33966;
 continue;
 } else {
 }
@@ -1501,13 +1501,13 @@ return garden.selectors.selector(clojure.string.join.cljs$core$IFn$_invoke$arity
 }));
 
 /** @this {Function} */
-(garden.selectors.descendant.cljs$lang$applyTo = (function (seq33797){
-var G__33798 = cljs.core.first(seq33797);
-var seq33797__$1 = cljs.core.next(seq33797);
-var G__33799 = cljs.core.first(seq33797__$1);
-var seq33797__$2 = cljs.core.next(seq33797__$1);
+(garden.selectors.descendant.cljs$lang$applyTo = (function (seq33820){
+var G__33821 = cljs.core.first(seq33820);
+var seq33820__$1 = cljs.core.next(seq33820);
+var G__33822 = cljs.core.first(seq33820__$1);
+var seq33820__$2 = cljs.core.next(seq33820__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33798,G__33799,seq33797__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33821,G__33822,seq33820__$2);
 }));
 
 (garden.selectors.descendant.cljs$lang$maxFixedArity = (2));
@@ -1528,8 +1528,8 @@ return garden.selectors.selector([cljs.core.str.cljs$core$IFn$_invoke$arity$1(ga
  * Child combinator.
  */
 garden.selectors._GT_ = (function garden$selectors$_GT_(var_args){
-var G__33805 = arguments.length;
-switch (G__33805) {
+var G__33842 = arguments.length;
+switch (G__33842) {
 case 1:
 return garden.selectors._GT_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1540,14 +1540,14 @@ return garden.selectors._GT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arg
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___33948 = arguments.length;
-var i__4790__auto___33949 = (0);
+var len__4789__auto___33968 = arguments.length;
+var i__4790__auto___33969 = (0);
 while(true){
-if((i__4790__auto___33949 < len__4789__auto___33948)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___33949]));
+if((i__4790__auto___33969 < len__4789__auto___33968)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___33969]));
 
-var G__33950 = (i__4790__auto___33949 + (1));
-i__4790__auto___33949 = G__33950;
+var G__33970 = (i__4790__auto___33969 + (1));
+i__4790__auto___33969 = G__33970;
 continue;
 } else {
 }
@@ -1573,13 +1573,13 @@ return garden.selectors.selector(clojure.string.join.cljs$core$IFn$_invoke$arity
 }));
 
 /** @this {Function} */
-(garden.selectors._GT_.cljs$lang$applyTo = (function (seq33802){
-var G__33803 = cljs.core.first(seq33802);
-var seq33802__$1 = cljs.core.next(seq33802);
-var G__33804 = cljs.core.first(seq33802__$1);
-var seq33802__$2 = cljs.core.next(seq33802__$1);
+(garden.selectors._GT_.cljs$lang$applyTo = (function (seq33838){
+var G__33839 = cljs.core.first(seq33838);
+var seq33838__$1 = cljs.core.next(seq33838);
+var G__33840 = cljs.core.first(seq33838__$1);
+var seq33838__$2 = cljs.core.next(seq33838__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33803,G__33804,seq33802__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__33839,G__33840,seq33838__$2);
 }));
 
 (garden.selectors._GT_.cljs$lang$maxFixedArity = (2));
@@ -1595,10 +1595,10 @@ var attribute_selector_re = /^\[[^\]]*\]/;
 var type_selector_re = /^[a-zA-Z][\w-]/;
 var pseudo_class_re = /^:[a-zA-Z][\w-]*(?:\([^\)]+\))?/;
 var pseudo_element_re = /^::[a-zA-Z][\w-]*/;
-return cljs.core.some((function (p__33818){
-var vec__33819 = p__33818;
-var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33819,(0),null);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33819,(1),null);
+return cljs.core.some((function (p__33855){
+var vec__33856 = p__33855;
+var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33856,(0),null);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33856,(1),null);
 var temp__5733__auto__ = cljs.core.re_find(re,s);
 if(cljs.core.truth_(temp__5733__auto__)){
 var m = temp__5733__auto__;
@@ -1619,31 +1619,31 @@ return score__$1;
 } else {
 var temp__5733__auto__ = garden.selectors.lex_specificity(s__$1);
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__33835 = temp__5733__auto__;
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33835,(0),null);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33835,(1),null);
+var vec__33877 = temp__5733__auto__;
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33877,(0),null);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33877,(1),null);
 var temp__5733__auto____$1 = cljs.core.re_find(/^:not\(([^\)]*)\)/,m);
 if(cljs.core.truth_(temp__5733__auto____$1)){
-var vec__33838 = temp__5733__auto____$1;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33838,(0),null);
-var inner = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33838,(1),null);
-var G__33959 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,cljs.core.count(m));
-var G__33960 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(cljs.core._PLUS_,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([score__$1,(garden.selectors.specificity_STAR_.cljs$core$IFn$_invoke$arity$1 ? garden.selectors.specificity_STAR_.cljs$core$IFn$_invoke$arity$1(inner) : garden.selectors.specificity_STAR_.call(null,inner))], 0));
-s__$1 = G__33959;
-score__$1 = G__33960;
+var vec__33882 = temp__5733__auto____$1;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33882,(0),null);
+var inner = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33882,(1),null);
+var G__33971 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,cljs.core.count(m));
+var G__33972 = cljs.core.merge_with.cljs$core$IFn$_invoke$arity$variadic(cljs.core._PLUS_,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([score__$1,(garden.selectors.specificity_STAR_.cljs$core$IFn$_invoke$arity$1 ? garden.selectors.specificity_STAR_.cljs$core$IFn$_invoke$arity$1(inner) : garden.selectors.specificity_STAR_.call(null,inner))], 0));
+s__$1 = G__33971;
+score__$1 = G__33972;
 continue;
 } else {
-var G__33963 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,cljs.core.count(m));
-var G__33964 = cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(score__$1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [k], null),cljs.core.inc);
-s__$1 = G__33963;
-score__$1 = G__33964;
+var G__33973 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,cljs.core.count(m));
+var G__33974 = cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(score__$1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [k], null),cljs.core.inc);
+s__$1 = G__33973;
+score__$1 = G__33974;
 continue;
 }
 } else {
-var G__33965 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,(1));
-var G__33966 = score__$1;
-s__$1 = G__33965;
-score__$1 = G__33966;
+var G__33975 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s__$1,(1));
+var G__33976 = score__$1;
+s__$1 = G__33975;
+score__$1 = G__33976;
 continue;
 }
 }
@@ -1667,11 +1667,11 @@ if((((!((selector == null))))?((((false) || ((cljs.core.PROTOCOL_SENTINEL === se
 throw (new Error("Assert failed: (satisfies? ICSSSelector selector)"));
 }
 
-var map__33846 = garden.selectors.specificity_STAR_(selector);
-var map__33846__$1 = (((((!((map__33846 == null))))?(((((map__33846.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33846.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33846):map__33846);
-var a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33846__$1,new cljs.core.Keyword(null,"a","a",-2123407586));
-var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33846__$1,new cljs.core.Keyword(null,"b","b",1482224470));
-var c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33846__$1,new cljs.core.Keyword(null,"c","c",-1763192079));
+var map__33890 = garden.selectors.specificity_STAR_(selector);
+var map__33890__$1 = (((((!((map__33890 == null))))?(((((map__33890.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33890.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33890):map__33890);
+var a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33890__$1,new cljs.core.Keyword(null,"a","a",-2123407586));
+var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33890__$1,new cljs.core.Keyword(null,"b","b",1482224470));
+var c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33890__$1,new cljs.core.Keyword(null,"c","c",-1763192079));
 var sv = clojure.string.replace([cljs.core.str.cljs$core$IFn$_invoke$arity$1(a),cljs.core.str.cljs$core$IFn$_invoke$arity$1(b),cljs.core.str.cljs$core$IFn$_invoke$arity$1(c)].join(''),/^0*/,"");
 if(cljs.core.empty_QMARK_(sv)){
 return (0);

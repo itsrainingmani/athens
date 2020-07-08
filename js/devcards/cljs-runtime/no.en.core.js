@@ -87,9 +87,9 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return no.en.core.url_encode.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(no.en.core.url_encode.cljs$core$IFn$_invoke$arity$variadic = (function (s,p__39252){
-var vec__39253 = p__39252;
-var encoding = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39253,(0),null);
+(no.en.core.url_encode.cljs$core$IFn$_invoke$arity$variadic = (function (s,p__39230){
+var vec__39231 = p__39230;
+var encoding = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39231,(0),null);
 if(cljs.core.truth_(s)){
 return clojure.string.replace(encodeURIComponent(cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)),"*","%2A");
 } else {
@@ -100,11 +100,11 @@ return null;
 (no.en.core.url_encode.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(no.en.core.url_encode.cljs$lang$applyTo = (function (seq39249){
-var G__39250 = cljs.core.first(seq39249);
-var seq39249__$1 = cljs.core.next(seq39249);
+(no.en.core.url_encode.cljs$lang$applyTo = (function (seq39224){
+var G__39229 = cljs.core.first(seq39224);
+var seq39224__$1 = cljs.core.next(seq39224);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39250,seq39249__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39229,seq39224__$1);
 }));
 
 /**
@@ -130,9 +130,9 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return no.en.core.url_decode.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(no.en.core.url_decode.cljs$core$IFn$_invoke$arity$variadic = (function (s,p__39258){
-var vec__39259 = p__39258;
-var encoding = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39259,(0),null);
+(no.en.core.url_decode.cljs$core$IFn$_invoke$arity$variadic = (function (s,p__39257){
+var vec__39258 = p__39257;
+var encoding = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39258,(0),null);
 if(cljs.core.truth_(s)){
 return decodeURIComponent(s);
 } else {
@@ -143,11 +143,11 @@ return null;
 (no.en.core.url_decode.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(no.en.core.url_decode.cljs$lang$applyTo = (function (seq39256){
-var G__39257 = cljs.core.first(seq39256);
-var seq39256__$1 = cljs.core.next(seq39256);
+(no.en.core.url_decode.cljs$lang$applyTo = (function (seq39244){
+var G__39245 = cljs.core.first(seq39244);
+var seq39244__$1 = cljs.core.next(seq39244);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39257,seq39256__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39245,seq39244__$1);
 }));
 
 no.en.core.pow = (function no$en$core$pow(n,x){
@@ -156,11 +156,11 @@ return Math.pow(n,x);
 no.en.core.byte_scale = cljs.core.PersistentHashMap.fromArrays(["T","K","G","M","Y","Z","E","B","P"],[no.en.core.pow((1024),(4)),no.en.core.pow((1024),(1)),no.en.core.pow((1024),(3)),no.en.core.pow((1024),(2)),no.en.core.pow((1024),(8)),no.en.core.pow((1024),(7)),no.en.core.pow((1024),(6)),no.en.core.pow((1024),(0)),no.en.core.pow((1024),(5))]);
 no.en.core.apply_unit = (function no$en$core$apply_unit(number,unit){
 if(typeof unit === 'string'){
-var G__39274 = clojure.string.upper_case(unit);
-switch (G__39274) {
+var G__39261 = clojure.string.upper_case(unit);
+switch (G__39261) {
 default:
-var G__39275 = unit;
-switch (G__39275) {
+var G__39262 = unit;
+switch (G__39262) {
 case "M":
 return (number * (1000000));
 
@@ -170,7 +170,7 @@ return (number * (1000000000));
 
 break;
 default:
-throw (new Error(["No matching clause: ",G__39275].join('')));
+throw (new Error(["No matching clause: ",G__39262].join('')));
 
 }
 
@@ -183,8 +183,8 @@ no.en.core.parse_number = (function no$en$core$parse_number(s,parse_fn){
 var temp__5733__auto__ = cljs.core.re_matches(/\s*([-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?)(M|B)?.*/,cljs.core.str.cljs$core$IFn$_invoke$arity$1(s));
 if(cljs.core.truth_(temp__5733__auto__)){
 var matches = temp__5733__auto__;
-var number = (function (){var G__39277 = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(matches,(1));
-return (parse_fn.cljs$core$IFn$_invoke$arity$1 ? parse_fn.cljs$core$IFn$_invoke$arity$1(G__39277) : parse_fn.call(null,G__39277));
+var number = (function (){var G__39263 = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(matches,(1));
+return (parse_fn.cljs$core$IFn$_invoke$arity$1 ? parse_fn.cljs$core$IFn$_invoke$arity$1(G__39263) : parse_fn.call(null,G__39263));
 })();
 var unit = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(matches,(3));
 if(cljs.core.not(isNaN(number))){
@@ -217,44 +217,44 @@ return null;
  * Parse `s` as a integer number.
  */
 no.en.core.parse_integer = (function no$en$core$parse_integer(s){
-return no.en.core.parse_number(s,(function (p1__39278_SHARP_){
-return parseInt(p1__39278_SHARP_);
+return no.en.core.parse_number(s,(function (p1__39265_SHARP_){
+return parseInt(p1__39265_SHARP_);
 }));
 });
 /**
  * Parse `s` as a long number.
  */
 no.en.core.parse_long = (function no$en$core$parse_long(s){
-return no.en.core.parse_number(s,(function (p1__39279_SHARP_){
-return parseInt(p1__39279_SHARP_);
+return no.en.core.parse_number(s,(function (p1__39266_SHARP_){
+return parseInt(p1__39266_SHARP_);
 }));
 });
 /**
  * Parse `s` as a double number.
  */
 no.en.core.parse_double = (function no$en$core$parse_double(s){
-return no.en.core.parse_number(s,(function (p1__39280_SHARP_){
-return parseFloat(p1__39280_SHARP_);
+return no.en.core.parse_number(s,(function (p1__39267_SHARP_){
+return parseFloat(p1__39267_SHARP_);
 }));
 });
 /**
  * Parse `s` as a float number.
  */
 no.en.core.parse_float = (function no$en$core$parse_float(s){
-return no.en.core.parse_number(s,(function (p1__39281_SHARP_){
-return parseFloat(p1__39281_SHARP_);
+return no.en.core.parse_number(s,(function (p1__39268_SHARP_){
+return parseFloat(p1__39268_SHARP_);
 }));
 });
 /**
  * Format the map `m` into a query parameter string.
  */
 no.en.core.format_query_params = (function no$en$core$format_query_params(m){
-var params = clojure.string.join.cljs$core$IFn$_invoke$arity$2("&",cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39284_SHARP_){
-return clojure.string.join.cljs$core$IFn$_invoke$arity$2("=",p1__39284_SHARP_);
-}),cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39283_SHARP_){
-return (new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[no.en.core.url_encode(cljs.core.name(cljs.core.first(p1__39283_SHARP_))),no.en.core.url_encode(cljs.core.second(p1__39283_SHARP_))],null));
-}),cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p1__39282_SHARP_){
-return clojure.string.blank_QMARK_(cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.second(p1__39282_SHARP_)));
+var params = clojure.string.join.cljs$core$IFn$_invoke$arity$2("&",cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39271_SHARP_){
+return clojure.string.join.cljs$core$IFn$_invoke$arity$2("=",p1__39271_SHARP_);
+}),cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39270_SHARP_){
+return (new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[no.en.core.url_encode(cljs.core.name(cljs.core.first(p1__39270_SHARP_))),no.en.core.url_encode(cljs.core.second(p1__39270_SHARP_))],null));
+}),cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p1__39269_SHARP_){
+return clojure.string.blank_QMARK_(cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.second(p1__39269_SHARP_)));
 }),cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.first,cljs.core.seq(m))))));
 if((!(clojure.string.blank_QMARK_(params)))){
 return params;
@@ -385,8 +385,8 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var result = temp__5733__auto__;
 return (result.cljs$core$IFn$_invoke$arity$1 ? result.cljs$core$IFn$_invoke$arity$1((0)) : result.call(null,(0)));
 } else {
-var G__39327 = (n__$1 - (1));
-n__$1 = G__39327;
+var G__39314 = (n__$1 - (1));
+n__$1 = G__39314;
 continue;
 }
 break;
@@ -445,14 +445,14 @@ return (xf.cljs$core$IFn$_invoke$arity$3 ? xf.cljs$core$IFn$_invoke$arity$3(G__3
  */
 no.en.core.deep_merge = (function no$en$core$deep_merge(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39328 = arguments.length;
-var i__4790__auto___39329 = (0);
+var len__4789__auto___39322 = arguments.length;
+var i__4790__auto___39323 = (0);
 while(true){
-if((i__4790__auto___39329 < len__4789__auto___39328)){
-args__4795__auto__.push((arguments[i__4790__auto___39329]));
+if((i__4790__auto___39323 < len__4789__auto___39322)){
+args__4795__auto__.push((arguments[i__4790__auto___39323]));
 
-var G__39330 = (i__4790__auto___39329 + (1));
-i__4790__auto___39329 = G__39330;
+var G__39324 = (i__4790__auto___39323 + (1));
+i__4790__auto___39323 = G__39324;
 continue;
 } else {
 }
@@ -485,14 +485,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 no.en.core.deep_merge_with = (function no$en$core$deep_merge_with(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39331 = arguments.length;
-var i__4790__auto___39332 = (0);
+var len__4789__auto___39326 = arguments.length;
+var i__4790__auto___39327 = (0);
 while(true){
-if((i__4790__auto___39332 < len__4789__auto___39331)){
-args__4795__auto__.push((arguments[i__4790__auto___39332]));
+if((i__4790__auto___39327 < len__4789__auto___39326)){
+args__4795__auto__.push((arguments[i__4790__auto___39327]));
 
-var G__39333 = (i__4790__auto___39332 + (1));
-i__4790__auto___39332 = G__39333;
+var G__39328 = (i__4790__auto___39327 + (1));
+i__4790__auto___39327 = G__39328;
 continue;
 } else {
 }
@@ -515,14 +515,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(f,maps__$1);
 var no$en$core$m = function (var_args){
 var maps__$1 = null;
 if (arguments.length > 0) {
-var G__39334__i = 0, G__39334__a = new Array(arguments.length -  0);
-while (G__39334__i < G__39334__a.length) {G__39334__a[G__39334__i] = arguments[G__39334__i + 0]; ++G__39334__i;}
-  maps__$1 = new cljs.core.IndexedSeq(G__39334__a,0,null);
+var G__39329__i = 0, G__39329__a = new Array(arguments.length -  0);
+while (G__39329__i < G__39329__a.length) {G__39329__a[G__39329__i] = arguments[G__39329__i + 0]; ++G__39329__i;}
+  maps__$1 = new cljs.core.IndexedSeq(G__39329__a,0,null);
 } 
 return no$en$core$m__delegate.call(this,maps__$1);};
 no$en$core$m.cljs$lang$maxFixedArity = 0;
-no$en$core$m.cljs$lang$applyTo = (function (arglist__39335){
-var maps__$1 = cljs.core.seq(arglist__39335);
+no$en$core$m.cljs$lang$applyTo = (function (arglist__39330){
+var maps__$1 = cljs.core.seq(arglist__39330);
 return no$en$core$m__delegate(maps__$1);
 });
 no$en$core$m.cljs$core$IFn$_invoke$arity$variadic = no$en$core$m__delegate;

@@ -832,63 +832,63 @@ throw (new Error("Assert failed: (conn? conn)"));
 }
 
 var report = datascript.core._transact_BANG_(conn,tx_data,tx_meta);
-var seq__28981_29085 = cljs.core.seq((function (){var G__28992 = new cljs.core.Keyword(null,"listeners","listeners",394544445).cljs$core$IFn$_invoke$arity$1(cljs.core.meta(conn));
+var seq__28981_29075 = cljs.core.seq((function (){var G__28992 = new cljs.core.Keyword(null,"listeners","listeners",394544445).cljs$core$IFn$_invoke$arity$1(cljs.core.meta(conn));
 if((G__28992 == null)){
 return null;
 } else {
 return cljs.core.deref(G__28992);
 }
 })());
-var chunk__28982_29086 = null;
-var count__28983_29087 = (0);
-var i__28984_29088 = (0);
+var chunk__28982_29076 = null;
+var count__28983_29077 = (0);
+var i__28984_29078 = (0);
 while(true){
-if((i__28984_29088 < count__28983_29087)){
-var vec__28993_29093 = chunk__28982_29086.cljs$core$IIndexed$_nth$arity$2(null,i__28984_29088);
-var __29094 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28993_29093,(0),null);
-var callback_29095 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28993_29093,(1),null);
-(callback_29095.cljs$core$IFn$_invoke$arity$1 ? callback_29095.cljs$core$IFn$_invoke$arity$1(report) : callback_29095.call(null,report));
+if((i__28984_29078 < count__28983_29077)){
+var vec__28993_29079 = chunk__28982_29076.cljs$core$IIndexed$_nth$arity$2(null,i__28984_29078);
+var __29080 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28993_29079,(0),null);
+var callback_29081 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28993_29079,(1),null);
+(callback_29081.cljs$core$IFn$_invoke$arity$1 ? callback_29081.cljs$core$IFn$_invoke$arity$1(report) : callback_29081.call(null,report));
 
 
-var G__29096 = seq__28981_29085;
-var G__29097 = chunk__28982_29086;
-var G__29098 = count__28983_29087;
-var G__29099 = (i__28984_29088 + (1));
-seq__28981_29085 = G__29096;
-chunk__28982_29086 = G__29097;
-count__28983_29087 = G__29098;
-i__28984_29088 = G__29099;
+var G__29082 = seq__28981_29075;
+var G__29083 = chunk__28982_29076;
+var G__29084 = count__28983_29077;
+var G__29085 = (i__28984_29078 + (1));
+seq__28981_29075 = G__29082;
+chunk__28982_29076 = G__29083;
+count__28983_29077 = G__29084;
+i__28984_29078 = G__29085;
 continue;
 } else {
-var temp__5735__auto___29100 = cljs.core.seq(seq__28981_29085);
-if(temp__5735__auto___29100){
-var seq__28981_29101__$1 = temp__5735__auto___29100;
-if(cljs.core.chunked_seq_QMARK_(seq__28981_29101__$1)){
-var c__4609__auto___29102 = cljs.core.chunk_first(seq__28981_29101__$1);
-var G__29103 = cljs.core.chunk_rest(seq__28981_29101__$1);
-var G__29104 = c__4609__auto___29102;
-var G__29105 = cljs.core.count(c__4609__auto___29102);
-var G__29106 = (0);
-seq__28981_29085 = G__29103;
-chunk__28982_29086 = G__29104;
-count__28983_29087 = G__29105;
-i__28984_29088 = G__29106;
+var temp__5735__auto___29086 = cljs.core.seq(seq__28981_29075);
+if(temp__5735__auto___29086){
+var seq__28981_29092__$1 = temp__5735__auto___29086;
+if(cljs.core.chunked_seq_QMARK_(seq__28981_29092__$1)){
+var c__4609__auto___29093 = cljs.core.chunk_first(seq__28981_29092__$1);
+var G__29094 = cljs.core.chunk_rest(seq__28981_29092__$1);
+var G__29095 = c__4609__auto___29093;
+var G__29096 = cljs.core.count(c__4609__auto___29093);
+var G__29097 = (0);
+seq__28981_29075 = G__29094;
+chunk__28982_29076 = G__29095;
+count__28983_29077 = G__29096;
+i__28984_29078 = G__29097;
 continue;
 } else {
-var vec__28996_29107 = cljs.core.first(seq__28981_29101__$1);
-var __29108 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28996_29107,(0),null);
-var callback_29109 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28996_29107,(1),null);
-(callback_29109.cljs$core$IFn$_invoke$arity$1 ? callback_29109.cljs$core$IFn$_invoke$arity$1(report) : callback_29109.call(null,report));
+var vec__28996_29098 = cljs.core.first(seq__28981_29092__$1);
+var __29099 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28996_29098,(0),null);
+var callback_29100 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28996_29098,(1),null);
+(callback_29100.cljs$core$IFn$_invoke$arity$1 ? callback_29100.cljs$core$IFn$_invoke$arity$1(report) : callback_29100.call(null,report));
 
 
-var G__29110 = cljs.core.next(seq__28981_29101__$1);
-var G__29111 = null;
-var G__29112 = (0);
-var G__29113 = (0);
-seq__28981_29085 = G__29110;
-chunk__28982_29086 = G__29111;
-count__28983_29087 = G__29112;
-i__28984_29088 = G__29113;
+var G__29106 = cljs.core.next(seq__28981_29092__$1);
+var G__29107 = null;
+var G__29108 = (0);
+var G__29109 = (0);
+seq__28981_29075 = G__29106;
+chunk__28982_29076 = G__29107;
+count__28983_29077 = G__29108;
+i__28984_29078 = G__29109;
 continue;
 }
 } else {
