@@ -88,14 +88,10 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCode
 return and__4174__auto__;
 }
 })())){
-e.preventDefault();
-
 var G__58039 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"unindent","unindent",-1291301718),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58039) : re_frame.core.dispatch.call(null,G__58039));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.TAB)){
-e.preventDefault();
-
 var G__58040 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"indent","indent",-148200125),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58040) : re_frame.core.dispatch.call(null,G__58040));
 } else {
@@ -169,9 +165,9 @@ if(((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2("",selection)) && (cljs.cor
 var surround_selection = ["[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(selection),"]"].join('');
 var new_str = [head,surround_selection,tail].join('');
 setTimeout((function (){
-var G__58045_58096 = target;
-var G__58046_58097 = (start + (1));
-goog.dom.selection.setStart(G__58045_58096,G__58046_58097);
+var G__58045_58095 = target;
+var G__58046_58096 = (start + (1));
+goog.dom.selection.setStart(G__58045_58095,G__58046_58096);
 
 var G__58047 = target;
 var G__58048 = (end + (1));

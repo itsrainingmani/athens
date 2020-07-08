@@ -15,8 +15,8 @@ while(true){
 if((i__4790__auto___58117 < len__4789__auto___58116)){
 args__4795__auto__.push((arguments[i__4790__auto___58117]));
 
-var G__58118 = (i__4790__auto___58117 + (1));
-i__4790__auto___58117 = G__58118;
+var G__58121 = (i__4790__auto___58117 + (1));
+i__4790__auto___58117 = G__58121;
 continue;
 } else {
 }
@@ -46,14 +46,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58107,seq58106
 
 athens.views.breadcrumbs.breadcrumb = (function athens$views$breadcrumbs$breadcrumb(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58119 = arguments.length;
-var i__4790__auto___58120 = (0);
+var len__4789__auto___58122 = arguments.length;
+var i__4790__auto___58123 = (0);
 while(true){
-if((i__4790__auto___58120 < len__4789__auto___58119)){
-args__4795__auto__.push((arguments[i__4790__auto___58120]));
+if((i__4790__auto___58123 < len__4789__auto___58122)){
+args__4795__auto__.push((arguments[i__4790__auto___58123]));
 
-var G__58121 = (i__4790__auto___58120 + (1));
-i__4790__auto___58120 = G__58121;
+var G__58124 = (i__4790__auto___58123 + (1));
+i__4790__auto___58123 = G__58124;
 continue;
 } else {
 }

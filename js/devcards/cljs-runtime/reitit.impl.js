@@ -363,12 +363,12 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__49841_49876 = reitit.impl.into_string;
-var G__49842_49877 = "boolean";
-var G__49843_49878 = (function (this$){
+var G__49841_49877 = reitit.impl.into_string;
+var G__49842_49878 = "boolean";
+var G__49843_49879 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49841_49876,G__49842_49877,G__49843_49878);
+goog.object.set(G__49841_49877,G__49842_49878,G__49843_49879);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
@@ -381,12 +381,12 @@ goog.object.set(G__49844_49880,G__49845_49881,G__49846_49882);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__49847_49883 = reitit.impl.into_string;
-var G__49848_49884 = "object";
-var G__49849_49885 = (function (this$){
+var G__49847_49885 = reitit.impl.into_string;
+var G__49848_49888 = "object";
+var G__49849_49889 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49847_49883,G__49848_49884,G__49849_49885);
+goog.object.set(G__49847_49885,G__49848_49888,G__49849_49889);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 

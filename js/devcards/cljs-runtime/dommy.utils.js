@@ -4,19 +4,19 @@ goog.require('cljs.core');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34636){
-var vec__34637 = p__34636;
-var seq__34638 = cljs.core.seq(vec__34637);
-var first__34639 = cljs.core.first(seq__34638);
-var seq__34638__$1 = cljs.core.next(seq__34638);
-var k = first__34639;
-var ks = seq__34638__$1;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34631){
+var vec__34632 = p__34631;
+var seq__34633 = cljs.core.seq(vec__34632);
+var first__34634 = cljs.core.first(seq__34633);
+var seq__34633__$1 = cljs.core.next(seq__34633);
+var k = first__34634;
+var ks = seq__34633__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4174__auto__ = ks;
 if(and__4174__auto__){
-var G__34642 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
-var G__34643 = ks;
-return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34642,G__34643) : dommy.utils.dissoc_in.call(null,G__34642,G__34643));
+var G__34639 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
+var G__34640 = ks;
+return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34639,G__34640) : dommy.utils.dissoc_in.call(null,G__34639,G__34640));
 } else {
 return and__4174__auto__;
 }
@@ -85,8 +85,8 @@ if((i >= (0))){
 if(dommy.utils.class_match_QMARK_(class_name,class$,i)){
 return i;
 } else {
-var G__34647 = (i + class$.length);
-start_from = G__34647;
+var G__34646 = (i + class$.length);
+start_from = G__34646;
 continue;
 }
 } else {
@@ -102,10 +102,10 @@ var class_len = class_name.length;
 var temp__5733__auto__ = dommy.utils.class_index(class_name,class$);
 if(cljs.core.truth_(temp__5733__auto__)){
 var i = temp__5733__auto__;
-var G__34648 = (function (){var end = (i + class$.length);
+var G__34647 = (function (){var end = (i + class$.length);
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1((((end < class_len))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substring((0),i)),cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substr((end + (1))))].join(''):class_name.substring((0),(i - (1)))));
 })();
-class_name = G__34648;
+class_name = G__34647;
 continue;
 } else {
 return class_name;
