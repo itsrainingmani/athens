@@ -67,13 +67,13 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 }));
 
 instaparse.util.regexp_flags = (function instaparse$util$regexp_flags(re){
-var G__55928 = "";
-var G__55928__$1 = (cljs.core.truth_(re.ignoreCase)?[G__55928,"i"].join(''):G__55928);
-var G__55928__$2 = (cljs.core.truth_(re.multiline)?[G__55928__$1,"m"].join(''):G__55928__$1);
+var G__55929 = "";
+var G__55929__$1 = (cljs.core.truth_(re.ignoreCase)?[G__55929,"i"].join(''):G__55929);
+var G__55929__$2 = (cljs.core.truth_(re.multiline)?[G__55929__$1,"m"].join(''):G__55929__$1);
 if(cljs.core.truth_(re.unicode)){
-return [G__55928__$2,"u"].join('');
+return [G__55929__$2,"u"].join('');
 } else {
-return G__55928__$2;
+return G__55929__$2;
 }
 });
 

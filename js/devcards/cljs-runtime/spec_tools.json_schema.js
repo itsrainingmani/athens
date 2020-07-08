@@ -29,15 +29,15 @@ spec_tools.json_schema.accept_spec = (function (){var method_table__4672__auto__
 var prefer_table__4673__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4674__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4675__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.json-schema","default","spec-tools.json-schema/default",-2093938695)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48541 = cljs.core.get_global_hierarchy;
-return (fexpr__48541.cljs$core$IFn$_invoke$arity$0 ? fexpr__48541.cljs$core$IFn$_invoke$arity$0() : fexpr__48541.call(null));
+var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.json-schema","default","spec-tools.json-schema/default",-2093938695)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48540 = cljs.core.get_global_hierarchy;
+return (fexpr__48540.cljs$core$IFn$_invoke$arity$0 ? fexpr__48540.cljs$core$IFn$_invoke$arity$0() : fexpr__48540.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("spec-tools.json-schema","accept-spec"),spec_tools.json_schema.spec_dispatch,new cljs.core.Keyword("spec-tools.json-schema","default","spec-tools.json-schema/default",-2093938695),hierarchy__4676__auto__,method_table__4672__auto__,prefer_table__4673__auto__,method_cache__4674__auto__,cached_hierarchy__4675__auto__));
 })();
 }
 spec_tools.json_schema.transform = (function spec_tools$json_schema$transform(var_args){
-var G__48543 = arguments.length;
-switch (G__48543) {
+var G__48542 = arguments.length;
+switch (G__48542) {
 case 1:
 return spec_tools.json_schema.transform.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

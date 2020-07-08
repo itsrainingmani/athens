@@ -57,8 +57,8 @@ return title;
 }
 })()], null));
 
-var G__58096 = (i__58077 + (1));
-i__58077 = G__58096;
+var G__58094 = (i__58077 + (1));
+i__58077 = G__58094;
 continue;
 } else {
 return true;
@@ -121,8 +121,8 @@ var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58089__$1,new cljs.cor
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
-var G__58097 = (i__58087 + (1));
-i__58087 = G__58097;
+var G__58095 = (i__58087 + (1));
+i__58087 = G__58095;
 continue;
 } else {
 return true;
