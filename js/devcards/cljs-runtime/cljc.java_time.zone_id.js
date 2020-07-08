@@ -7,8 +7,8 @@ cljc.java_time.zone_id.get_available_zone_ids = (function cljc$java_time$zone_id
 return java.time.ZoneId.getAvailableZoneIds();
 });
 cljc.java_time.zone_id.of = (function cljc$java_time$zone_id$of(var_args){
-var G__50595 = arguments.length;
-switch (G__50595) {
+var G__50586 = arguments.length;
+switch (G__50586) {
 case 1:
 return cljc.java_time.zone_id.of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

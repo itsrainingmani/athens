@@ -43,8 +43,8 @@ re_frame.core.clear_cofx = cljs.core.partial.cljs$core$IFn$_invoke$arity$2(re_fr
  * chain.
  */
 re_frame.core.reg_event_db = (function re_frame$core$reg_event_db(var_args){
-var G__46937 = arguments.length;
-switch (G__46937) {
+var G__46934 = arguments.length;
+switch (G__46934) {
 case 2:
 return re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -82,8 +82,8 @@ return re_frame.events.register(id,new cljs.core.PersistentVector(null, 4, 5, cl
  * and, later, action effects.
  */
 re_frame.core.reg_event_fx = (function re_frame$core$reg_event_fx(var_args){
-var G__46942 = arguments.length;
-switch (G__46942) {
+var G__46939 = arguments.length;
+switch (G__46939) {
 case 2:
 return re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -172,53 +172,53 @@ var subs_cache = cljs.core.deref(re_frame.subs.query__GT_reaction);
 return (function (){
 var original_subs_46967 = cljs.core.set(cljs.core.vals(subs_cache));
 var current_subs_46968 = cljs.core.set(cljs.core.vals(cljs.core.deref(re_frame.subs.query__GT_reaction)));
-var seq__46948_46969 = cljs.core.seq(clojure.set.difference.cljs$core$IFn$_invoke$arity$2(current_subs_46968,original_subs_46967));
-var chunk__46949_46970 = null;
-var count__46950_46971 = (0);
-var i__46951_46972 = (0);
+var seq__46945_46969 = cljs.core.seq(clojure.set.difference.cljs$core$IFn$_invoke$arity$2(current_subs_46968,original_subs_46967));
+var chunk__46946_46970 = null;
+var count__46947_46971 = (0);
+var i__46948_46972 = (0);
 while(true){
-if((i__46951_46972 < count__46950_46971)){
-var sub_46973 = chunk__46949_46970.cljs$core$IIndexed$_nth$arity$2(null,i__46951_46972);
+if((i__46948_46972 < count__46947_46971)){
+var sub_46973 = chunk__46946_46970.cljs$core$IIndexed$_nth$arity$2(null,i__46948_46972);
 re_frame.interop.dispose_BANG_(sub_46973);
 
 
-var G__46974 = seq__46948_46969;
-var G__46975 = chunk__46949_46970;
-var G__46976 = count__46950_46971;
-var G__46977 = (i__46951_46972 + (1));
-seq__46948_46969 = G__46974;
-chunk__46949_46970 = G__46975;
-count__46950_46971 = G__46976;
-i__46951_46972 = G__46977;
+var G__46974 = seq__46945_46969;
+var G__46975 = chunk__46946_46970;
+var G__46976 = count__46947_46971;
+var G__46977 = (i__46948_46972 + (1));
+seq__46945_46969 = G__46974;
+chunk__46946_46970 = G__46975;
+count__46947_46971 = G__46976;
+i__46948_46972 = G__46977;
 continue;
 } else {
-var temp__5735__auto___46978 = cljs.core.seq(seq__46948_46969);
+var temp__5735__auto___46978 = cljs.core.seq(seq__46945_46969);
 if(temp__5735__auto___46978){
-var seq__46948_46979__$1 = temp__5735__auto___46978;
-if(cljs.core.chunked_seq_QMARK_(seq__46948_46979__$1)){
-var c__4609__auto___46980 = cljs.core.chunk_first(seq__46948_46979__$1);
-var G__46981 = cljs.core.chunk_rest(seq__46948_46979__$1);
+var seq__46945_46979__$1 = temp__5735__auto___46978;
+if(cljs.core.chunked_seq_QMARK_(seq__46945_46979__$1)){
+var c__4609__auto___46980 = cljs.core.chunk_first(seq__46945_46979__$1);
+var G__46981 = cljs.core.chunk_rest(seq__46945_46979__$1);
 var G__46982 = c__4609__auto___46980;
 var G__46983 = cljs.core.count(c__4609__auto___46980);
 var G__46984 = (0);
-seq__46948_46969 = G__46981;
-chunk__46949_46970 = G__46982;
-count__46950_46971 = G__46983;
-i__46951_46972 = G__46984;
+seq__46945_46969 = G__46981;
+chunk__46946_46970 = G__46982;
+count__46947_46971 = G__46983;
+i__46948_46972 = G__46984;
 continue;
 } else {
-var sub_46985 = cljs.core.first(seq__46948_46979__$1);
+var sub_46985 = cljs.core.first(seq__46945_46979__$1);
 re_frame.interop.dispose_BANG_(sub_46985);
 
 
-var G__46986 = cljs.core.next(seq__46948_46979__$1);
+var G__46986 = cljs.core.next(seq__46945_46979__$1);
 var G__46987 = null;
 var G__46988 = (0);
 var G__46989 = (0);
-seq__46948_46969 = G__46986;
-chunk__46949_46970 = G__46987;
-count__46950_46971 = G__46988;
-i__46951_46972 = G__46989;
+seq__46945_46969 = G__46986;
+chunk__46946_46970 = G__46987;
+count__46947_46971 = G__46988;
+i__46948_46972 = G__46989;
 continue;
 }
 } else {

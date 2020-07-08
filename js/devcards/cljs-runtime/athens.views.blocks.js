@@ -61,6 +61,7 @@ var string = new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204)
 var query = new cljs.core.Keyword("search","query","search/query",1830322034).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
 var block_start_QMARK_ = (start === (0));
 var block_end_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(start,cljs.core.count(string));
+var block_zero_QMARK_ = (new cljs.core.Keyword("block","order","block/order",-1429282437).cljs$core$IFn$_invoke$arity$1(athens.db.get_block(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null))) === (0));
 var top_row_QMARK_ = true;
 var bottom_row_QMARK_ = true;
 var head = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(string,(0),start);
@@ -88,12 +89,20 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCode
 return and__4174__auto__;
 }
 })())){
+e.preventDefault();
+
 var G__58034 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"unindent","unindent",-1291301718),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58034) : re_frame.core.dispatch.call(null,G__58034));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.TAB)){
+e.preventDefault();
+
+if(block_zero_QMARK_){
+return null;
+} else {
 var G__58035 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"indent","indent",-148200125),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58035) : re_frame.core.dispatch.call(null,G__58035));
+}
 } else {
 if(cljs.core.truth_((function (){var and__4174__auto__ = shift;
 if(cljs.core.truth_(and__4174__auto__)){
@@ -165,9 +174,9 @@ if(((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2("",selection)) && (cljs.cor
 var surround_selection = ["[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(selection),"]"].join('');
 var new_str = [head,surround_selection,tail].join('');
 setTimeout((function (){
-var G__58040_58105 = target;
-var G__58041_58106 = (start + (1));
-goog.dom.selection.setStart(G__58040_58105,G__58041_58106);
+var G__58040_58104 = target;
+var G__58041_58105 = (start + (1));
+goog.dom.selection.setStart(G__58040_58104,G__58041_58105);
 
 var G__58042 = target;
 var G__58043 = (end + (1));
