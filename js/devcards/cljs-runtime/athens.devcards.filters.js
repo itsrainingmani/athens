@@ -7,7 +7,7 @@ athens.devcards.filters.items = cljs.core.PersistentHashMap.fromArrays(["Donec",
 athens.devcards.filters.devcard_wrapper = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"300px"], null);
 devcards.core.register_card(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"athens.devcards.filters","athens.devcards.filters",1272833021),new cljs.core.Keyword(null,"Filters","Filters",714573883)], null),new cljs.core.Keyword(null,"func","func",-238706040),(function (){
 return devcards.core.card_base(new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),"Filters",new cljs.core.Keyword(null,"documentation","documentation",1889593999),null,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){
-if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.filters !== 'undefined') && (typeof athens.devcards.filters.t_athens$devcards$filters61058 !== 'undefined')){
+if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.filters !== 'undefined') && (typeof athens.devcards.filters.t_athens$devcards$filters61082 !== 'undefined')){
 } else {
 
 /**
@@ -16,61 +16,61 @@ if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') &
  * @implements {cljs.core.IWithMeta}
  * @implements {devcards.core.IDevcardOptions}
 */
-athens.devcards.filters.t_athens$devcards$filters61058 = (function (meta61059){
-this.meta61059 = meta61059;
+athens.devcards.filters.t_athens$devcards$filters61082 = (function (meta61083){
+this.meta61083 = meta61083;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 });
-(athens.devcards.filters.t_athens$devcards$filters61058.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_61060,meta61059__$1){
+(athens.devcards.filters.t_athens$devcards$filters61082.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_61084,meta61083__$1){
 var self__ = this;
-var _61060__$1 = this;
-return (new athens.devcards.filters.t_athens$devcards$filters61058(meta61059__$1));
+var _61084__$1 = this;
+return (new athens.devcards.filters.t_athens$devcards$filters61082(meta61083__$1));
 }));
 
-(athens.devcards.filters.t_athens$devcards$filters61058.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_61060){
+(athens.devcards.filters.t_athens$devcards$filters61082.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_61084){
 var self__ = this;
-var _61060__$1 = this;
-return self__.meta61059;
+var _61084__$1 = this;
+return self__.meta61083;
 }));
 
-(athens.devcards.filters.t_athens$devcards$filters61058.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
+(athens.devcards.filters.t_athens$devcards$filters61082.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
 
-(athens.devcards.filters.t_athens$devcards$filters61058.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__42216__auto__,devcard_opts__42217__auto__){
+(athens.devcards.filters.t_athens$devcards$filters61082.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__42228__auto__,devcard_opts__42229__auto__){
 var self__ = this;
-var this__42216__auto____$1 = this;
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__42217__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__42235__auto__ = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(athens.devcards.filters.devcard_wrapper),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.filters.filters_el,"((some-uid))",athens.devcards.filters.items], null)], null);
-if(cljs.core.fn_QMARK_(v__42235__auto__)){
-return (function (data_atom__42236__auto__,owner__42237__auto__){
-return reagent.core.as_element(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [v__42235__auto__,data_atom__42236__auto__,owner__42237__auto__], null));
+var this__42228__auto____$1 = this;
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__42229__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__42247__auto__ = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(athens.devcards.filters.devcard_wrapper),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.filters.filters_el,"((some-uid))",athens.devcards.filters.items], null)], null);
+if(cljs.core.fn_QMARK_(v__42247__auto__)){
+return (function (data_atom__42248__auto__,owner__42249__auto__){
+return reagent.core.as_element(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [v__42247__auto__,data_atom__42248__auto__,owner__42249__auto__], null));
 });
 } else {
-return reagent.core.as_element(v__42235__auto__);
+return reagent.core.as_element(v__42247__auto__);
 }
-})(),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"options","options",99638489),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.PersistentArrayMap.EMPTY,devcards.core.assert_options_map(new cljs.core.Keyword(null,"options","options",99638489).cljs$core$IFn$_invoke$arity$1(devcard_opts__42217__auto__))], 0))], 0));
+})(),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"options","options",99638489),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.PersistentArrayMap.EMPTY,devcards.core.assert_options_map(new cljs.core.Keyword(null,"options","options",99638489).cljs$core$IFn$_invoke$arity$1(devcard_opts__42229__auto__))], 0))], 0));
 }));
 
-(athens.devcards.filters.t_athens$devcards$filters61058.getBasis = (function (){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta61059","meta61059",-12289368,null)], null);
+(athens.devcards.filters.t_athens$devcards$filters61082.getBasis = (function (){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta61083","meta61083",-1493973633,null)], null);
 }));
 
-(athens.devcards.filters.t_athens$devcards$filters61058.cljs$lang$type = true);
+(athens.devcards.filters.t_athens$devcards$filters61082.cljs$lang$type = true);
 
-(athens.devcards.filters.t_athens$devcards$filters61058.cljs$lang$ctorStr = "athens.devcards.filters/t_athens$devcards$filters61058");
+(athens.devcards.filters.t_athens$devcards$filters61082.cljs$lang$ctorStr = "athens.devcards.filters/t_athens$devcards$filters61082");
 
-(athens.devcards.filters.t_athens$devcards$filters61058.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
-return cljs.core._write(writer__4429__auto__,"athens.devcards.filters/t_athens$devcards$filters61058");
+(athens.devcards.filters.t_athens$devcards$filters61082.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
+return cljs.core._write(writer__4429__auto__,"athens.devcards.filters/t_athens$devcards$filters61082");
 }));
 
 /**
- * Positional factory function for athens.devcards.filters/t_athens$devcards$filters61058.
+ * Positional factory function for athens.devcards.filters/t_athens$devcards$filters61082.
  */
-athens.devcards.filters.__GT_t_athens$devcards$filters61058 = (function athens$devcards$filters$__GT_t_athens$devcards$filters61058(meta61059){
-return (new athens.devcards.filters.t_athens$devcards$filters61058(meta61059));
+athens.devcards.filters.__GT_t_athens$devcards$filters61082 = (function athens$devcards$filters$__GT_t_athens$devcards$filters61082(meta61083){
+return (new athens.devcards.filters.t_athens$devcards$filters61082(meta61083));
 });
 
 }
 
-return (new athens.devcards.filters.t_athens$devcards$filters61058(null));
+return (new athens.devcards.filters.t_athens$devcards$filters61082(null));
 })()
 ,new cljs.core.Keyword(null,"initial-data","initial-data",-1315709804),null,new cljs.core.Keyword(null,"options","options",99638489),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"watch-atom","watch-atom",-2134031308),false], null)], null));
 })], null));
