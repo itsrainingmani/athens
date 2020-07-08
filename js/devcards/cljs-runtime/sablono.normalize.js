@@ -8,10 +8,10 @@ goog.require('sablono.util');
  */
 sablono.normalize.compact_map = (function sablono$normalize$compact_map(m){
 if(cljs.core.truth_(m)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__39611){
-var vec__39612 = p__39611;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39612,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39612,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__39607){
+var vec__39608 = p__39607;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39608,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39608,(1),null);
 return cljs.core.empty_QMARK_(v);
 })),m);
 } else {
@@ -62,8 +62,8 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 if((class$ instanceof cljs.core.Keyword)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.normalize.class_name(class$)], null);
 } else {
-if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__39615_SHARP_){
-return (((p1__39615_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__39615_SHARP_ === 'string'));
+if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__39612_SHARP_){
+return (((p1__39612_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__39612_SHARP_ === 'string'));
 }),class$)))){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(sablono.normalize.class_name,class$);
 } else {
@@ -97,14 +97,14 @@ return G__39616;
  */
 sablono.normalize.merge_with_class = (function sablono$normalize$merge_with_class(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39662 = arguments.length;
-var i__4790__auto___39663 = (0);
+var len__4789__auto___39659 = arguments.length;
+var i__4790__auto___39660 = (0);
 while(true){
-if((i__4790__auto___39663 < len__4789__auto___39662)){
-args__4795__auto__.push((arguments[i__4790__auto___39663]));
+if((i__4790__auto___39660 < len__4789__auto___39659)){
+args__4795__auto__.push((arguments[i__4790__auto___39660]));
 
-var G__39664 = (i__4790__auto___39663 + (1));
-i__4790__auto___39663 = G__39664;
+var G__39661 = (i__4790__auto___39660 + (1));
+i__4790__auto___39660 = G__39661;
 continue;
 } else {
 }
@@ -175,8 +175,8 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(".",cljs.core.first(p1__3962
  * Normalize the children of a HTML element.
  */
 sablono.normalize.children = (function sablono$normalize$children(x){
-return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,(((x == null))?cljs.core.List.EMPTY:((typeof x === 'string')?(new cljs.core.List(null,x,null,(1),null)):((sablono.util.element_QMARK_(x))?(new cljs.core.List(null,x,null,(1),null)):((((cljs.core.list_QMARK_(x)) && ((cljs.core.first(x) instanceof cljs.core.Symbol))))?(new cljs.core.List(null,x,null,(1),null)):((cljs.core.list_QMARK_(x))?x:((((cljs.core.sequential_QMARK_(x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(x),(1))) && (cljs.core.sequential_QMARK_(cljs.core.first(x))) && ((!(typeof cljs.core.first(x) === 'string'))) && ((!(sablono.util.element_QMARK_(cljs.core.first(x)))))))?(function (){var G__39638 = cljs.core.first(x);
-return (sablono.normalize.children.cljs$core$IFn$_invoke$arity$1 ? sablono.normalize.children.cljs$core$IFn$_invoke$arity$1(G__39638) : sablono.normalize.children.call(null,G__39638));
+return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,(((x == null))?cljs.core.List.EMPTY:((typeof x === 'string')?(new cljs.core.List(null,x,null,(1),null)):((sablono.util.element_QMARK_(x))?(new cljs.core.List(null,x,null,(1),null)):((((cljs.core.list_QMARK_(x)) && ((cljs.core.first(x) instanceof cljs.core.Symbol))))?(new cljs.core.List(null,x,null,(1),null)):((cljs.core.list_QMARK_(x))?x:((((cljs.core.sequential_QMARK_(x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(x),(1))) && (cljs.core.sequential_QMARK_(cljs.core.first(x))) && ((!(typeof cljs.core.first(x) === 'string'))) && ((!(sablono.util.element_QMARK_(cljs.core.first(x)))))))?(function (){var G__39626 = cljs.core.first(x);
+return (sablono.normalize.children.cljs$core$IFn$_invoke$arity$1 ? sablono.normalize.children.cljs$core$IFn$_invoke$arity$1(G__39626) : sablono.normalize.children.call(null,G__39626));
 })():((cljs.core.sequential_QMARK_(x))?x:(new cljs.core.List(null,x,null,(1),null))
 ))))))));
 });
@@ -190,22 +190,22 @@ return cljs.core.map_QMARK_(x);
 /**
  * Ensure an element vector is of the form [tag-name attrs content].
  */
-sablono.normalize.element = (function sablono$normalize$element(p__39652){
-var vec__39653 = p__39652;
-var seq__39654 = cljs.core.seq(vec__39653);
-var first__39655 = cljs.core.first(seq__39654);
-var seq__39654__$1 = cljs.core.next(seq__39654);
-var tag = first__39655;
-var content = seq__39654__$1;
+sablono.normalize.element = (function sablono$normalize$element(p__39627){
+var vec__39628 = p__39627;
+var seq__39629 = cljs.core.seq(vec__39628);
+var first__39630 = cljs.core.first(seq__39629);
+var seq__39629__$1 = cljs.core.next(seq__39629);
+var tag = first__39630;
+var content = seq__39629__$1;
 if((((tag instanceof cljs.core.Keyword)) || ((tag instanceof cljs.core.Symbol)) || (typeof tag === 'string'))){
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(tag)," is not a valid element name."].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),tag,new cljs.core.Keyword(null,"content","content",15833224),content], null));
 }
 
-var vec__39656 = sablono.normalize.match_tag(tag);
-var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(0),null);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(1),null);
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(2),null);
+var vec__39638 = sablono.normalize.match_tag(tag);
+var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39638,(0),null);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39638,(1),null);
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39638,(2),null);
 var tag_attrs = sablono.normalize.compact_map(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),id,new cljs.core.Keyword(null,"class","class",-2030961996),class$], null));
 var map_attrs = cljs.core.first(content);
 if(sablono.normalize.attrs_QMARK_(map_attrs)){

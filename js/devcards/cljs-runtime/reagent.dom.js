@@ -20,13 +20,13 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(reagent.dom.roots,cljs.core.d
 return module$node_modules$react_dom$index.unmountComponentAtNode(container);
 });
 reagent.dom.render_comp = (function reagent$dom$render_comp(comp,container,callback){
-var _STAR_always_update_STAR__orig_val__31721 = reagent.impl.util._STAR_always_update_STAR_;
-var _STAR_always_update_STAR__temp_val__31722 = true;
-(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31722);
+var _STAR_always_update_STAR__orig_val__31722 = reagent.impl.util._STAR_always_update_STAR_;
+var _STAR_always_update_STAR__temp_val__31723 = true;
+(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31723);
 
-try{var G__31724 = (comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null));
-var G__31725 = container;
-var G__31726 = (function (){
+try{var G__31725 = (comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null));
+var G__31726 = container;
+var G__31727 = (function (){
 var _STAR_always_update_STAR__orig_val__31728 = reagent.impl.util._STAR_always_update_STAR_;
 var _STAR_always_update_STAR__temp_val__31729 = false;
 (reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31729);
@@ -42,8 +42,8 @@ return null;
 }
 }finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31728);
 }});
-return module$node_modules$react_dom$index.render(G__31724,G__31725,G__31726);
-}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31721);
+return module$node_modules$react_dom$index.render(G__31725,G__31726,G__31727);
+}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31722);
 }});
 reagent.dom.re_render_component = (function reagent$dom$re_render_component(comp,container){
 return reagent.dom.render_comp(comp,container,null);
@@ -57,8 +57,8 @@ return reagent.dom.render_comp(comp,container,null);
  *   Returns the mounted component instance.
  */
 reagent.dom.render = (function reagent$dom$render(var_args){
-var G__31737 = arguments.length;
-switch (G__31737) {
+var G__31740 = arguments.length;
+switch (G__31740) {
 case 2:
 return reagent.dom.render.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

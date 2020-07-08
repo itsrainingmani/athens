@@ -103,10 +103,10 @@ return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (x){
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(x,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"content","content",15833224)], null),(function (p1__41853_SHARP_){
 return clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",p1__41853_SHARP_);
 }));
-}),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p__41859){
-var map__41860 = p__41859;
-var map__41860__$1 = (((((!((map__41860 == null))))?(((((map__41860.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41860.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__41860):map__41860);
-var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41860__$1,new cljs.core.Keyword(null,"content","content",15833224));
+}),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p__41858){
+var map__41859 = p__41858;
+var map__41859__$1 = (((((!((map__41859 == null))))?(((((map__41859.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41859.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__41859):map__41859);
+var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41859__$1,new cljs.core.Keyword(null,"content","content",15833224));
 return cljs.core.not_empty(content);
 }),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(accum,stage)));
 });

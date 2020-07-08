@@ -92,8 +92,8 @@ cljc.java_time.zoned_date_time.get_day_of_year = (function cljc$java_time$zoned_
 return this3778.dayOfYear();
 });
 cljc.java_time.zoned_date_time.plus = (function cljc$java_time$zoned_date_time$plus(var_args){
-var G__50605 = arguments.length;
-switch (G__50605) {
+var G__50604 = arguments.length;
+switch (G__50604) {
 case 3:
 return cljc.java_time.zoned_date_time.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -242,8 +242,8 @@ cljc.java_time.zoned_date_time.get_chronology = (function cljc$java_time$zoned_d
 return this3841.chronology();
 });
 cljc.java_time.zoned_date_time.parse = (function cljc$java_time$zoned_date_time$parse(var_args){
-var G__50611 = arguments.length;
-switch (G__50611) {
+var G__50609 = arguments.length;
+switch (G__50609) {
 case 1:
 return cljc.java_time.zoned_date_time.parse.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
