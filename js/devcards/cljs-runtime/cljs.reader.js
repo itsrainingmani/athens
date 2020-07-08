@@ -209,8 +209,8 @@ count__24656_24703 = G__24715;
 i__24657_24704 = G__24716;
 continue;
 } else {
-var x_24718 = cljs.core.first(seq__24654_24711__$1);
-arr.push(x_24718);
+var x_24717 = cljs.core.first(seq__24654_24711__$1);
+arr.push(x_24717);
 
 
 var G__24719 = cljs.core.next(seq__24654_24711__$1);

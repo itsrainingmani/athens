@@ -183,18 +183,18 @@ count__59040_59157 = G__59169;
 i__59041_59158 = G__59170;
 continue;
 } else {
-var v_59172 = cljs.core.first(seq__59038_59165__$1);
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59172);
+var v_59171 = cljs.core.first(seq__59038_59165__$1);
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59171);
 
 
-var G__59173 = cljs.core.next(seq__59038_59165__$1);
-var G__59174 = null;
+var G__59172 = cljs.core.next(seq__59038_59165__$1);
+var G__59173 = null;
+var G__59174 = (0);
 var G__59175 = (0);
-var G__59176 = (0);
-seq__59038_59155 = G__59173;
-chunk__59039_59156 = G__59174;
-count__59040_59157 = G__59175;
-i__59041_59158 = G__59176;
+seq__59038_59155 = G__59172;
+chunk__59039_59156 = G__59173;
+count__59040_59157 = G__59174;
+i__59041_59158 = G__59175;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
+var G__59176 = vals;
+vals = G__59176;
+continue;
+} else {
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__59177 = vals;
 vals = G__59177;
 continue;
 } else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__59178 = vals;
+var G__59178 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
 vals = G__59178;
-continue;
-} else {
-var G__59179 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__59179;
 continue;
 
 }
@@ -247,18 +247,18 @@ return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Er
 sb.append(ch);
 
 if(("\\" === ch)){
-var ch_59180__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-if((ch_59180__$1 == null)){
+var ch_59179__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+if((ch_59179__$1 == null)){
 edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Error while parsing regex");
 } else {
 }
 
-sb.append(ch_59180__$1);
+sb.append(ch_59179__$1);
 } else {
 }
 
-var G__59181 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__59181;
+var G__59180 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__59180;
 continue;
 }
 }

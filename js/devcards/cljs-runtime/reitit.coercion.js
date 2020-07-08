@@ -279,10 +279,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__49869 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__49872 = (function (coll__4436__auto__){
 return (-537525465 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__49869(this__4435__auto____$1);
+return fexpr__49872(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__49859){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__49876 = cljs.core.keyword_identical_QMARK_;
-var expr__49877 = k__4447__auto__;
+var pred__49885 = cljs.core.keyword_identical_QMARK_;
+var expr__49886 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__49859),null));
 }));
 
