@@ -105,10 +105,10 @@ continue;
 
 break;
 default:
-var G__57023 = cljs.core.next(sq);
-var G__57024 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c);
-sq = G__57023;
-v = G__57024;
+var G__57022 = cljs.core.next(sq);
+var G__57023 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c);
+sq = G__57022;
+v = G__57023;
 continue;
 
 }
@@ -184,8 +184,8 @@ continue;
 
 break;
 case "hide":
-return instaparse.combinators_source.hide((function (){var G__56987 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56987) : instaparse.cfg.build_rule.call(null,G__56987));
+return instaparse.combinators_source.hide((function (){var G__56988 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56988) : instaparse.cfg.build_rule.call(null,G__56988));
 })());
 
 break;

@@ -142,8 +142,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46576,G__46577
 }));
 
 re_frame.interceptor.get_coeffect = (function re_frame$interceptor$get_coeffect(var_args){
-var G__46580 = arguments.length;
-switch (G__46580) {
+var G__46581 = arguments.length;
+switch (G__46581) {
 case 1:
 return re_frame.interceptor.get_coeffect.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

@@ -13,20 +13,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,counter)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"line","line",212345235),line,new cljs.core.Keyword(null,"column","column",2078222095),col], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.get.cljs$core$IFn$_invoke$arity$2(text,counter))){
-var G__55871 = (line + (1));
-var G__55872 = (1);
+var G__55866 = (line + (1));
+var G__55867 = (1);
+var G__55868 = (counter + (1));
+line = G__55866;
+col = G__55867;
+counter = G__55868;
+continue;
+} else {
+var G__55871 = line;
+var G__55872 = (col + (1));
 var G__55873 = (counter + (1));
 line = G__55871;
 col = G__55872;
 counter = G__55873;
-continue;
-} else {
-var G__55874 = line;
-var G__55875 = (col + (1));
-var G__55876 = (counter + (1));
-line = G__55874;
-col = G__55875;
-counter = G__55876;
 continue;
 
 }
@@ -45,16 +45,16 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n__$1,(1))){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.complement(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, ["\n",null], null), null)),chars));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.first(chars))){
-var G__55877 = cljs.core.next(chars);
-var G__55878 = (n__$1 - (1));
-chars = G__55877;
-n__$1 = G__55878;
+var G__55874 = cljs.core.next(chars);
+var G__55875 = (n__$1 - (1));
+chars = G__55874;
+n__$1 = G__55875;
 continue;
 } else {
-var G__55879 = cljs.core.next(chars);
-var G__55880 = n__$1;
-chars = G__55879;
-n__$1 = G__55880;
+var G__55876 = cljs.core.next(chars);
+var G__55877 = n__$1;
+chars = G__55876;
+n__$1 = G__55877;
 continue;
 
 }

@@ -168,18 +168,18 @@ return this__41561__auto__;
 });
 goog.inherits(ctor__41563__auto__,React.Component);
 
-var x42343_42741 = ctor__41563__auto__.prototype;
-(x42343_42741.componentDidMount = (function (){
+var x42343_42740 = ctor__41563__auto__.prototype;
+(x42343_42740.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x42343_42741.componentDidUpdate = (function (){
+(x42343_42740.componentDidUpdate = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x42343_42741.render = (function (){
+(x42343_42740.render = (function (){
 var this$ = this;
 return React.createElement("pre",({"className": (cljs.core.truth_(devcards.core.get_hljs())?"com-rigsomelight-devcards-code-highlighting":""), "key": cljs.core.hash((function (){var G__42344 = this$;
 var G__42345 = new cljs.core.Keyword(null,"code","code",1586293142);
@@ -234,14 +234,14 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 }));
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42753 = arguments.length;
-var i__4790__auto___42754 = (0);
+var len__4789__auto___42751 = arguments.length;
+var i__4790__auto___42752 = (0);
 while(true){
-if((i__4790__auto___42754 < len__4789__auto___42753)){
-args__4795__auto__.push((arguments[i__4790__auto___42754]));
+if((i__4790__auto___42752 < len__4789__auto___42751)){
+args__4795__auto__.push((arguments[i__4790__auto___42752]));
 
-var G__42755 = (i__4790__auto___42754 + (1));
-i__4790__auto___42754 = G__42755;
+var G__42754 = (i__4790__auto___42752 + (1));
+i__4790__auto___42752 = G__42754;
 continue;
 } else {
 }
@@ -424,14 +424,14 @@ return this__41561__auto__;
 });
 goog.inherits(ctor__41563__auto__,React.Component);
 
-var x42374_42771 = ctor__41563__auto__.prototype;
-(x42374_42771.shouldComponentUpdate = (function (next_props,b){
+var x42374_42768 = ctor__41563__auto__.prototype;
+(x42374_42768.shouldComponentUpdate = (function (next_props,b){
 var this$ = this;
 var update_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(goog.object.get(next_props,"change_count"),devcards.core.get_props(this$,new cljs.core.Keyword(null,"change_count","change_count",-533812109)));
 return update_QMARK_;
 }));
 
-(x42374_42771.render = (function (){
+(x42374_42768.render = (function (){
 var this$ = this;
 var attrs42375 = devcards.core.get_props(this$,new cljs.core.Keyword(null,"children_thunk","children_thunk",-1161306645));
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(React.createElement,"div",((cljs.core.map_QMARK_(attrs42375))?sablono.interpreter.attributes(sablono.normalize.merge_with_class.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["com-rigsomelight-dont-update"], null)], null),attrs42375], 0))):({"className": "com-rigsomelight-dont-update"})),((cljs.core.map_QMARK_(attrs42375))?null:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret(attrs42375)], null)));
@@ -523,8 +523,8 @@ return this__41559__auto__;
 });
 goog.inherits(ctor__41563__auto__,React.Component);
 
-var x42378_42778 = ctor__41563__auto__.prototype;
-(x42378_42778.componentDidUpdate = (function (_,___$1){
+var x42378_42776 = ctor__41563__auto__.prototype;
+(x42378_42776.componentDidUpdate = (function (_,___$1){
 var this$ = this;
 var atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -542,7 +542,7 @@ return null;
 }
 }));
 
-(x42378_42778.componentWillMount = (function (){
+(x42378_42776.componentWillMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 return this$.setState((function (){var or__4185__auto__ = (function (){var and__4174__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -563,7 +563,7 @@ return null;
 }
 }));
 
-(x42378_42778.componentWillUnmount = (function (){
+(x42378_42776.componentWillUnmount = (function (){
 var this$ = this;
 var data_atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var id = devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329));
@@ -580,7 +580,7 @@ return null;
 }
 }));
 
-(x42378_42778.componentDidMount = (function (){
+(x42378_42776.componentDidMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 var temp__5735__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -603,7 +603,7 @@ return null;
 }
 }));
 
-(x42378_42778.render = (function (){
+(x42378_42776.render = (function (){
 var this$ = this;
 var data_atom = (devcards.core.get_data_atom.cljs$core$IFn$_invoke$arity$1 ? devcards.core.get_data_atom.cljs$core$IFn$_invoke$arity$1(this$) : devcards.core.get_data_atom.call(null,this$));
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -2167,12 +2167,12 @@ var state_42620__$1 = (function (){var statearr_42642 = state_42620;
 return statearr_42642;
 })();
 if(inst_42537){
-var statearr_42643_42871 = state_42620__$1;
-(statearr_42643_42871[(1)] = (3));
+var statearr_42643_42876 = state_42620__$1;
+(statearr_42643_42876[(1)] = (3));
 
 } else {
-var statearr_42644_42872 = state_42620__$1;
-(statearr_42644_42872[(1)] = (4));
+var statearr_42644_42877 = state_42620__$1;
+(statearr_42644_42877[(1)] = (4));
 
 }
 
@@ -2196,10 +2196,10 @@ return cljs.core.async.ioc_alts_BANG_(state_42620__$1,(26),inst_42592);
 if((state_val_42621 === (19))){
 var inst_42573 = (state_42620[(2)]);
 var state_42620__$1 = state_42620;
-var statearr_42646_42877 = state_42620__$1;
-(statearr_42646_42877[(2)] = inst_42573);
+var statearr_42646_42878 = state_42620__$1;
+(statearr_42646_42878[(2)] = inst_42573);
 
-(statearr_42646_42877[(1)] = (16));
+(statearr_42646_42878[(1)] = (16));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
