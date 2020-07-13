@@ -103,24 +103,24 @@ return cljs.core.clj__GT_js(x);
 } else {
 if(cljs.core.ifn_QMARK_(x)){
 return (function() { 
-var G__31727__delegate = function (args){
+var G__31722__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 };
-var G__31727 = function (var_args){
+var G__31722 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31728__i = 0, G__31728__a = new Array(arguments.length -  0);
-while (G__31728__i < G__31728__a.length) {G__31728__a[G__31728__i] = arguments[G__31728__i + 0]; ++G__31728__i;}
-  args = new cljs.core.IndexedSeq(G__31728__a,0,null);
+var G__31726__i = 0, G__31726__a = new Array(arguments.length -  0);
+while (G__31726__i < G__31726__a.length) {G__31726__a[G__31726__i] = arguments[G__31726__i + 0]; ++G__31726__i;}
+  args = new cljs.core.IndexedSeq(G__31726__a,0,null);
 } 
-return G__31727__delegate.call(this,args);};
-G__31727.cljs$lang$maxFixedArity = 0;
-G__31727.cljs$lang$applyTo = (function (arglist__31729){
-var args = cljs.core.seq(arglist__31729);
-return G__31727__delegate(args);
+return G__31722__delegate.call(this,args);};
+G__31722.cljs$lang$maxFixedArity = 0;
+G__31722.cljs$lang$applyTo = (function (arglist__31727){
+var args = cljs.core.seq(arglist__31727);
+return G__31722__delegate(args);
 });
-G__31727.cljs$core$IFn$_invoke$arity$variadic = G__31727__delegate;
-return G__31727;
+G__31722.cljs$core$IFn$_invoke$arity$variadic = G__31722__delegate;
+return G__31722;
 })()
 ;
 } else {
@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__31685 = o;
-var G__31686_31734 = G__31685;
-var G__31687_31735 = reagent.impl.template.cached_custom_prop_name(k);
-var G__31688_31736 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__31686_31734,G__31687_31735,G__31688_31736);
+var G__31686_31733 = G__31685;
+var G__31687_31734 = reagent.impl.template.cached_custom_prop_name(k);
+var G__31688_31735 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__31686_31733,G__31687_31734,G__31688_31735);
 
 return G__31685;
 });

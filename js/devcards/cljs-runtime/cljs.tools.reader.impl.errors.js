@@ -171,16 +171,16 @@ return cljs.tools.reader.impl.errors.throw_ex.cljs$core$IFn$_invoke$arity$variad
 (cljs.tools.reader.impl.errors.eof_error.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.eof_error.cljs$lang$applyTo = (function (seq24303){
-var G__24304 = cljs.core.first(seq24303);
-var seq24303__$1 = cljs.core.next(seq24303);
+(cljs.tools.reader.impl.errors.eof_error.cljs$lang$applyTo = (function (seq24305){
+var G__24306 = cljs.core.first(seq24305);
+var seq24305__$1 = cljs.core.next(seq24305);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24304,seq24303__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24306,seq24305__$1);
 }));
 
 cljs.tools.reader.impl.errors.throw_eof_delimited = (function cljs$tools$reader$impl$errors$throw_eof_delimited(var_args){
-var G__24308 = arguments.length;
-switch (G__24308) {
+var G__24309 = arguments.length;
+switch (G__24309) {
 case 4:
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 

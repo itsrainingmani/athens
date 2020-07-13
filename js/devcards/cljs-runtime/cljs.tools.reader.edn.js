@@ -75,14 +75,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__24595 = (function (){var G__24534 = sb;
+var G__24597 = (function (){var G__24534 = sb;
 G__24534.append(cljs.tools.reader.reader_types.read_char(rdr));
 
 return G__24534;
 })();
-var G__24596 = cljs.tools.reader.reader_types.peek_char(rdr);
-sb = G__24595;
-ch = G__24596;
+var G__24598 = cljs.tools.reader.reader_types.peek_char(rdr);
+sb = G__24597;
+ch = G__24598;
 continue;
 }
 }
@@ -318,15 +318,15 @@ var G__24606 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke
 a = G__24606;
 continue;
 } else {
-var o = (function (){var G__24548 = (function (){var G__24552 = rdr;
+var o = (function (){var G__24547 = (function (){var G__24552 = rdr;
 cljs.tools.reader.reader_types.unread(G__24552,ch);
 
 return G__24552;
 })();
-var G__24549 = true;
-var G__24550 = null;
-var G__24551 = opts;
-return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24548,G__24549,G__24550,G__24551) : cljs.tools.reader.edn.read.call(null,G__24548,G__24549,G__24550,G__24551));
+var G__24548 = true;
+var G__24549 = null;
+var G__24550 = opts;
+return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24547,G__24548,G__24549,G__24550) : cljs.tools.reader.edn.read.call(null,G__24547,G__24548,G__24549,G__24550));
 })();
 var G__24607 = (((!((o === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,o):a);
 a = G__24607;
@@ -827,10 +827,10 @@ return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2(cljs.core.Persis
 }));
 
 (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2 = (function (p__24584,reader){
-var map__24585 = p__24584;
-var map__24585__$1 = (((((!((map__24585 == null))))?(((((map__24585.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24585.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24585):map__24585);
-var opts = map__24585__$1;
-var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24585__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
+var map__24587 = p__24584;
+var map__24587__$1 = (((((!((map__24587 == null))))?(((((map__24587.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24587.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24587):map__24587);
+var opts = map__24587__$1;
+var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24587__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
 var eof_error_QMARK_ = (!(cljs.core.contains_QMARK_(opts,new cljs.core.Keyword(null,"eof","eof",-489063237))));
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(reader,eof_error_QMARK_,eof,opts);
 }));
