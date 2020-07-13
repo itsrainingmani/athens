@@ -68,8 +68,8 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(re_frame.registrar.kind__GT_i
 return handler_fn;
 });
 re_frame.registrar.clear_handlers = (function re_frame$registrar$clear_handlers(var_args){
-var G__46572 = arguments.length;
-switch (G__46572) {
+var G__46568 = arguments.length;
+switch (G__46568) {
 case 0:
 return re_frame.registrar.clear_handlers.cljs$core$IFn$_invoke$arity$0();
 

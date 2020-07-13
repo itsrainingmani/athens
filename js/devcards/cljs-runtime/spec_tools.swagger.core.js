@@ -14,8 +14,8 @@ spec_tools.swagger.core.accept_spec = (function (){var method_table__4672__auto_
 var prefer_table__4673__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4674__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4675__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.swagger.core","default","spec-tools.swagger.core/default",1361779456)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48557 = cljs.core.get_global_hierarchy;
-return (fexpr__48557.cljs$core$IFn$_invoke$arity$0 ? fexpr__48557.cljs$core$IFn$_invoke$arity$0() : fexpr__48557.call(null));
+var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.swagger.core","default","spec-tools.swagger.core/default",1361779456)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48556 = cljs.core.get_global_hierarchy;
+return (fexpr__48556.cljs$core$IFn$_invoke$arity$0 ? fexpr__48556.cljs$core$IFn$_invoke$arity$0() : fexpr__48556.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("spec-tools.swagger.core","accept-spec"),spec_tools.swagger.core.spec_dispatch,new cljs.core.Keyword("spec-tools.swagger.core","default","spec-tools.swagger.core/default",1361779456),hierarchy__4676__auto__,method_table__4672__auto__,prefer_table__4673__auto__,method_cache__4674__auto__,cached_hierarchy__4675__auto__));
 })();
@@ -242,17 +242,17 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__48587){
-var vec__48588 = p__48587;
-var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48588,(0),null);
-var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48588,(1),null);
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__48586){
+var vec__48587 = p__48586;
+var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48587,(0),null);
+var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48587,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v], 0));
-var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__48591,p){
-var vec__48592 = p__48591;
-var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48592,(0),null);
-var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48592,(1),null);
-var acc__$1 = vec__48592;
+var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__48590,p){
+var vec__48591 = p__48590;
+var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48591,(0),null);
+var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48591,(1),null);
+var acc__$1 = vec__48591;
 var c = cljs.core.select_keys(p,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.Keyword(null,"name","name",1843675177)], null));
 if(cljs.core.not((cache.cljs$core$IFn$_invoke$arity$1 ? cache.cljs$core$IFn$_invoke$arity$1(c) : cache.call(null,c)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ps,p),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cache,c)], null);
@@ -285,8 +285,8 @@ return x__$1;
  *   with the `spec-tools.swagger.core/expand` multimethod.
  */
 spec_tools.swagger.core.swagger_spec = (function spec_tools$swagger$core$swagger_spec(var_args){
-var G__48596 = arguments.length;
-switch (G__48596) {
+var G__48595 = arguments.length;
+switch (G__48595) {
 case 1:
 return spec_tools.swagger.core.swagger_spec.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

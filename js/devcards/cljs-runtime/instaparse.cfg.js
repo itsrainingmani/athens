@@ -79,16 +79,16 @@ var temp__5733__auto____$1 = cljs.core.second(sq);
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var c2 = temp__5733__auto____$1;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c2,"'")){
-var G__57016 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__57017 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
-sq = G__57016;
-v = G__57017;
+var G__57015 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__57016 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
+sq = G__57015;
+v = G__57016;
 continue;
 } else {
-var G__57018 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__57019 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,c,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c2], 0));
-sq = G__57018;
-v = G__57019;
+var G__57017 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__57018 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,c,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c2], 0));
+sq = G__57017;
+v = G__57018;
 continue;
 }
 } else {
@@ -97,18 +97,18 @@ return instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$varia
 
 break;
 case "\"":
-var G__57020 = cljs.core.next(sq);
-var G__57021 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,"\\",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["\""], 0));
-sq = G__57020;
-v = G__57021;
+var G__57019 = cljs.core.next(sq);
+var G__57020 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,"\\",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["\""], 0));
+sq = G__57019;
+v = G__57020;
 continue;
 
 break;
 default:
-var G__57022 = cljs.core.next(sq);
-var G__57023 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c);
-sq = G__57022;
-v = G__57023;
+var G__57021 = cljs.core.next(sq);
+var G__57022 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c);
+sq = G__57021;
+v = G__57022;
 continue;
 
 }
@@ -149,16 +149,16 @@ return final_string;
  */
 instaparse.cfg.build_rule = (function instaparse$cfg$build_rule(tree){
 while(true){
-var G__56982 = (instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.tag.call(null,tree));
-var G__56982__$1 = (((G__56982 instanceof cljs.core.Keyword))?G__56982.fqn:null);
-switch (G__56982__$1) {
+var G__56978 = (instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.tag.call(null,tree));
+var G__56978__$1 = (((G__56978 instanceof cljs.core.Keyword))?G__56978.fqn:null);
+switch (G__56978__$1) {
 case "rule":
-var vec__56983 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.contents.call(null,tree));
-var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56983,(0),null);
-var alt_or_ord = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56983,(1),null);
+var vec__56979 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.contents.call(null,tree));
+var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56979,(0),null);
+var alt_or_ord = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56979,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.tag.call(null,nt)),new cljs.core.Keyword(null,"hide-nt","hide-nt",-228813845))){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__56986 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt));
-return (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(G__56986) : instaparse.cfg.content.call(null,G__56986));
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__56982 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt));
+return (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(G__56982) : instaparse.cfg.content.call(null,G__56982));
 })()),instaparse.combinators_source.hide_tag((instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(alt_or_ord) : instaparse.cfg.build_rule.call(null,alt_or_ord)))], null);
 } else {
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt))),(instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(alt_or_ord) : instaparse.cfg.build_rule.call(null,alt_or_ord))], null);
@@ -184,8 +184,8 @@ continue;
 
 break;
 case "hide":
-return instaparse.combinators_source.hide((function (){var G__56987 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56987) : instaparse.cfg.build_rule.call(null,G__56987));
+return instaparse.combinators_source.hide((function (){var G__56983 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56983) : instaparse.cfg.build_rule.call(null,G__56983));
 })());
 
 break;
@@ -202,32 +202,32 @@ return instaparse.combinators_source.regexp(instaparse.cfg.process_regexp((insta
 
 break;
 case "opt":
-return instaparse.combinators_source.opt((function (){var G__56989 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56989) : instaparse.cfg.build_rule.call(null,G__56989));
+return instaparse.combinators_source.opt((function (){var G__56984 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56984) : instaparse.cfg.build_rule.call(null,G__56984));
 })());
 
 break;
 case "star":
-return instaparse.combinators_source.star((function (){var G__56990 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56990) : instaparse.cfg.build_rule.call(null,G__56990));
+return instaparse.combinators_source.star((function (){var G__56985 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56985) : instaparse.cfg.build_rule.call(null,G__56985));
 })());
 
 break;
 case "plus":
-return instaparse.combinators_source.plus((function (){var G__56991 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56991) : instaparse.cfg.build_rule.call(null,G__56991));
+return instaparse.combinators_source.plus((function (){var G__56990 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56990) : instaparse.cfg.build_rule.call(null,G__56990));
 })());
 
 break;
 case "look":
-return instaparse.combinators_source.look((function (){var G__56992 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56992) : instaparse.cfg.build_rule.call(null,G__56992));
+return instaparse.combinators_source.look((function (){var G__56991 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56991) : instaparse.cfg.build_rule.call(null,G__56991));
 })());
 
 break;
 case "neg":
-return instaparse.combinators_source.neg((function (){var G__56993 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56993) : instaparse.cfg.build_rule.call(null,G__56993));
+return instaparse.combinators_source.neg((function (){var G__56992 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56992) : instaparse.cfg.build_rule.call(null,G__56992));
 })());
 
 break;
@@ -236,7 +236,7 @@ return instaparse.combinators_source.Epsilon;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56982__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56978__$1)].join('')));
 
 }
 break;
@@ -247,9 +247,9 @@ break;
  */
 instaparse.cfg.seq_nt = (function instaparse$cfg$seq_nt(parser){
 while(true){
-var G__56994 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
-var G__56994__$1 = (((G__56994 instanceof cljs.core.Keyword))?G__56994.fqn:null);
-switch (G__56994__$1) {
+var G__56993 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
+var G__56993__$1 = (((G__56993 instanceof cljs.core.Keyword))?G__56993.fqn:null);
+switch (G__56993__$1) {
 case "nt":
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keyword","keyword",811389747).cljs$core$IFn$_invoke$arity$1(parser)], null);
 
@@ -283,7 +283,7 @@ return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56994__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56993__$1)].join('')));
 
 }
 break;

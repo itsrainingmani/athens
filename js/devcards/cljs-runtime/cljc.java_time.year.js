@@ -14,8 +14,8 @@ cljc.java_time.year.at_day = (function cljc$java_time$year$at_day(this4505,int45
 return this4505.atDay(int4506);
 });
 cljc.java_time.year.plus = (function cljc$java_time$year$plus(var_args){
-var G__50668 = arguments.length;
-switch (G__50668) {
+var G__50669 = arguments.length;
+switch (G__50669) {
 case 3:
 return cljc.java_time.year.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -173,8 +173,8 @@ return this4550.with(G__4551,G__4552);
 (cljc.java_time.year.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.year.now = (function cljc$java_time$year$now(var_args){
-var G__50677 = arguments.length;
-switch (G__50677) {
+var G__50679 = arguments.length;
+switch (G__50679) {
 case 0:
 return cljc.java_time.year.now.cljs$core$IFn$_invoke$arity$0();
 

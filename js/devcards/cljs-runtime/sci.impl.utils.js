@@ -107,10 +107,10 @@ var m = temp__5733__auto__;
 if(clojure.string.includes_QMARK_(m,"[at")){
 throw e;
 } else {
-var map__58489 = cljs.core.meta(node);
-var map__58489__$1 = (((((!((map__58489 == null))))?(((((map__58489.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58489.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58489):map__58489);
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__58489__$1,new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"line","line",212345235).cljs$core$IFn$_invoke$arity$1(ctx));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__58489__$1,new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"column","column",2078222095).cljs$core$IFn$_invoke$arity$1(ctx));
+var map__58492 = cljs.core.meta(node);
+var map__58492__$1 = (((((!((map__58492 == null))))?(((((map__58492.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58492.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58492):map__58492);
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__58492__$1,new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"line","line",212345235).cljs$core$IFn$_invoke$arity$1(ctx));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__58492__$1,new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"column","column",2078222095).cljs$core$IFn$_invoke$arity$1(ctx));
 if(cljs.core.truth_((function (){var and__4174__auto__ = line;
 if(cljs.core.truth_(and__4174__auto__)){
 return column;
@@ -175,13 +175,13 @@ return obj;
 (sci.impl.utils.vary_meta_STAR_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58491){
-var G__58492 = cljs.core.first(seq58491);
-var seq58491__$1 = cljs.core.next(seq58491);
-var G__58493 = cljs.core.first(seq58491__$1);
-var seq58491__$2 = cljs.core.next(seq58491__$1);
+(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58499){
+var G__58500 = cljs.core.first(seq58499);
+var seq58499__$1 = cljs.core.next(seq58499);
+var G__58501 = cljs.core.first(seq58499__$1);
+var seq58499__$2 = cljs.core.next(seq58499__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58492,G__58493,seq58491__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58500,G__58501,seq58499__$2);
 }));
 
 /**
@@ -215,8 +215,8 @@ return obj;
 }
 });
 sci.impl.utils.strip_core_ns = (function sci$impl$utils$strip_core_ns(sym){
-var G__58502 = cljs.core.namespace(sym);
-switch (G__58502) {
+var G__58506 = cljs.core.namespace(sym);
+switch (G__58506) {
 case "clojure.core":
 case "cljs.core":
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(sym));
