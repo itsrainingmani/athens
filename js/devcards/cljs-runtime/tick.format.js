@@ -12,8 +12,8 @@ tick.format.predefined_formatters = new cljs.core.PersistentArrayMap(null, 6, [n
  *   and a Locale, which is optional.
  */
 tick.format.formatter = (function tick$format$formatter(var_args){
-var G__50882 = arguments.length;
-switch (G__50882) {
+var G__50877 = arguments.length;
+switch (G__50877) {
 case 1:
 return tick.format.formatter.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -29,17 +29,17 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (tick.format.formatter.cljs$core$IFn$_invoke$arity$1 = (function (fmt){
-return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__50884 = goog.object.get(JSJodaLocale,"Locale");
-if((G__50884 == null)){
+return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__50879 = goog.object.get(JSJodaLocale,"Locale");
+if((G__50879 == null)){
 return null;
 } else {
-return goog.object.get(G__50884,"US");
+return goog.object.get(G__50879,"US");
 }
-}catch (e50883){if((e50883 instanceof Error)){
-var e = e50883;
+}catch (e50878){if((e50878 instanceof Error)){
+var e = e50878;
 return null;
 } else {
-throw e50883;
+throw e50878;
 
 }
 }})());
@@ -59,8 +59,8 @@ return fmt__$1;
  *   argument. Given one argument uses the default format.
  */
 tick.format.format = (function tick$format$format(var_args){
-var G__50886 = arguments.length;
-switch (G__50886) {
+var G__50881 = arguments.length;
+switch (G__50881) {
 case 1:
 return tick.format.format.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

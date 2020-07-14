@@ -13,20 +13,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,counter)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"line","line",212345235),line,new cljs.core.Keyword(null,"column","column",2078222095),col], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.get.cljs$core$IFn$_invoke$arity$2(text,counter))){
-var G__55953 = (line + (1));
-var G__55954 = (1);
-var G__55955 = (counter + (1));
-line = G__55953;
-col = G__55954;
-counter = G__55955;
+var G__55954 = (line + (1));
+var G__55955 = (1);
+var G__55956 = (counter + (1));
+line = G__55954;
+col = G__55955;
+counter = G__55956;
 continue;
 } else {
-var G__55956 = line;
-var G__55957 = (col + (1));
-var G__55958 = (counter + (1));
-line = G__55956;
-col = G__55957;
-counter = G__55958;
+var G__55957 = line;
+var G__55958 = (col + (1));
+var G__55959 = (counter + (1));
+line = G__55957;
+col = G__55958;
+counter = G__55959;
 continue;
 
 }
@@ -134,57 +134,57 @@ cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$c
 }
 }
 
-var seq__55939_55964 = cljs.core.seq(full_reasons);
-var chunk__55940_55965 = null;
-var count__55941_55966 = (0);
-var i__55942_55967 = (0);
+var seq__55943_55964 = cljs.core.seq(full_reasons);
+var chunk__55944_55965 = null;
+var count__55945_55966 = (0);
+var i__55946_55967 = (0);
 while(true){
-if((i__55942_55967 < count__55941_55966)){
-var r_55968 = chunk__55940_55965.cljs$core$IIndexed$_nth$arity$2(null,i__55942_55967);
+if((i__55946_55967 < count__55945_55966)){
+var r_55968 = chunk__55944_55965.cljs$core$IIndexed$_nth$arity$2(null,i__55946_55967);
 instaparse.failure.print_reason(r_55968);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__55969 = seq__55939_55964;
-var G__55970 = chunk__55940_55965;
-var G__55971 = count__55941_55966;
-var G__55972 = (i__55942_55967 + (1));
-seq__55939_55964 = G__55969;
-chunk__55940_55965 = G__55970;
-count__55941_55966 = G__55971;
-i__55942_55967 = G__55972;
+var G__55969 = seq__55943_55964;
+var G__55970 = chunk__55944_55965;
+var G__55971 = count__55945_55966;
+var G__55972 = (i__55946_55967 + (1));
+seq__55943_55964 = G__55969;
+chunk__55944_55965 = G__55970;
+count__55945_55966 = G__55971;
+i__55946_55967 = G__55972;
 continue;
 } else {
-var temp__5735__auto___55973 = cljs.core.seq(seq__55939_55964);
+var temp__5735__auto___55973 = cljs.core.seq(seq__55943_55964);
 if(temp__5735__auto___55973){
-var seq__55939_55974__$1 = temp__5735__auto___55973;
-if(cljs.core.chunked_seq_QMARK_(seq__55939_55974__$1)){
-var c__4609__auto___55975 = cljs.core.chunk_first(seq__55939_55974__$1);
-var G__55976 = cljs.core.chunk_rest(seq__55939_55974__$1);
+var seq__55943_55974__$1 = temp__5735__auto___55973;
+if(cljs.core.chunked_seq_QMARK_(seq__55943_55974__$1)){
+var c__4609__auto___55975 = cljs.core.chunk_first(seq__55943_55974__$1);
+var G__55976 = cljs.core.chunk_rest(seq__55943_55974__$1);
 var G__55977 = c__4609__auto___55975;
 var G__55978 = cljs.core.count(c__4609__auto___55975);
 var G__55979 = (0);
-seq__55939_55964 = G__55976;
-chunk__55940_55965 = G__55977;
-count__55941_55966 = G__55978;
-i__55942_55967 = G__55979;
+seq__55943_55964 = G__55976;
+chunk__55944_55965 = G__55977;
+count__55945_55966 = G__55978;
+i__55946_55967 = G__55979;
 continue;
 } else {
-var r_55980 = cljs.core.first(seq__55939_55974__$1);
+var r_55980 = cljs.core.first(seq__55943_55974__$1);
 instaparse.failure.print_reason(r_55980);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__55981 = cljs.core.next(seq__55939_55974__$1);
+var G__55981 = cljs.core.next(seq__55943_55974__$1);
 var G__55982 = null;
 var G__55983 = (0);
 var G__55984 = (0);
-seq__55939_55964 = G__55981;
-chunk__55940_55965 = G__55982;
-count__55941_55966 = G__55983;
-i__55942_55967 = G__55984;
+seq__55943_55964 = G__55981;
+chunk__55944_55965 = G__55982;
+count__55945_55966 = G__55983;
+i__55946_55967 = G__55984;
 continue;
 }
 } else {

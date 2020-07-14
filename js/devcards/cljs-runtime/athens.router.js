@@ -8,25 +8,25 @@ goog.require('reitit.coercion.spec');
 goog.require('reitit.frontend');
 goog.require('reitit.frontend.controllers');
 goog.require('reitit.frontend.easy');
-var G__50437_50463 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
-var G__50438_50464 = (function (db){
+var G__50438_50463 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
+var G__50439_50464 = (function (db){
 return new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__50437_50463,G__50438_50464) : re_frame.core.reg_sub.call(null,G__50437_50463,G__50438_50464));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__50439){
-var vec__50440 = p__50439;
-var seq__50441 = cljs.core.seq(vec__50440);
-var first__50442 = cljs.core.first(seq__50441);
-var seq__50441__$1 = cljs.core.next(seq__50441);
-var ___$1 = first__50442;
-var route = seq__50441__$1;
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__50438_50463,G__50439_50464) : re_frame.core.reg_sub.call(null,G__50438_50463,G__50439_50464));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__50440){
+var vec__50441 = p__50440;
+var seq__50442 = cljs.core.seq(vec__50441);
+var first__50443 = cljs.core.first(seq__50442);
+var seq__50442__$1 = cljs.core.next(seq__50442);
+var ___$1 = first__50443;
+var route = seq__50442__$1;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"navigate!","navigate!",79998348),route], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__50443,p__50444){
-var map__50446 = p__50443;
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__50444,p__50445){
+var map__50446 = p__50444;
 var map__50446__$1 = (((((!((map__50446 == null))))?(((((map__50446.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50446.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50446):map__50446);
 var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50446__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__50447 = p__50444;
+var vec__50447 = p__50445;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50447,(0),null);
 var new_match = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50447,(1),null);
 var old_match = new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
