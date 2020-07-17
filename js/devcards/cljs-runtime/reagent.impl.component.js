@@ -14,10 +14,10 @@ var i = (0);
 while(true){
 if((i < len)){
 var k = (ks[i]);
-var G__31904 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),goog.object.get(o,k));
-var G__31905 = (i + (1));
-m = G__31904;
-i = G__31905;
+var G__31906 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),goog.object.get(o,k));
+var G__31907 = (i + (1));
+m = G__31906;
+i = G__31907;
 continue;
 } else {
 return m;
@@ -238,9 +238,9 @@ return rat._run(false);
 }
 })], null);
 reagent.impl.component.custom_wrapper = (function reagent$impl$component$custom_wrapper(key,f){
-var G__31812 = key;
-var G__31812__$1 = (((G__31812 instanceof cljs.core.Keyword))?G__31812.fqn:null);
-switch (G__31812__$1) {
+var G__31813 = key;
+var G__31813__$1 = (((G__31813 instanceof cljs.core.Keyword))?G__31813.fqn:null);
+switch (G__31813__$1) {
 case "getDefaultProps":
 throw (new Error("getDefaultProps not supported"));
 
@@ -530,10 +530,10 @@ if(cljs.core.truth_(get_initial_state)){
 
 return this$;
 });
-var G__31833_31920 = cmp.prototype;
-var G__31834_31921 = module$node_modules$react$index.Component.prototype;
-var G__31835_31922 = methods$;
-goog.object.extend(G__31833_31920,G__31834_31921,G__31835_31922);
+var G__31854_31920 = cmp.prototype;
+var G__31855_31921 = module$node_modules$react$index.Component.prototype;
+var G__31856_31922 = methods$;
+goog.object.extend(G__31854_31920,G__31855_31921,G__31856_31922);
 
 if(cljs.core.truth_(new cljs.core.Keyword(null,"render","render",-1408033454).cljs$core$IFn$_invoke$arity$1(body__$1))){
 (cmp.prototype.render = new cljs.core.Keyword(null,"render","render",-1408033454).cljs$core$IFn$_invoke$arity$1(body__$1));
@@ -570,19 +570,19 @@ return cljs.core._write(writer,display_name);
 return cmp;
 });
 reagent.impl.component.fiber_component_path = (function reagent$impl$component$fiber_component_path(fiber){
-var name = (function (){var G__31849 = fiber;
-var G__31849__$1 = (((G__31849 == null))?null:G__31849.type);
-if((G__31849__$1 == null)){
+var name = (function (){var G__31857 = fiber;
+var G__31857__$1 = (((G__31857 == null))?null:G__31857.type);
+if((G__31857__$1 == null)){
 return null;
 } else {
-return G__31849__$1.displayName;
+return G__31857__$1.displayName;
 }
 })();
-var parent = (function (){var G__31854 = fiber;
-if((G__31854 == null)){
+var parent = (function (){var G__31858 = fiber;
+if((G__31858 == null)){
 return null;
 } else {
-return G__31854.return;
+return G__31858.return;
 }
 })();
 var path = (function (){var G__31859 = parent;
@@ -623,21 +623,21 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var fiber = temp__5733__auto__;
 return reagent.impl.component.fiber_component_path(fiber);
 } else {
-var instance = (function (){var or__4185__auto__ = (function (){var G__31864 = c;
-if((G__31864 == null)){
+var instance = (function (){var or__4185__auto__ = (function (){var G__31868 = c;
+if((G__31868 == null)){
 return null;
 } else {
-return goog.object.get(G__31864,"_reactInternalInstance");
+return goog.object.get(G__31868,"_reactInternalInstance");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var or__4185__auto____$1 = (function (){var G__31866 = c;
-if((G__31866 == null)){
+var or__4185__auto____$1 = (function (){var G__31871 = c;
+if((G__31871 == null)){
 return null;
 } else {
-return G__31866._reactInternalInstance;
+return G__31871._reactInternalInstance;
 }
 })();
 if(cljs.core.truth_(or__4185__auto____$1)){
@@ -647,56 +647,56 @@ return c;
 }
 }
 })();
-var elem = (function (){var or__4185__auto__ = (function (){var G__31868 = instance;
-if((G__31868 == null)){
+var elem = (function (){var or__4185__auto__ = (function (){var G__31880 = instance;
+if((G__31880 == null)){
 return null;
 } else {
-return goog.object.get(G__31868,"_currentElement");
+return goog.object.get(G__31880,"_currentElement");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__31869 = instance;
-if((G__31869 == null)){
+var G__31886 = instance;
+if((G__31886 == null)){
 return null;
 } else {
-return G__31869._currentElement;
+return G__31886._currentElement;
 }
 }
 })();
-var name = (function (){var G__31870 = elem;
-var G__31870__$1 = (((G__31870 == null))?null:G__31870.type);
-if((G__31870__$1 == null)){
+var name = (function (){var G__31891 = elem;
+var G__31891__$1 = (((G__31891 == null))?null:G__31891.type);
+if((G__31891__$1 == null)){
 return null;
 } else {
-return G__31870__$1.displayName;
+return G__31891__$1.displayName;
 }
 })();
-var owner = (function (){var or__4185__auto__ = (function (){var G__31876 = elem;
-if((G__31876 == null)){
+var owner = (function (){var or__4185__auto__ = (function (){var G__31894 = elem;
+if((G__31894 == null)){
 return null;
 } else {
-return goog.object.get(G__31876,"_owner");
+return goog.object.get(G__31894,"_owner");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__31890 = elem;
-if((G__31890 == null)){
+var G__31896 = elem;
+if((G__31896 == null)){
 return null;
 } else {
-return G__31890._owner;
+return G__31896._owner;
 }
 }
 })();
-var path = (function (){var G__31895 = owner;
-var G__31895__$1 = (((G__31895 == null))?null:(reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1(G__31895) : reagent.impl.component.component_path.call(null,G__31895)));
-if((G__31895__$1 == null)){
+var path = (function (){var G__31897 = owner;
+var G__31897__$1 = (((G__31897 == null))?null:(reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.component_path.cljs$core$IFn$_invoke$arity$1(G__31897) : reagent.impl.component.component_path.call(null,G__31897)));
+if((G__31897__$1 == null)){
 return null;
 } else {
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31895__$1)," > "].join('');
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31897__$1)," > "].join('');
 }
 })();
 var res = [path,cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)].join('');

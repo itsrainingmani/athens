@@ -5,12 +5,12 @@ goog.require('posh.lib.datom_matcher');
 goog.require('posh.lib.pull_analyze');
 goog.require('posh.lib.q_analyze');
 goog.require('posh.lib.db');
-posh.lib.update.update_pull = (function posh$lib$update$update_pull(p__31271,storage_key){
-var map__31272 = p__31271;
-var map__31272__$1 = (((((!((map__31272 == null))))?(((((map__31272.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__31272.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__31272):map__31272);
-var posh_tree = map__31272__$1;
-var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31272__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
-var retrieve = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31272__$1,new cljs.core.Keyword(null,"retrieve","retrieve",-657129560));
+posh.lib.update.update_pull = (function posh$lib$update$update_pull(p__31269,storage_key){
+var map__31270 = p__31269;
+var map__31270__$1 = (((((!((map__31270 == null))))?(((((map__31270.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__31270.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__31270):map__31270);
+var posh_tree = map__31270__$1;
+var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31270__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
+var retrieve = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31270__$1,new cljs.core.Keyword(null,"retrieve","retrieve",-657129560));
 var vec__31274 = storage_key;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31274,(0),null);
 var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31274,(1),null);
