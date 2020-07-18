@@ -203,13 +203,13 @@ return datascript.pull_api.subpattern_frame(cljs.core.assoc.cljs$core$IFn$_invok
 datascript.pull_api.expand_result = (function datascript$pull_api$expand_result(frames,kvps){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(frames),cljs.core.update.cljs$core$IFn$_invoke$arity$4(cljs.core.first(frames),new cljs.core.Keyword(null,"kvps","kvps",65308317),datascript.pull_api.into_BANG_,cljs.core.persistent_BANG_(kvps)));
 });
-datascript.pull_api.pull_expand_reverse_frame = (function datascript$pull_api$pull_expand_reverse_frame(db,p__26424){
-var vec__26425 = p__26424;
-var seq__26426 = cljs.core.seq(vec__26425);
-var first__26427 = cljs.core.first(seq__26426);
-var seq__26426__$1 = cljs.core.next(seq__26426);
-var frame = first__26427;
-var frames = seq__26426__$1;
+datascript.pull_api.pull_expand_reverse_frame = (function datascript$pull_api$pull_expand_reverse_frame(db,p__26423){
+var vec__26424 = p__26423;
+var seq__26425 = cljs.core.seq(vec__26424);
+var first__26426 = cljs.core.first(seq__26425);
+var seq__26425__$1 = cljs.core.next(seq__26425);
+var frame = first__26426;
+var frames = seq__26425__$1;
 return datascript.pull_api.expand_result(frames,datascript.pull_api.into_BANG_(new cljs.core.Keyword(null,"expand-kvps","expand-kvps",44141154).cljs$core$IFn$_invoke$arity$1(frame),(function (){var or__4185__auto__ = datascript.pull_api.single_frame_result(new cljs.core.Keyword("datascript.pull-api","expand-rev","datascript.pull-api/expand-rev",2143627459),frame);
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -218,13 +218,13 @@ return cljs.core.PersistentArrayMap.EMPTY;
 }
 })()));
 });
-datascript.pull_api.pull_expand_frame = (function datascript$pull_api$pull_expand_frame(db,p__26431){
-var vec__26432 = p__26431;
-var seq__26433 = cljs.core.seq(vec__26432);
-var first__26434 = cljs.core.first(seq__26433);
-var seq__26433__$1 = cljs.core.next(seq__26433);
-var frame = first__26434;
-var frames = seq__26433__$1;
+datascript.pull_api.pull_expand_frame = (function datascript$pull_api$pull_expand_frame(db,p__26428){
+var vec__26429 = p__26428;
+var seq__26430 = cljs.core.seq(vec__26429);
+var first__26431 = cljs.core.first(seq__26430);
+var seq__26430__$1 = cljs.core.next(seq__26430);
+var frame = first__26431;
+var frames = seq__26430__$1;
 var temp__5733__auto__ = cljs.core.seq(new cljs.core.Keyword(null,"datoms","datoms",-290874434).cljs$core$IFn$_invoke$arity$1(frame));
 if(temp__5733__auto__){
 var datoms_by_attr = temp__5733__auto__;

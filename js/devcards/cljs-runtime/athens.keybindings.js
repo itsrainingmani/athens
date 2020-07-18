@@ -365,24 +365,24 @@ var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56137__$1,new cljs.co
 var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56137__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 var close_pair = cljs.core.get.cljs$core$IFn$_invoke$arity$2(athens.keybindings.PAIR_CHARS,key);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var new_str_56191 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+var new_str_56190 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 setTimeout((function (){
 var G__56139 = target;
 var G__56140 = (start + (1));
 return goog.dom.selection.setCursorPosition(G__56139,G__56140);
 }),(10));
 
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56191);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56190);
 } else {
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var surround_selection_56192 = athens.keybindings.surround(selection,key);
-var new_str_56193 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_56192,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56193);
+var surround_selection_56191 = athens.keybindings.surround(selection,key);
+var new_str_56192 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_56191,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56192);
 
 setTimeout((function (){
-var G__56141_56194 = target;
-var G__56142_56195 = (start + (1));
-goog.dom.selection.setStart(G__56141_56194,G__56142_56195);
+var G__56141_56193 = target;
+var G__56142_56194 = (start + (1));
+goog.dom.selection.setStart(G__56141_56193,G__56142_56194);
 
 var G__56143 = target;
 var G__56144 = (end + (1));

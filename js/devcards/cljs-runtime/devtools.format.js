@@ -426,14 +426,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 devtools.format.group = (function devtools$format$group(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23587 = arguments.length;
-var i__4790__auto___23588 = (0);
+var len__4789__auto___23589 = arguments.length;
+var i__4790__auto___23590 = (0);
 while(true){
-if((i__4790__auto___23588 < len__4789__auto___23587)){
-args__4795__auto__.push((arguments[i__4790__auto___23588]));
+if((i__4790__auto___23590 < len__4789__auto___23589)){
+args__4795__auto__.push((arguments[i__4790__auto___23590]));
 
-var G__23589 = (i__4790__auto___23588 + (1));
-i__4790__auto___23588 = G__23589;
+var G__23591 = (i__4790__auto___23590 + (1));
+i__4790__auto___23590 = G__23591;
 continue;
 } else {
 }
@@ -460,14 +460,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 devtools.format.surrogate = (function devtools$format$surrogate(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23590 = arguments.length;
-var i__4790__auto___23591 = (0);
+var len__4789__auto___23592 = arguments.length;
+var i__4790__auto___23594 = (0);
 while(true){
-if((i__4790__auto___23591 < len__4789__auto___23590)){
-args__4795__auto__.push((arguments[i__4790__auto___23591]));
+if((i__4790__auto___23594 < len__4789__auto___23592)){
+args__4795__auto__.push((arguments[i__4790__auto___23594]));
 
-var G__23592 = (i__4790__auto___23591 + (1));
-i__4790__auto___23591 = G__23592;
+var G__23598 = (i__4790__auto___23594 + (1));
+i__4790__auto___23594 = G__23598;
 continue;
 } else {
 }
@@ -494,14 +494,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 devtools.format.reference = (function devtools$format$reference(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23593 = arguments.length;
-var i__4790__auto___23594 = (0);
+var len__4789__auto___23600 = arguments.length;
+var i__4790__auto___23601 = (0);
 while(true){
-if((i__4790__auto___23594 < len__4789__auto___23593)){
-args__4795__auto__.push((arguments[i__4790__auto___23594]));
+if((i__4790__auto___23601 < len__4789__auto___23600)){
+args__4795__auto__.push((arguments[i__4790__auto___23601]));
 
-var G__23595 = (i__4790__auto___23594 + (1));
-i__4790__auto___23594 = G__23595;
+var G__23602 = (i__4790__auto___23601 + (1));
+i__4790__auto___23601 = G__23602;
 continue;
 } else {
 }
@@ -546,14 +546,14 @@ return (devtools.format.make_template_fn.cljs$core$IFn$_invoke$arity$3 ? devtool
 });
 devtools.format.build_header = (function devtools$format$build_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23596 = arguments.length;
-var i__4790__auto___23597 = (0);
+var len__4789__auto___23606 = arguments.length;
+var i__4790__auto___23607 = (0);
 while(true){
-if((i__4790__auto___23597 < len__4789__auto___23596)){
-args__4795__auto__.push((arguments[i__4790__auto___23597]));
+if((i__4790__auto___23607 < len__4789__auto___23606)){
+args__4795__auto__.push((arguments[i__4790__auto___23607]));
 
-var G__23598 = (i__4790__auto___23597 + (1));
-i__4790__auto___23597 = G__23598;
+var G__23608 = (i__4790__auto___23607 + (1));
+i__4790__auto___23607 = G__23608;
 continue;
 } else {
 }
@@ -580,14 +580,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 devtools.format.standard_body_template = (function devtools$format$standard_body_template(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23599 = arguments.length;
-var i__4790__auto___23600 = (0);
+var len__4789__auto___23609 = arguments.length;
+var i__4790__auto___23610 = (0);
 while(true){
-if((i__4790__auto___23600 < len__4789__auto___23599)){
-args__4795__auto__.push((arguments[i__4790__auto___23600]));
+if((i__4790__auto___23610 < len__4789__auto___23609)){
+args__4795__auto__.push((arguments[i__4790__auto___23610]));
 
-var G__23601 = (i__4790__auto___23600 + (1));
-i__4790__auto___23600 = G__23601;
+var G__23611 = (i__4790__auto___23610 + (1));
+i__4790__auto___23610 = G__23611;
 continue;
 } else {
 }

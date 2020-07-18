@@ -287,12 +287,12 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59477,(1),null);
 if((freq > (1))){
 cljs.core.chunk_append(b__59476,id);
 
-var G__59602 = (i__59475 + (1));
-i__59475 = G__59602;
-continue;
-} else {
 var G__59603 = (i__59475 + (1));
 i__59475 = G__59603;
+continue;
+} else {
+var G__59604 = (i__59475 + (1));
+i__59475 = G__59604;
 continue;
 }
 } else {

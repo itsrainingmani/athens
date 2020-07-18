@@ -258,14 +258,14 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26505,(1),null);
 f.call(use_as_this,v,a,this$);
 
 
-var G__26551 = cljs.core.next(seq__26492__$1);
-var G__26552 = null;
-var G__26553 = (0);
-var G__26554 = (0);
-seq__26492 = G__26551;
-chunk__26493 = G__26552;
-count__26494 = G__26553;
-i__26495 = G__26554;
+var G__26553 = cljs.core.next(seq__26492__$1);
+var G__26554 = null;
+var G__26555 = (0);
+var G__26556 = (0);
+seq__26492 = G__26553;
+chunk__26493 = G__26554;
+count__26494 = G__26555;
+i__26495 = G__26556;
 continue;
 }
 } else {
@@ -550,10 +550,10 @@ throw (new Error("Assert failed: (entity? e)"));
 
 if(cljs.core.truth_(cljs.core.deref(e.touched))){
 } else {
-var temp__5735__auto___26589 = cljs.core.not_empty(datascript.db._search(e.db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [e.eid], null)));
-if(cljs.core.truth_(temp__5735__auto___26589)){
-var datoms_26593 = temp__5735__auto___26589;
-cljs.core.vreset_BANG_(e.cache,datascript.impl.entity.touch_components(e.db,datascript.impl.entity.datoms__GT_cache(e.db,datoms_26593)));
+var temp__5735__auto___26638 = cljs.core.not_empty(datascript.db._search(e.db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [e.eid], null)));
+if(cljs.core.truth_(temp__5735__auto___26638)){
+var datoms_26639 = temp__5735__auto___26638;
+cljs.core.vreset_BANG_(e.cache,datascript.impl.entity.touch_components(e.db,datascript.impl.entity.datoms__GT_cache(e.db,datoms_26639)));
 
 cljs.core.vreset_BANG_(e.touched,true);
 } else {

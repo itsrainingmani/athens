@@ -128,8 +128,8 @@ return closest_page_header;
 }
 })();
 if(cljs.core.truth_(cljs.core.not_empty(selected_items))){
-var G__56177_56190 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","clear-items","selected/clear-items",-700315697)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56177_56190) : re_frame.core.dispatch.call(null,G__56177_56190));
+var G__56177_56195 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","clear-items","selected/clear-items",-700315697)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56177_56195) : re_frame.core.dispatch.call(null,G__56177_56195));
 } else {
 }
 
