@@ -30,8 +30,8 @@ cljc.java_time.zoned_date_time.minus_hours = (function cljc$java_time$zoned_date
 return this3749.minusHours(long3750);
 });
 cljc.java_time.zoned_date_time.of = (function cljc$java_time$zoned_date_time$of(var_args){
-var G__50865 = arguments.length;
-switch (G__50865) {
+var G__50866 = arguments.length;
+switch (G__50866) {
 case 3:
 return cljc.java_time.zoned_date_time.of.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -242,8 +242,8 @@ cljc.java_time.zoned_date_time.get_chronology = (function cljc$java_time$zoned_d
 return this3841.chronology();
 });
 cljc.java_time.zoned_date_time.parse = (function cljc$java_time$zoned_date_time$parse(var_args){
-var G__50874 = arguments.length;
-switch (G__50874) {
+var G__50876 = arguments.length;
+switch (G__50876) {
 case 1:
 return cljc.java_time.zoned_date_time.parse.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -308,8 +308,8 @@ return this3852.with(G__3853,G__3854);
 (cljc.java_time.zoned_date_time.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.zoned_date_time.now = (function cljc$java_time$zoned_date_time$now(var_args){
-var G__50880 = arguments.length;
-switch (G__50880) {
+var G__50882 = arguments.length;
+switch (G__50882) {
 case 1:
 return cljc.java_time.zoned_date_time.now.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
