@@ -49,9 +49,9 @@ devcards.util.edn_renderer.join_html = (function devcards$util$edn_renderer$join
 return devcards.util.edn_renderer.interpose_separator(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.map_indexed.cljs$core$IFn$_invoke$arity$2(devcards.util.edn_renderer.html_val,coll)),separator,devcards.util.edn_renderer.separate_fn(coll));
 });
 devcards.util.edn_renderer.html_keyval = (function devcards$util$edn_renderer$html_keyval(p__42002){
-var vec__42004 = p__42002;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42004,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42004,(1),null);
+var vec__42003 = p__42002;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42003,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42003,(1),null);
 return React.createElement("span",({"key": cljs.core.prn_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([k], 0)), "className": "keyval"}),sablono.interpreter.interpret((devcards.util.edn_renderer.html.cljs$core$IFn$_invoke$arity$1 ? devcards.util.edn_renderer.html.cljs$core$IFn$_invoke$arity$1(k) : devcards.util.edn_renderer.html.call(null,k))),sablono.interpreter.interpret((devcards.util.edn_renderer.html.cljs$core$IFn$_invoke$arity$1 ? devcards.util.edn_renderer.html.cljs$core$IFn$_invoke$arity$1(v) : devcards.util.edn_renderer.html.call(null,v))));
 });
 devcards.util.edn_renderer.html_keyvals = (function devcards$util$edn_renderer$html_keyvals(coll){
@@ -106,12 +106,12 @@ return devcards.util.edn_renderer.literal("literal",x);
 }
 });
 devcards.util.edn_renderer.html_edn = (function devcards$util$edn_renderer$html_edn(e){
-var _STAR_key_counter_STAR__orig_val__42015 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
-var _STAR_key_counter_STAR__temp_val__42016 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
-(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__42016);
+var _STAR_key_counter_STAR__orig_val__42016 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
+var _STAR_key_counter_STAR__temp_val__42017 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
+(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__42017);
 
 try{return React.createElement("div",({"key": "devcards-edn-block", "className": "com-rigsomelight-rendered-edn com-rigsomelight-devcards-typog"}),sablono.interpreter.interpret(devcards.util.edn_renderer.html(e)));
-}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__42015);
+}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__42016);
 }});
 
 //# sourceMappingURL=devcards.util.edn_renderer.js.map

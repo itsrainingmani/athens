@@ -53,7 +53,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(cljs.core.IPrintWithWriter,value);
 }
-}catch (e23757){var _e__20858__auto__ = e23757;
+}catch (e23757){var _e__20757__auto__ = e23757;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -72,7 +72,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23764){var _e__20858__auto__ = e23764;
+}catch (e23761){var _e__20757__auto__ = e23761;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto____$1)){
@@ -91,7 +91,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23766){var _e__20858__auto__ = e23766;
+}catch (e23763){var _e__20757__auto__ = e23763;
 return false;
 }}
 }
@@ -162,8 +162,8 @@ devtools.formatters.helpers.directly_printable_QMARK_ = (function devtools$forma
 return ((typeof value === 'string') || (typeof value === 'number') || (devtools.formatters.helpers.bool_QMARK_(value)));
 });
 devtools.formatters.helpers.abbreviated_QMARK_ = (function devtools$formatters$helpers$abbreviated_QMARK_(template){
-return cljs.core.some((function (p1__23778_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"more-marker","more-marker",-14717935)),p1__23778_SHARP_);
+return cljs.core.some((function (p1__23777_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"more-marker","more-marker",-14717935)),p1__23777_SHARP_);
 }),template);
 });
 devtools.formatters.helpers.abbreviate_long_string = (function devtools$formatters$helpers$abbreviate_long_string(string,marker,prefix_limit,postfix_limit){

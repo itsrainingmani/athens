@@ -104,10 +104,42 @@ return new cljs.core.Keyword("block","uid","block/uid",-1623585167).cljs$core$IF
 })());
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.UP)){
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.dec);
+if((index > (0))){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.dec);
+
+var select_el = cljs.core.first(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(document.getElementsByClassName("selected")));
+var next_el = select_el.previousElementSibling;
+var athena_el = cljs.core.first(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(document.getElementsByClassName("athena")));
+var result_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(athena_el.children),(2));
+var result_box = result_el.getBoundingClientRect();
+var next_box = next_el.getBoundingClientRect();
+if((next_box.top < result_box.top)){
+return next_el.scrollIntoView(true,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+} else {
+return null;
+}
+} else {
+return null;
+}
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.DOWN)){
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.inc);
+if((index < (cljs.core.count(results) - (1)))){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.inc);
+
+var select_el = cljs.core.first(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(document.getElementsByClassName("selected")));
+var next_el = select_el.nextElementSibling;
+var athena_el = cljs.core.first(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(document.getElementsByClassName("athena")));
+var result_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(athena_el.children),(2));
+var result_box = result_el.getBoundingClientRect();
+var next_box = next_el.getBoundingClientRect();
+if((next_box.bottom > result_box.bottom)){
+return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+} else {
+return null;
+}
+} else {
+return null;
+}
 } else {
 return null;
 

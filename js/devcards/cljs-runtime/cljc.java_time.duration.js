@@ -184,8 +184,8 @@ cljc.java_time.duration.equals = (function cljc$java_time$duration$equals(this44
 return this4494.equals(java_lang_Object4495);
 });
 cljc.java_time.duration.of_seconds = (function cljc$java_time$duration$of_seconds(var_args){
-var G__50913 = arguments.length;
-switch (G__50913) {
+var G__50909 = arguments.length;
+switch (G__50909) {
 case 2:
 return cljc.java_time.duration.of_seconds.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
