@@ -146,14 +146,14 @@ throw e;
  */
 sci.impl.utils.vary_meta_STAR_ = (function sci$impl$utils$vary_meta_STAR_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58917 = arguments.length;
-var i__4790__auto___58918 = (0);
+var len__4789__auto___58907 = arguments.length;
+var i__4790__auto___58908 = (0);
 while(true){
-if((i__4790__auto___58918 < len__4789__auto___58917)){
-args__4795__auto__.push((arguments[i__4790__auto___58918]));
+if((i__4790__auto___58908 < len__4789__auto___58907)){
+args__4795__auto__.push((arguments[i__4790__auto___58908]));
 
-var G__58919 = (i__4790__auto___58918 + (1));
-i__4790__auto___58918 = G__58919;
+var G__58909 = (i__4790__auto___58908 + (1));
+i__4790__auto___58908 = G__58909;
 continue;
 } else {
 }
@@ -215,8 +215,8 @@ return obj;
 }
 });
 sci.impl.utils.strip_core_ns = (function sci$impl$utils$strip_core_ns(sym){
-var G__58902 = cljs.core.namespace(sym);
-switch (G__58902) {
+var G__58901 = cljs.core.namespace(sym);
+switch (G__58901) {
 case "clojure.core":
 case "cljs.core":
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(sym));
@@ -237,10 +237,10 @@ if(cljs.core.list_QMARK_(form)){
 return cljs.core.with_meta(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form)),cljs.core.meta(form));
 } else {
 if(cljs.core.map_entry_QMARK_(form)){
-return (new cljs.core.MapEntry((function (){var G__58904 = cljs.core.key(form);
+return (new cljs.core.MapEntry((function (){var G__58903 = cljs.core.key(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58903) : inner.call(null,G__58903));
+})(),(function (){var G__58904 = cljs.core.val(form);
 return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58904) : inner.call(null,G__58904));
-})(),(function (){var G__58905 = cljs.core.val(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58905) : inner.call(null,G__58905));
 })(),null));
 } else {
 if(cljs.core.seq_QMARK_(form)){

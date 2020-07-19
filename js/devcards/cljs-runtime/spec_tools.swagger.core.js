@@ -216,9 +216,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__48834),spec_tools$swagger$core$it
 return cljs.core.chunk_cons(cljs.core.chunk(b__48834),null);
 }
 } else {
-var vec__48839 = cljs.core.first(s__48832__$2);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48839,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48839,(1),null);
+var vec__48838 = cljs.core.first(s__48832__$2);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48838,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48838,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));

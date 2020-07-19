@@ -68,11 +68,11 @@ return G__34836;
 (garden.stylesheet.rule.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq34818){
-var G__34819 = cljs.core.first(seq34818);
-var seq34818__$1 = cljs.core.next(seq34818);
+(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq34813){
+var G__34814 = cljs.core.first(seq34813);
+var seq34813__$1 = cljs.core.next(seq34813);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34819,seq34818__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34814,seq34813__$1);
 }));
 
 garden.stylesheet.cssfn = (function garden$stylesheet$cssfn(fn_name){
@@ -131,17 +131,17 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (garden.stylesheet.at_font_face.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34821){
+(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34818){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34821));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34818));
 }));
 
 /**
  * Create a CSS @import rule.
  */
 garden.stylesheet.at_import = (function garden$stylesheet$at_import(var_args){
-var G__34826 = arguments.length;
-switch (G__34826) {
+var G__34823 = arguments.length;
+switch (G__34823) {
 case 1:
 return garden.stylesheet.at_import.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -177,11 +177,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"import","import",-1
 }));
 
 /** @this {Function} */
-(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq34824){
-var G__34825 = cljs.core.first(seq34824);
-var seq34824__$1 = cljs.core.next(seq34824);
+(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq34821){
+var G__34822 = cljs.core.first(seq34821);
+var seq34821__$1 = cljs.core.next(seq34821);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34825,seq34824__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34822,seq34821__$1);
 }));
 
 (garden.stylesheet.at_import.cljs$lang$maxFixedArity = (1));
@@ -216,11 +216,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"media","media",-106
 (garden.stylesheet.at_media.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_media.cljs$lang$applyTo = (function (seq34827){
-var G__34828 = cljs.core.first(seq34827);
-var seq34827__$1 = cljs.core.next(seq34827);
+(garden.stylesheet.at_media.cljs$lang$applyTo = (function (seq34826){
+var G__34827 = cljs.core.first(seq34826);
+var seq34826__$1 = cljs.core.next(seq34826);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34828,seq34827__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34827,seq34826__$1);
 }));
 
 garden.stylesheet.at_supports = (function garden$stylesheet$at_supports(var_args){
@@ -231,8 +231,8 @@ while(true){
 if((i__4790__auto___34853 < len__4789__auto___34852)){
 args__4795__auto__.push((arguments[i__4790__auto___34853]));
 
-var G__34857 = (i__4790__auto___34853 + (1));
-i__4790__auto___34853 = G__34857;
+var G__34854 = (i__4790__auto___34853 + (1));
+i__4790__auto___34853 = G__34854;
 continue;
 } else {
 }
@@ -251,11 +251,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"feature","feature",
 (garden.stylesheet.at_supports.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq34829){
-var G__34830 = cljs.core.first(seq34829);
-var seq34829__$1 = cljs.core.next(seq34829);
+(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq34828){
+var G__34829 = cljs.core.first(seq34828);
+var seq34828__$1 = cljs.core.next(seq34828);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34830,seq34829__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34829,seq34828__$1);
 }));
 
 /**
@@ -263,14 +263,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34830,seq34829
  */
 garden.stylesheet.at_keyframes = (function garden$stylesheet$at_keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___34858 = arguments.length;
-var i__4790__auto___34859 = (0);
+var len__4789__auto___34855 = arguments.length;
+var i__4790__auto___34856 = (0);
 while(true){
-if((i__4790__auto___34859 < len__4789__auto___34858)){
-args__4795__auto__.push((arguments[i__4790__auto___34859]));
+if((i__4790__auto___34856 < len__4789__auto___34855)){
+args__4795__auto__.push((arguments[i__4790__auto___34856]));
 
-var G__34860 = (i__4790__auto___34859 + (1));
-i__4790__auto___34859 = G__34860;
+var G__34857 = (i__4790__auto___34856 + (1));
+i__4790__auto___34856 = G__34857;
 continue;
 } else {
 }
@@ -288,11 +288,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"keyframes","keyfram
 (garden.stylesheet.at_keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_keyframes.cljs$lang$applyTo = (function (seq34831){
-var G__34832 = cljs.core.first(seq34831);
-var seq34831__$1 = cljs.core.next(seq34831);
+(garden.stylesheet.at_keyframes.cljs$lang$applyTo = (function (seq34830){
+var G__34831 = cljs.core.first(seq34830);
+var seq34830__$1 = cljs.core.next(seq34830);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34832,seq34831__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34831,seq34830__$1);
 }));
 
 /**
