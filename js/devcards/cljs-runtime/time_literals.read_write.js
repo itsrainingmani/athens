@@ -159,9 +159,9 @@ var count__50725_50753 = (0);
 var i__50726_50754 = (0);
 while(true){
 if((i__50726_50754 < count__50725_50753)){
-var vec__50736_50755 = chunk__50724_50752.cljs$core$IIndexed$_nth$arity$2(null,i__50726_50754);
-var tag_50756 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50736_50755,(0),null);
-var read_fn_50757 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50736_50755,(1),null);
+var vec__50737_50755 = chunk__50724_50752.cljs$core$IIndexed$_nth$arity$2(null,i__50726_50754);
+var tag_50756 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50737_50755,(0),null);
+var read_fn_50757 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50737_50755,(1),null);
 cljs.reader.register_tag_parser_BANG_(tag_50756,read_fn_50757);
 
 

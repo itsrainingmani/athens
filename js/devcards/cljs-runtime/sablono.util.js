@@ -65,14 +65,14 @@ throw cljs.core.missing_protocol("ToURI.to-uri",x);
  */
 sablono.util.as_str = (function sablono$util$as_str(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39809 = arguments.length;
-var i__4790__auto___39810 = (0);
+var len__4789__auto___39814 = arguments.length;
+var i__4790__auto___39815 = (0);
 while(true){
-if((i__4790__auto___39810 < len__4789__auto___39809)){
-args__4795__auto__.push((arguments[i__4790__auto___39810]));
+if((i__4790__auto___39815 < len__4789__auto___39814)){
+args__4795__auto__.push((arguments[i__4790__auto___39815]));
 
-var G__39812 = (i__4790__auto___39810 + (1));
-i__4790__auto___39810 = G__39812;
+var G__39816 = (i__4790__auto___39815 + (1));
+i__4790__auto___39815 = G__39816;
 continue;
 } else {
 }
@@ -90,9 +90,9 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core
 (sablono.util.as_str.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.util.as_str.cljs$lang$applyTo = (function (seq39750){
+(sablono.util.as_str.cljs$lang$applyTo = (function (seq39752){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39750));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39752));
 }));
 
 /**
@@ -192,30 +192,30 @@ return [base,cljs.core.str.cljs$core$IFn$_invoke$arity$1(x__$1)].join('');
 
 goog.object.set(sablono.util.ToString,"null",true);
 
-var G__39781_39830 = sablono.util.to_str;
-var G__39782_39831 = "null";
-var G__39783_39832 = (function (_){
+var G__39783_39831 = sablono.util.to_str;
+var G__39784_39832 = "null";
+var G__39785_39833 = (function (_){
 return "";
 });
-goog.object.set(G__39781_39830,G__39782_39831,G__39783_39832);
+goog.object.set(G__39783_39831,G__39784_39832,G__39785_39833);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__39786_39834 = sablono.util.to_str;
-var G__39787_39835 = "number";
-var G__39788_39836 = (function (x){
+var G__39791_39836 = sablono.util.to_str;
+var G__39792_39837 = "number";
+var G__39793_39838 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__39786_39834,G__39787_39835,G__39788_39836);
+goog.object.set(G__39791_39836,G__39792_39837,G__39793_39838);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
-var G__39789_39837 = sablono.util.to_str;
-var G__39790_39838 = "_";
-var G__39791_39839 = (function (x){
+var G__39794_39839 = sablono.util.to_str;
+var G__39795_39840 = "_";
+var G__39796_39841 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__39789_39837,G__39790_39838,G__39791_39839);
+goog.object.set(G__39794_39839,G__39795_39840,G__39796_39841);
 (goog.Uri.prototype.sablono$util$ToURI$ = cljs.core.PROTOCOL_SENTINEL);
 
 (goog.Uri.prototype.sablono$util$ToURI$to_uri$arity$1 = (function (x){
@@ -225,11 +225,11 @@ return x__$1;
 
 goog.object.set(sablono.util.ToURI,"_",true);
 
-var G__39799_39842 = sablono.util.to_uri;
-var G__39800_39843 = "_";
-var G__39801_39844 = (function (x){
+var G__39804_39842 = sablono.util.to_uri;
+var G__39805_39843 = "_";
+var G__39806_39844 = (function (x){
 return (new goog.Uri(cljs.core.str.cljs$core$IFn$_invoke$arity$1(x)));
 });
-goog.object.set(G__39799_39842,G__39800_39843,G__39801_39844);
+goog.object.set(G__39804_39842,G__39805_39843,G__39806_39844);
 
 //# sourceMappingURL=sablono.util.js.map

@@ -187,14 +187,14 @@ var v_59580 = cljs.core.first(seq__59447_59574__$1);
 cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59580);
 
 
-var G__59582 = cljs.core.next(seq__59447_59574__$1);
-var G__59583 = null;
+var G__59581 = cljs.core.next(seq__59447_59574__$1);
+var G__59582 = null;
+var G__59583 = (0);
 var G__59584 = (0);
-var G__59585 = (0);
-seq__59447_59564 = G__59582;
-chunk__59448_59565 = G__59583;
-count__59449_59566 = G__59584;
-i__59450_59567 = G__59585;
+seq__59447_59564 = G__59581;
+chunk__59448_59565 = G__59582;
+count__59449_59566 = G__59583;
+i__59450_59567 = G__59584;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
+var G__59585 = vals;
+vals = G__59585;
+continue;
+} else {
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__59586 = vals;
 vals = G__59586;
 continue;
 } else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__59587 = vals;
+var G__59587 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
 vals = G__59587;
-continue;
-} else {
-var G__59588 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__59588;
 continue;
 
 }
@@ -247,18 +247,18 @@ return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Er
 sb.append(ch);
 
 if(("\\" === ch)){
-var ch_59589__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-if((ch_59589__$1 == null)){
+var ch_59588__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+if((ch_59588__$1 == null)){
 edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Error while parsing regex");
 } else {
 }
 
-sb.append(ch_59589__$1);
+sb.append(ch_59588__$1);
 } else {
 }
 
-var G__59590 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__59590;
+var G__59589 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__59589;
 continue;
 }
 }

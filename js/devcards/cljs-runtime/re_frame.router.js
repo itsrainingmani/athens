@@ -290,8 +290,8 @@ return this$__$1.re_frame$router$IEventQueue$_fsm_trigger$arity$3(null,new cljs.
 } else {
 this$__$1.re_frame$router$IEventQueue$_process_1st_event_in_queue$arity$1(null);
 
-var G__46983 = (n - (1));
-n = G__46983;
+var G__46984 = (n - (1));
+n = G__46984;
 continue;
 }
 }
@@ -565,14 +565,14 @@ var callback = chunk__46930.cljs$core$IIndexed$_nth$arity$2(null,i__46932);
 (callback.cljs$core$IFn$_invoke$arity$2 ? callback.cljs$core$IFn$_invoke$arity$2(event_v,self__.queue) : callback.call(null,event_v,self__.queue));
 
 
-var G__47004 = seq__46929;
-var G__47005 = chunk__46930;
-var G__47006 = count__46931;
-var G__47007 = (i__46932 + (1));
-seq__46929 = G__47004;
-chunk__46930 = G__47005;
-count__46931 = G__47006;
-i__46932 = G__47007;
+var G__47006 = seq__46929;
+var G__47007 = chunk__46930;
+var G__47008 = count__46931;
+var G__47009 = (i__46932 + (1));
+seq__46929 = G__47006;
+chunk__46930 = G__47007;
+count__46931 = G__47008;
+i__46932 = G__47009;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__46929);
@@ -594,14 +594,14 @@ var callback = cljs.core.first(seq__46929__$1);
 (callback.cljs$core$IFn$_invoke$arity$2 ? callback.cljs$core$IFn$_invoke$arity$2(event_v,self__.queue) : callback.call(null,event_v,self__.queue));
 
 
-var G__47014 = cljs.core.next(seq__46929__$1);
-var G__47015 = null;
-var G__47016 = (0);
-var G__47017 = (0);
-seq__46929 = G__47014;
-chunk__46930 = G__47015;
-count__46931 = G__47016;
-i__46932 = G__47017;
+var G__47016 = cljs.core.next(seq__46929__$1);
+var G__47017 = null;
+var G__47018 = (0);
+var G__47019 = (0);
+seq__46929 = G__47016;
+chunk__46930 = G__47017;
+count__46931 = G__47018;
+i__46932 = G__47019;
 continue;
 }
 } else {

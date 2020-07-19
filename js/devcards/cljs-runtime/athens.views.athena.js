@@ -44,6 +44,14 @@ return cljs.core.reset_BANG_(state,new cljs.core.PersistentArrayMap(null, 3, [ne
 }
 });
 });
+/**
+ * Checks if any part of the element is above or below the container's bounding rect
+ */
+athens.views.athena.is_beyond_rect_QMARK_ = (function athens$views$athena$is_beyond_rect_QMARK_(element,container){
+var el_box = element.getBoundingClientRect();
+var cont_box = container.getBoundingClientRect();
+return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
+});
 athens.views.athena.key_down_handler = (function athens$views$athena$key_down_handler(e,state){
 var key = e.keyCode;
 var shift = e.shiftKey;
@@ -111,20 +119,14 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cl
 return ((((index === (0)))?cljs.core.count(results):index) - (1));
 }));
 
-var cur_index = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.Keyword(null,"index","index",-1531685915));
+var cur_index = new cljs.core.Keyword(null,"index","index",-1531685915).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
 var input_el = e.target;
 var result_el = input_el.closest("div.athena").lastElementChild;
-var result_box = result_el.getBoundingClientRect();
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(result_el.children),cur_index);
-var next_box = next_el.getBoundingClientRect();
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cur_index,(cljs.core.count(results) - (1)))){
-return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-if((next_box.top < result_box.top)){
-return next_el.scrollIntoView(true,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+if(athens.views.athena.is_beyond_rect_QMARK_(next_el,result_el)){
+return next_el.scrollIntoView(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(cur_index,(cljs.core.count(results) - (1))),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
 } else {
 return null;
-}
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.DOWN)){
@@ -136,20 +138,14 @@ return (p1__56013_SHARP_ + (1));
 }
 }));
 
-var cur_index = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(state),new cljs.core.Keyword(null,"index","index",-1531685915));
+var cur_index = new cljs.core.Keyword(null,"index","index",-1531685915).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
 var input_el = e.target;
 var result_el = input_el.closest("div.athena").lastElementChild;
-var result_box = result_el.getBoundingClientRect();
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(result_el.children),cur_index);
-var next_box = next_el.getBoundingClientRect();
-if((cur_index === (0))){
-return next_el.scrollIntoView(true,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-if((next_box.bottom > result_box.bottom)){
-return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+if(athens.views.athena.is_beyond_rect_QMARK_(next_el,result_el)){
+return next_el.scrollIntoView((cur_index === (0)),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
 } else {
 return null;
-}
 }
 } else {
 return null;

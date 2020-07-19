@@ -160,12 +160,12 @@ if(cljs.core.truth_(progress)){
 var listener_39661 = (function (direction,evt){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(progress,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"direction","direction",-633359395),direction,new cljs.core.Keyword(null,"loaded","loaded",-1246482293),evt.loaded], null),(cljs.core.truth_(evt.lengthComputable)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"total","total",1916810418),evt.total], null):null)], 0)));
 });
-var G__39617_39663 = xhr;
-G__39617_39663.setProgressEventsEnabled(true);
+var G__39617_39662 = xhr;
+G__39617_39662.setProgressEventsEnabled(true);
 
-G__39617_39663.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"upload","upload",-255769218)));
+G__39617_39662.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"upload","upload",-255769218)));
 
-G__39617_39663.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"download","download",-300081668)));
+G__39617_39662.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"download","download",-300081668)));
 
 } else {
 }
@@ -191,12 +191,12 @@ var state_39628__$1 = (function (){var statearr_39630 = state_39628;
 return statearr_39630;
 })();
 if(inst_39621){
-var statearr_39631_39669 = state_39628__$1;
-(statearr_39631_39669[(1)] = (3));
+var statearr_39631_39665 = state_39628__$1;
+(statearr_39631_39665[(1)] = (3));
 
 } else {
-var statearr_39632_39670 = state_39628__$1;
-(statearr_39632_39670[(1)] = (4));
+var statearr_39632_39666 = state_39628__$1;
+(statearr_39632_39666[(1)] = (4));
 
 }
 
