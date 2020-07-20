@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__39947_39975 = next_state;
-var G__39948_39976 = next_props;
-var G__39949_39977 = ({"onChange": on_change});
-goog.object.extend(G__39947_39975,G__39948_39976,G__39949_39977);
+var G__39944_39975 = next_state;
+var G__39945_39976 = next_props;
+var G__39946_39977 = ({"onChange": on_change});
+goog.object.extend(G__39944_39975,G__39945_39976,G__39946_39977);
 
 goog.object.set(next_state,property,value);
 

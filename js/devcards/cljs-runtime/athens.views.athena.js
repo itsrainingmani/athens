@@ -44,14 +44,6 @@ return cljs.core.reset_BANG_(state,new cljs.core.PersistentArrayMap(null, 3, [ne
 }
 });
 });
-/**
- * Checks if any part of the element is above or below the container's bounding rect
- */
-athens.util.is_beyond_rect_QMARK_ = (function athens$views$athena$is_beyond_rect_QMARK_(element,container){
-var el_box = element.getBoundingClientRect();
-var cont_box = container.getBoundingClientRect();
-return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
-});
 athens.views.athena.key_down_handler = (function athens$views$athena$key_down_handler(e,state){
 var key = e.keyCode;
 var shift = e.shiftKey;
@@ -73,8 +65,8 @@ return and__4174__auto__;
 }
 })())){
 var uid = athens.util.gen_block_uid();
-var G__56018_56069 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56018_56069) : re_frame.core.dispatch.call(null,G__56018_56069));
+var G__56018_56072 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56018_56072) : re_frame.core.dispatch.call(null,G__56018_56072));
 
 var G__56019 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","open-item","right-sidebar/open-item",-1234515614),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56019) : re_frame.core.dispatch.call(null,G__56019));
@@ -86,8 +78,8 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.ENT
 return and__4174__auto__;
 }
 })())){
-var G__56020_56070 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56020_56070) : re_frame.core.dispatch.call(null,G__56020_56070));
+var G__56020_56073 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56020_56073) : re_frame.core.dispatch.call(null,G__56020_56073));
 
 var G__56021 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","open-item","right-sidebar/open-item",-1234515614),new cljs.core.Keyword("block","uid","block/uid",-1623585167).cljs$core$IFn$_invoke$arity$1(item)], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56021) : re_frame.core.dispatch.call(null,G__56021));

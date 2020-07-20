@@ -35,7 +35,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e24156){var _e__20784__auto__ = e24156;
+}catch (e24156){var _e__20660__auto__ = e24156;
 return false;
 }})())?devtools.format._header(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -50,7 +50,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e24158){var _e__20784__auto__ = e24158;
+}catch (e24158){var _e__20660__auto__ = e24158;
 return false;
 }})())?devtools.protocols._header(value):devtools.formatters.templating.render_markup(devtools.formatters.markup._LT_header_GT_(value))
 )));
@@ -73,7 +73,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e24163){var _e__20784__auto__ = e24163;
+}catch (e24163){var _e__20660__auto__ = e24163;
 return false;
 }})())?devtools.format._has_body(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -88,7 +88,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e24165){var _e__20784__auto__ = e24165;
+}catch (e24165){var _e__20660__auto__ = e24165;
 return false;
 }})())?devtools.protocols._has_body(value):false
 ))));
@@ -113,7 +113,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e24167){var _e__20784__auto__ = e24167;
+}catch (e24167){var _e__20660__auto__ = e24167;
 return false;
 }})())){
 return devtools.format._body(value);
@@ -131,7 +131,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e24172){var _e__20784__auto__ = e24172;
+}catch (e24169){var _e__20660__auto__ = e24169;
 return false;
 }})())){
 return devtools.protocols._body(value);

@@ -56,8 +56,8 @@ cljc.java_time.year.is_before = (function cljc$java_time$year$is_before(this4517
 return this4517.isBefore(java_time_Year4518);
 });
 cljc.java_time.year.minus = (function cljc$java_time$year$minus(var_args){
-var G__50925 = arguments.length;
-switch (G__50925) {
+var G__50926 = arguments.length;
+switch (G__50926) {
 case 2:
 return cljc.java_time.year.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

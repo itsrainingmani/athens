@@ -96,10 +96,10 @@ var recur_QMARK_ = (ret instanceof sci.impl.fns.Recur);
 if(recur_QMARK_){
 var recur_val = sci.impl.types.getVal(ret);
 if(cljs.core.truth_(min_var_args_arity)){
-var vec__59043 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(recur_val,(0),min_var_args_arity),cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(recur_val,min_var_args_arity)], null);
-var fixed_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59043,(0),null);
-var vec__59046 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59043,(1),null);
-var rest_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59046,(0),null);
+var vec__59040 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(recur_val,(0),min_var_args_arity),cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(recur_val,min_var_args_arity)], null);
+var fixed_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59040,(0),null);
+var vec__59043 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59040,(1),null);
+var rest_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59043,(0),null);
 var G__59076 = cljs.core.into.cljs$core$IFn$_invoke$arity$2(fixed_args,rest_args);
 args = G__59076;
 continue;
@@ -211,14 +211,14 @@ return ["Cannot call ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fn_name)," wi
 var G__59091 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__59093__i = 0, G__59093__a = new Array(arguments.length -  0);
-while (G__59093__i < G__59093__a.length) {G__59093__a[G__59093__i] = arguments[G__59093__i + 0]; ++G__59093__i;}
-  args = new cljs.core.IndexedSeq(G__59093__a,0,null);
+var G__59092__i = 0, G__59092__a = new Array(arguments.length -  0);
+while (G__59092__i < G__59092__a.length) {G__59092__a[G__59092__i] = arguments[G__59092__i + 0]; ++G__59092__i;}
+  args = new cljs.core.IndexedSeq(G__59092__a,0,null);
 } 
 return G__59091__delegate.call(this,args);};
 G__59091.cljs$lang$maxFixedArity = 0;
-G__59091.cljs$lang$applyTo = (function (arglist__59094){
-var args = cljs.core.seq(arglist__59094);
+G__59091.cljs$lang$applyTo = (function (arglist__59093){
+var args = cljs.core.seq(arglist__59093);
 return G__59091__delegate(args);
 });
 G__59091.cljs$core$IFn$_invoke$arity$variadic = G__59091__delegate;

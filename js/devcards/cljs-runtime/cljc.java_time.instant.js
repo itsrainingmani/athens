@@ -57,8 +57,8 @@ cljc.java_time.instant.plus_nanos = (function cljc$java_time$instant$plus_nanos(
 return this3997.plusNanos(long3998);
 });
 cljc.java_time.instant.plus = (function cljc$java_time$instant$plus(var_args){
-var G__50841 = arguments.length;
-switch (G__50841) {
+var G__50839 = arguments.length;
+switch (G__50839) {
 case 2:
 return cljc.java_time.instant.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -93,8 +93,8 @@ cljc.java_time.instant.is_before = (function cljc$java_time$instant$is_before(th
 return this4007.isBefore(java_time_Instant4008);
 });
 cljc.java_time.instant.minus = (function cljc$java_time$instant$minus(var_args){
-var G__50843 = arguments.length;
-switch (G__50843) {
+var G__50841 = arguments.length;
+switch (G__50841) {
 case 3:
 return cljc.java_time.instant.minus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -153,8 +153,8 @@ cljc.java_time.instant.adjust_into = (function cljc$java_time$instant$adjust_int
 return this4031.adjustInto(java_time_temporal_Temporal4032);
 });
 cljc.java_time.instant.with$ = (function cljc$java_time$instant$with(var_args){
-var G__50846 = arguments.length;
-switch (G__50846) {
+var G__50845 = arguments.length;
+switch (G__50845) {
 case 2:
 return cljc.java_time.instant.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -180,8 +180,8 @@ return this4035.with(G__4036,G__4037);
 (cljc.java_time.instant.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.instant.now = (function cljc$java_time$instant$now(var_args){
-var G__50848 = arguments.length;
-switch (G__50848) {
+var G__50847 = arguments.length;
+switch (G__50847) {
 case 0:
 return cljc.java_time.instant.now.cljs$core$IFn$_invoke$arity$0();
 

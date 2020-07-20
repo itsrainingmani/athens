@@ -117,8 +117,8 @@ return re_frame.events.register(id,new cljs.core.PersistentVector(null, 4, 5, cl
  *   This form of registration is almost never used. 
  */
 re_frame.core.reg_event_ctx = (function re_frame$core$reg_event_ctx(var_args){
-var G__47192 = arguments.length;
-switch (G__47192) {
+var G__47193 = arguments.length;
+switch (G__47193) {
 case 2:
 return re_frame.core.reg_event_ctx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -307,11 +307,11 @@ return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$variadic(argse
 });
 
 (re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$variadic = (function (args){
-var G__47207_47249 = new cljs.core.Keyword(null,"warn","warn",-436710552);
-var G__47208_47250 = "re-frame:  \"register-handler\" has been renamed \"reg-event-db\" (look for registration of";
-var G__47209_47251 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
-var G__47210_47252 = ")";
-(re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__47207_47249,G__47208_47250,G__47209_47251,G__47210_47252) : re_frame.core.console.call(null,G__47207_47249,G__47208_47250,G__47209_47251,G__47210_47252));
+var G__47210_47249 = new cljs.core.Keyword(null,"warn","warn",-436710552);
+var G__47211_47250 = "re-frame:  \"register-handler\" has been renamed \"reg-event-db\" (look for registration of";
+var G__47212_47251 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
+var G__47213_47252 = ")";
+(re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__47210_47249,G__47211_47250,G__47212_47251,G__47213_47252) : re_frame.core.console.call(null,G__47210_47249,G__47211_47250,G__47212_47251,G__47213_47252));
 
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.core.reg_event_db,args);
 }));
@@ -319,9 +319,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.core.reg_event_db,
 (re_frame.core.register_handler.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(re_frame.core.register_handler.cljs$lang$applyTo = (function (seq47206){
+(re_frame.core.register_handler.cljs$lang$applyTo = (function (seq47207){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq47206));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq47207));
 }));
 
 re_frame.core.register_sub = (function re_frame$core$register_sub(var_args){

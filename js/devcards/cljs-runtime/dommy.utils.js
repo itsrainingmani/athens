@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34873){
-var vec__34874 = p__34873;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34871){
+var vec__34874 = p__34871;
 var seq__34875 = cljs.core.seq(vec__34874);
 var first__34876 = cljs.core.first(seq__34875);
 var seq__34875__$1 = cljs.core.next(seq__34875);

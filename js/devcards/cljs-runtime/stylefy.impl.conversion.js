@@ -44,13 +44,13 @@ stylefy.impl.log.warn(["Incorrect mode detected, should not contain spaces. Mode
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["&",cljs.core.str.cljs$core$IFn$_invoke$arity$1(mode_name)].join('')),mode_props], null);
 });
 if(cljs.core.map_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34871_SHARP_){
-return handle_mode(p1__34871_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__34871_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34872_SHARP_){
+return handle_mode(p1__34872_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__34872_SHARP_));
 }),cljs.core.keys(modes));
 } else {
 if(cljs.core.vector_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34872_SHARP_){
-return handle_mode(cljs.core.first(p1__34872_SHARP_),cljs.core.second(p1__34872_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34873_SHARP_){
+return handle_mode(cljs.core.first(p1__34873_SHARP_),cljs.core.second(p1__34873_SHARP_));
 }),modes);
 } else {
 return null;

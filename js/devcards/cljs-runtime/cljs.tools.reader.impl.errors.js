@@ -179,8 +179,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24304,seq24303
 }));
 
 cljs.tools.reader.impl.errors.throw_eof_delimited = (function cljs$tools$reader$impl$errors$throw_eof_delimited(var_args){
-var G__24308 = arguments.length;
-switch (G__24308) {
+var G__24306 = arguments.length;
+switch (G__24306) {
 case 4:
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
