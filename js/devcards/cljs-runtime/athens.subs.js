@@ -12,11 +12,11 @@ var G__55904_55980 = (function (db,_){
 return db;
 });
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55903_55979,G__55904_55980) : re_frame.core.reg_sub.call(null,G__55903_55979,G__55904_55980));
-var G__55905_55981 = new cljs.core.Keyword(null,"alert","alert",-571950580);
-var G__55906_55982 = (function (db,_){
+var G__55908_55981 = new cljs.core.Keyword(null,"alert","alert",-571950580);
+var G__55909_55982 = (function (db,_){
 return new cljs.core.Keyword(null,"alert","alert",-571950580).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55905_55981,G__55906_55982) : re_frame.core.reg_sub.call(null,G__55905_55981,G__55906_55982));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55908_55981,G__55909_55982) : re_frame.core.reg_sub.call(null,G__55908_55981,G__55909_55982));
 var G__55910_55983 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
 var G__55911_55984 = (function (db,_){
 return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);

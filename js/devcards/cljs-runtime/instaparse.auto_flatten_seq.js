@@ -362,8 +362,8 @@ return (cljs.core.imul(e,v1.premix_hashcode) + (v2.premix_hashcode - e));
  * Returns the partially calculated hash code, still requires a call to mix-collection-hash
  */
 instaparse.auto_flatten_seq.hash_ordered_coll_without_mix = (function instaparse$auto_flatten_seq$hash_ordered_coll_without_mix(var_args){
-var G__56219 = arguments.length;
-switch (G__56219) {
+var G__56226 = arguments.length;
+switch (G__56226) {
 case 1:
 return instaparse.auto_flatten_seq.hash_ordered_coll_without_mix.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -435,10 +435,10 @@ acc = G__56280;
 v = G__56281;
 continue;
 } else {
-var G__56282 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
-var G__56283 = cljs.core.next(v);
-acc = G__56282;
-v = G__56283;
+var G__56284 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
+var G__56285 = cljs.core.next(v);
+acc = G__56284;
+v = G__56285;
 continue;
 }
 } else {

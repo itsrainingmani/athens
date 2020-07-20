@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31930_31976 = reagent.impl.template.custom_prop_name_cache;
-var G__31931_31977 = cljs.core.name(k);
-var G__31932_31978 = v;
-goog.object.set(G__31930_31976,G__31931_31977,G__31932_31978);
+var G__31930_31973 = reagent.impl.template.custom_prop_name_cache;
+var G__31931_31974 = cljs.core.name(k);
+var G__31932_31975 = v;
+goog.object.set(G__31930_31973,G__31931_31974,G__31932_31975);
 
 return v;
 } else {

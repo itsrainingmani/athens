@@ -275,12 +275,12 @@ return datascript.pull_api.pull_wildcard_expand(db,frame,frames,eid,pattern);
 });
 datascript.pull_api.pull_pattern_frame = (function datascript$pull_api$pull_pattern_frame(db,p__26439){
 while(true){
-var vec__26441 = p__26439;
-var seq__26442 = cljs.core.seq(vec__26441);
-var first__26443 = cljs.core.first(seq__26442);
-var seq__26442__$1 = cljs.core.next(seq__26442);
-var frame = first__26443;
-var frames = seq__26442__$1;
+var vec__26440 = p__26439;
+var seq__26441 = cljs.core.seq(vec__26440);
+var first__26442 = cljs.core.first(seq__26441);
+var seq__26441__$1 = cljs.core.next(seq__26441);
+var frame = first__26442;
+var frames = seq__26441__$1;
 var temp__5733__auto__ = cljs.core.seq(new cljs.core.Keyword(null,"eids","eids",1546550700).cljs$core$IFn$_invoke$arity$1(frame));
 if(temp__5733__auto__){
 var eids = temp__5733__auto__;
@@ -295,10 +295,10 @@ var pattern = new cljs.core.Keyword(null,"pattern","pattern",242135423).cljs$cor
 var new_frames = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(frame,new cljs.core.Keyword(null,"specs","specs",1426570741),cljs.core.rest(specs)));
 return datascript.pull_api.pull_attr(db,spec,cljs.core.first(eids),new_frames);
 } else {
-var G__26476 = db;
-var G__26477 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
-db = G__26476;
-p__26439 = G__26477;
+var G__26502 = db;
+var G__26503 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
+db = G__26502;
+p__26439 = G__26503;
 continue;
 }
 }
@@ -314,34 +314,34 @@ var G__26447 = new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core
 var G__26447__$1 = (((G__26447 instanceof cljs.core.Keyword))?G__26447.fqn:null);
 switch (G__26447__$1) {
 case "expand":
-var G__26486 = db;
-var G__26487 = datascript.pull_api.pull_expand_frame(db,frames);
-db = G__26486;
-frames = G__26487;
+var G__26508 = db;
+var G__26509 = datascript.pull_api.pull_expand_frame(db,frames);
+db = G__26508;
+frames = G__26509;
 continue;
 
 break;
 case "expand-rev":
-var G__26488 = db;
-var G__26489 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
-db = G__26488;
-frames = G__26489;
+var G__26513 = db;
+var G__26514 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
+db = G__26513;
+frames = G__26514;
 continue;
 
 break;
 case "pattern":
-var G__26490 = db;
-var G__26491 = datascript.pull_api.pull_pattern_frame(db,frames);
-db = G__26490;
-frames = G__26491;
+var G__26515 = db;
+var G__26516 = datascript.pull_api.pull_pattern_frame(db,frames);
+db = G__26515;
+frames = G__26516;
 continue;
 
 break;
 case "recursion":
-var G__26495 = db;
-var G__26496 = datascript.pull_api.pull_recursion_frame(db,frames);
-db = G__26495;
-frames = G__26496;
+var G__26517 = db;
+var G__26518 = datascript.pull_api.pull_recursion_frame(db,frames);
+db = G__26517;
+frames = G__26518;
 continue;
 
 break;
@@ -360,16 +360,16 @@ return G__26451;
 }
 })();
 if(cljs.core.seq(remaining)){
-var G__26500 = db;
-var G__26501 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__26452 = cljs.core.first(remaining);
+var G__26520 = db;
+var G__26521 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__26452 = cljs.core.first(remaining);
 if(cljs.core.truth_(result)){
 return cljs.core.update.cljs$core$IFn$_invoke$arity$5(G__26452,new cljs.core.Keyword(null,"kvps","kvps",65308317),cljs.core.assoc_BANG_,new cljs.core.Keyword(null,"attr","attr",-604132353).cljs$core$IFn$_invoke$arity$1(f),result);
 } else {
 return G__26452;
 }
 })());
-db = G__26500;
-frames = G__26501;
+db = G__26520;
+frames = G__26521;
 continue;
 } else {
 return result;
