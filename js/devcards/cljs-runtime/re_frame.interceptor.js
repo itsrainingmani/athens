@@ -105,14 +105,14 @@ return cljs.core.assoc_in(context,new cljs.core.PersistentVector(null, 2, 5, clj
 });
 re_frame.interceptor.update_effect = (function re_frame$interceptor$update_effect(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46850 = arguments.length;
-var i__4790__auto___46851 = (0);
+var len__4789__auto___46851 = arguments.length;
+var i__4790__auto___46852 = (0);
 while(true){
-if((i__4790__auto___46851 < len__4789__auto___46850)){
-args__4795__auto__.push((arguments[i__4790__auto___46851]));
+if((i__4790__auto___46852 < len__4789__auto___46851)){
+args__4795__auto__.push((arguments[i__4790__auto___46852]));
 
-var G__46852 = (i__4790__auto___46851 + (1));
-i__4790__auto___46851 = G__46852;
+var G__46853 = (i__4790__auto___46852 + (1));
+i__4790__auto___46852 = G__46853;
 continue;
 } else {
 }

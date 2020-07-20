@@ -29,5 +29,13 @@ athens.util.vertical_center = (function athens$util$vertical_center(el){
 var rect = el.getBoundingClientRect();
 return ((rect.bottom - rect.top) / (2));
 });
+/**
+ * Checks if any part of the element is above or below the container's bounding rect
+ */
+athens.util.is_beyond_rect_QMARK_ = (function athens$util$is_beyond_rect_QMARK_(element,container){
+var el_box = element.getBoundingClientRect();
+var cont_box = container.getBoundingClientRect();
+return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
+});
 
 //# sourceMappingURL=athens.util.js.map
