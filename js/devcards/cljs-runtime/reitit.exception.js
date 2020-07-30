@@ -2,8 +2,8 @@ goog.provide('reitit.exception');
 goog.require('cljs.core');
 goog.require('clojure.string');
 reitit.exception.fail_BANG_ = (function reitit$exception$fail_BANG_(var_args){
-var G__54052 = arguments.length;
-switch (G__54052) {
+var G__54048 = arguments.length;
+switch (G__54048) {
 case 1:
 return reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -37,8 +37,8 @@ reitit.exception.format_exception = (function (){var method_table__4672__auto__ 
 var prefer_table__4673__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4674__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4675__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__54053 = cljs.core.get_global_hierarchy;
-return (fexpr__54053.cljs$core$IFn$_invoke$arity$0 ? fexpr__54053.cljs$core$IFn$_invoke$arity$0() : fexpr__54053.call(null));
+var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__54049 = cljs.core.get_global_hierarchy;
+return (fexpr__54049.cljs$core$IFn$_invoke$arity$0 ? fexpr__54049.cljs$core$IFn$_invoke$arity$0() : fexpr__54049.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("reitit.exception","format-exception"),(function (type,_,___$1){
 return type;
@@ -47,10 +47,10 @@ return type;
 }
 reitit.exception.exception = (function reitit$exception$exception(e){
 var data = cljs.core.ex_data(e);
-var message = (function (){var G__54054 = new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(data);
-var G__54055 = reitit.exception.get_message(e);
-var G__54056 = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(data);
-return (reitit.exception.format_exception.cljs$core$IFn$_invoke$arity$3 ? reitit.exception.format_exception.cljs$core$IFn$_invoke$arity$3(G__54054,G__54055,G__54056) : reitit.exception.format_exception.call(null,G__54054,G__54055,G__54056));
+var message = (function (){var G__54050 = new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(data);
+var G__54051 = reitit.exception.get_message(e);
+var G__54052 = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(data);
+return (reitit.exception.format_exception.cljs$core$IFn$_invoke$arity$3 ? reitit.exception.format_exception.cljs$core$IFn$_invoke$arity$3(G__54050,G__54051,G__54052) : reitit.exception.format_exception.call(null,G__54050,G__54051,G__54052));
 })();
 return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(message,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3((function (){var or__4185__auto__ = data;
 if(cljs.core.truth_(or__4185__auto__)){

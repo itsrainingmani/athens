@@ -8,25 +8,25 @@ goog.require('reitit.coercion.spec');
 goog.require('reitit.frontend');
 goog.require('reitit.frontend.controllers');
 goog.require('reitit.frontend.easy');
-var G__55870_55895 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
-var G__55871_55896 = (function (db){
+var G__55868_55895 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
+var G__55869_55896 = (function (db){
 return new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55870_55895,G__55871_55896) : re_frame.core.reg_sub.call(null,G__55870_55895,G__55871_55896));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__55872){
-var vec__55873 = p__55872;
-var seq__55874 = cljs.core.seq(vec__55873);
-var first__55875 = cljs.core.first(seq__55874);
-var seq__55874__$1 = cljs.core.next(seq__55874);
-var ___$1 = first__55875;
-var route = seq__55874__$1;
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55868_55895,G__55869_55896) : re_frame.core.reg_sub.call(null,G__55868_55895,G__55869_55896));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__55871){
+var vec__55872 = p__55871;
+var seq__55873 = cljs.core.seq(vec__55872);
+var first__55874 = cljs.core.first(seq__55873);
+var seq__55873__$1 = cljs.core.next(seq__55873);
+var ___$1 = first__55874;
+var route = seq__55873__$1;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"navigate!","navigate!",79998348),route], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__55876,p__55877){
-var map__55878 = p__55876;
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__55875,p__55876){
+var map__55878 = p__55875;
 var map__55878__$1 = (((((!((map__55878 == null))))?(((((map__55878.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55878.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55878):map__55878);
 var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55878__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__55879 = p__55877;
+var vec__55879 = p__55876;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55879,(0),null);
 var new_match = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55879,(1),null);
 var old_match = new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
@@ -53,21 +53,21 @@ var G__55887_55898 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(functio
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)));
 
-var opts__52399__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__52400__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var opts__52399__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__52400__auto__ = reitit.frontend.easy.push_state;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52400__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__52380__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__52381__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var opts__52380__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__52381__auto__ = reitit.frontend.easy.push_state;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52381__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__52400__auto__;
-})(),(function (){var opts__52399__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__52400__auto__ = route;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52400__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"route","route",1970422836,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+return result__52381__auto__;
+})(),(function (){var opts__52380__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__52381__auto__ = route;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52381__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"route","route",1970422836,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__52400__auto__;
+return result__52381__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52400__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__52381__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__52400__auto__;
+return result__52381__auto__;
 }catch (e55888){var e = e55888;
 throw e;
 }}):(function (route){

@@ -89,16 +89,16 @@ var target = e.target;
 var related_target = e.relatedTarget;
 var target_uid = athens.listeners.get_dataset_uid(target);
 var _related_target_uid = athens.listeners.get_dataset_uid(related_target);
-var selected_items = cljs.core.deref((function (){var G__56200 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","items","selected/items",1686402211)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__56200) : re_frame.core.subscribe.call(null,G__56200));
+var selected_items = cljs.core.deref((function (){var G__56198 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","items","selected/items",1686402211)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__56198) : re_frame.core.subscribe.call(null,G__56198));
 })());
 var _set_items = cljs.core.set(selected_items);
 e.stopPropagation();
 
 target.blur();
 
-var G__56201 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","add-item","selected/add-item",-508591222),target_uid], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56201) : re_frame.core.dispatch.call(null,G__56201));
+var G__56199 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","add-item","selected/add-item",-508591222),target_uid], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56199) : re_frame.core.dispatch.call(null,G__56199));
 });
 athens.listeners.multi_block_select_up = (function athens$listeners$multi_block_select_up(_){
 goog.events.unlisten(window,goog.events.EventType.MOUSEOVER,athens.listeners.multi_block_select_over);

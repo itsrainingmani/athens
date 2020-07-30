@@ -43,27 +43,27 @@ athens.util.date_col_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$ari
 athens.util.US_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("MM-dd-yyyy");
 athens.util.title_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy");
 athens.util.custom_format = (function athens$util$custom_format(uid){
-var vec__40134 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(1),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(2),null);
+var vec__40126 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40126,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40126,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40126,(2),null);
 var newdate = tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null)));
-var title_format = cljs.core.deref((function (){var G__40137 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"title-format","title-format",1252034507)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__40137) : re_frame.core.subscribe.call(null,G__40137));
+var title_format = cljs.core.deref((function (){var G__40129 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"title-format","title-format",1252034507)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__40129) : re_frame.core.subscribe.call(null,G__40129));
 })());
 return tick.alpha.api.format.cljs$core$IFn$_invoke$arity$2(tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1(title_format),newdate);
 });
 athens.util.is_timeline_page = (function athens$util$is_timeline_page(uid){
-return cljs.core.boolean$((function (){try{var vec__40141 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(0),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(1),null);
-var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(2),null);
+return cljs.core.boolean$((function (){try{var vec__40134 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(2),null);
 return tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null)));
-}catch (e40139){if((e40139 instanceof Object)){
-var _ = e40139;
+}catch (e40133){if((e40133 instanceof Object)){
+var _ = e40133;
 return false;
 } else {
-throw e40139;
+throw e40133;
 
 }
 }})());
@@ -75,8 +75,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__40147 = arguments.length;
-switch (G__40147) {
+var G__40139 = arguments.length;
+switch (G__40139) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -114,8 +114,8 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__40150_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__40150_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__40143_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__40143_SHARP_)].join('');
 }),esc_chars));
 })();
 /**

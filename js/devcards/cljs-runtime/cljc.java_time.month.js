@@ -21,8 +21,8 @@ cljc.java_time.month.values = (function cljc$java_time$month$values(){
 return java.time.Month.values();
 });
 cljc.java_time.month.value_of = (function cljc$java_time$month$value_of(var_args){
-var G__35227 = arguments.length;
-switch (G__35227) {
+var G__35221 = arguments.length;
+switch (G__35221) {
 case 1:
 return cljc.java_time.month.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

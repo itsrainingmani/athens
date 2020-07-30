@@ -348,8 +348,8 @@ if((i__60954 < size__4581__auto__)){
 var h = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__60954);
 cljs.core.chunk_append(b__60955,cljs.core.get.cljs$core$IFn$_invoke$arity$2(m,h));
 
-var G__61024 = (i__60954 + (1));
-i__60954 = G__61024;
+var G__61004 = (i__60954 + (1));
+i__60954 = G__61004;
 continue;
 } else {
 return true;
@@ -398,8 +398,8 @@ if((i__60958 < size__4581__auto__)){
 var i = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__60958);
 cljs.core.chunk_append(b__60959,cljs.core.get.cljs$core$IFn$_invoke$arity$2(coll,i));
 
-var G__61025 = (i__60958 + (1));
-i__60958 = G__61025;
+var G__61005 = (i__60958 + (1));
+i__60958 = G__61005;
 continue;
 } else {
 return true;
@@ -501,8 +501,8 @@ return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.update.cljs$core
 ], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.ChevronLeft], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),cljs.core.first(nav)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),i], null));
 })());
 
-var G__61029 = (i__60971 + (1));
-i__60971 = G__61029;
+var G__61006 = (i__60971 + (1));
+i__60971 = G__61006;
 continue;
 } else {
 return true;
@@ -557,8 +557,8 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.buttons.button,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),click_fn,new cljs.core.Keyword(null,"active","active",1895962068),cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(v,viewer_name)], null),cljs.core.name(v)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),v], null));
 })());
 
-var G__61030 = (i__60975 + (1));
-i__60975 = G__61030;
+var G__61007 = (i__60975 + (1));
+i__60975 = G__61007;
 continue;
 } else {
 return true;

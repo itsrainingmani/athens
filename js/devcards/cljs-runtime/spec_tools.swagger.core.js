@@ -242,17 +242,17 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__54027){
-var vec__54028 = p__54027;
-var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54028,(0),null);
-var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54028,(1),null);
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__54026){
+var vec__54027 = p__54026;
+var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54027,(0),null);
+var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54027,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v], 0));
-var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__54031,p){
-var vec__54032 = p__54031;
-var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54032,(0),null);
-var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54032,(1),null);
-var acc__$1 = vec__54032;
+var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__54030,p){
+var vec__54031 = p__54030;
+var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54031,(0),null);
+var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54031,(1),null);
+var acc__$1 = vec__54031;
 var c = cljs.core.select_keys(p,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.Keyword(null,"name","name",1843675177)], null));
 if(cljs.core.not((cache.cljs$core$IFn$_invoke$arity$1 ? cache.cljs$core$IFn$_invoke$arity$1(c) : cache.call(null,c)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ps,p),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cache,c)], null);
@@ -285,8 +285,8 @@ return x__$1;
  *   with the `spec-tools.swagger.core/expand` multimethod.
  */
 spec_tools.swagger.core.swagger_spec = (function spec_tools$swagger$core$swagger_spec(var_args){
-var G__54036 = arguments.length;
-switch (G__54036) {
+var G__54035 = arguments.length;
+switch (G__54035) {
 case 1:
 return spec_tools.swagger.core.swagger_spec.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
