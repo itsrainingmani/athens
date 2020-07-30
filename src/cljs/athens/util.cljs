@@ -2,6 +2,7 @@
   (:require
     [clojure.string :as string]
     [posh.reagent :refer [#_pull]]
+    [re-frame.core :refer [subscribe]]
     [tick.alpha.api :as t]
     [tick.locale-en-us]))
 
@@ -63,6 +64,22 @@
 (def date-col-format (t/formatter "LLLL dd, yyyy h':'mma"))
 (def US-format (t/formatter "MM-dd-yyyy"))
 (def title-format (t/formatter "LLLL dd, yyyy"))
+
+(defn custom-format
+  [uid]
+  (let [[m d y] (string/split uid "-")
+        newdate (t/date (string/join "-" [y m d]))
+        title-format @(subscribe [:title-format])]
+    (t/format (t/formatter title-format) newdate)))
+
+
+(defn is-timeline-page
+  [uid]
+  (boolean
+    (try
+      (let [[m d y] (string/split uid "-")]
+        (t/date (string/join "-" [y m d])))
+      (catch js/Object _ false))))
 
 
 (defn now-ts
