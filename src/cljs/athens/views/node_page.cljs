@@ -18,8 +18,7 @@
     [komponentit.autosize :as autosize]
     [re-frame.core :refer [dispatch subscribe]]
     [reagent.core :as r]
-    [stylefy.core :as stylefy :refer [use-style]]
-    [tick.alpha.api :as t]))
+    [stylefy.core :as stylefy :refer [use-style]]))
 
 
 ;;; Styles

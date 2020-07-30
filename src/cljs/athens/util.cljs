@@ -65,6 +65,7 @@
 (def US-format (t/formatter "MM-dd-yyyy"))
 (def title-format (t/formatter "LLLL dd, yyyy"))
 
+
 (defn custom-format
   [uid]
   (let [[m d y] (string/split uid "-")
