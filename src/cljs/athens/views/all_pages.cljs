@@ -3,7 +3,7 @@
     [athens.db :as db]
     [athens.router :refer [navigate-uid]]
     [athens.style :as style :refer [color OPACITIES]]
-    [athens.util :refer [date-string]]
+    [athens.util :refer [date-string custom-format is-timeline-page]]
     [cljsjs.react]
     [cljsjs.react.dom]
     [clojure.string :as str]
@@ -91,7 +91,7 @@
            ^{:key uid}
            [:tr
             [:td (use-sub-style table-style :td-title {:on-click #(navigate-uid uid %)})
-             title]
+             (if (is-timeline-page uid) (custom-format uid) title)]
             [:td
              [:div (use-sub-style table-style :body-preview) (str/join " ") (map #(str "• " (:block/string %)) children)]]
             [:td (use-sub-style table-style :td-date) (date-string modified)]

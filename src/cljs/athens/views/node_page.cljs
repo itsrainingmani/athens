@@ -5,7 +5,7 @@
     [athens.parse-renderer :as parse-renderer :refer [pull-node-from-string]]
     [athens.router :refer [navigate-uid navigate]]
     [athens.style :refer [color]]
-    [athens.util :refer [now-ts gen-block-uid escape-str]]
+    [athens.util :refer [now-ts gen-block-uid escape-str custom-format is-timeline-page]]
     [athens.views.blocks :refer [block-el bullet-style]]
     [athens.views.breadcrumbs :refer [breadcrumbs-list breadcrumb]]
     [athens.views.buttons :refer [button]]
@@ -140,15 +140,6 @@
 (def db-handler (debounce handler 500))
 
 
-(defn is-timeline-page
-  [uid]
-  (boolean
-    (try
-      (let [[m d y] (string/split uid "-")]
-        (t/date (string/join "-" [y m d])))
-      (catch js/Object _ false))))
-
-
 (defn handle-new-first-child-block-click
   [parent-uid]
   (let [new-uid   (gen-block-uid)
@@ -230,7 +221,7 @@
                                     (navigate :pages)
                                     (dispatch [:page/delete uid]))}
                [:<> [:> mui-icons/Delete] [:span "Delete Page"]]]]])
-          (parse-renderer/parse-and-render title uid)]
+          (parse-renderer/parse-and-render (if timeline-page? (custom-format uid) title) uid)]
 
          ;; Children
          (if (empty? children)
