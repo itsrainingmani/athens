@@ -35,8 +35,8 @@ cljc.java_time.local_date_time.minus_hours = (function cljc$java_time$local_date
 return this3605.minusHours(long3606);
 });
 cljc.java_time.local_date_time.of = (function cljc$java_time$local_date_time$of(var_args){
-var G__25825 = arguments.length;
-switch (G__25825) {
+var G__34906 = arguments.length;
+switch (G__34906) {
 case 2:
 return cljc.java_time.local_date_time.of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -102,8 +102,8 @@ cljc.java_time.local_date_time.get_day_of_year = (function cljc$java_time$local_
 return this3641.dayOfYear();
 });
 cljc.java_time.local_date_time.plus = (function cljc$java_time$local_date_time$plus(var_args){
-var G__25831 = arguments.length;
-switch (G__25831) {
+var G__34915 = arguments.length;
+switch (G__34915) {
 case 3:
 return cljc.java_time.local_date_time.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -156,8 +156,8 @@ cljc.java_time.local_date_time.minus_months = (function cljc$java_time$local_dat
 return this3661.minusMonths(long3662);
 });
 cljc.java_time.local_date_time.minus = (function cljc$java_time$local_date_time$minus(var_args){
-var G__25839 = arguments.length;
-switch (G__25839) {
+var G__34927 = arguments.length;
+switch (G__34927) {
 case 2:
 return cljc.java_time.local_date_time.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -234,8 +234,8 @@ cljc.java_time.local_date_time.get_chronology = (function cljc$java_time$local_d
 return this3698.chronology();
 });
 cljc.java_time.local_date_time.parse = (function cljc$java_time$local_date_time$parse(var_args){
-var G__25846 = arguments.length;
-switch (G__25846) {
+var G__34936 = arguments.length;
+switch (G__34936) {
 case 2:
 return cljc.java_time.local_date_time.parse.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -276,8 +276,8 @@ cljc.java_time.local_date_time.adjust_into = (function cljc$java_time$local_date
 return this3707.adjustInto(java_time_temporal_Temporal3708);
 });
 cljc.java_time.local_date_time.with$ = (function cljc$java_time$local_date_time$with(var_args){
-var G__25853 = arguments.length;
-switch (G__25853) {
+var G__34939 = arguments.length;
+switch (G__34939) {
 case 2:
 return cljc.java_time.local_date_time.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -303,8 +303,8 @@ return this3711.with(G__3712,G__3713);
 (cljc.java_time.local_date_time.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.local_date_time.now = (function cljc$java_time$local_date_time$now(var_args){
-var G__25855 = arguments.length;
-switch (G__25855) {
+var G__34944 = arguments.length;
+switch (G__34944) {
 case 1:
 return cljc.java_time.local_date_time.now.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

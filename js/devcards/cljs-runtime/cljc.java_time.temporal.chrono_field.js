@@ -42,8 +42,8 @@ cljc.java_time.temporal.chrono_field.values = (function cljc$java_time$temporal$
 return java.time.temporal.ChronoField.values();
 });
 cljc.java_time.temporal.chrono_field.value_of = (function cljc$java_time$temporal$chrono_field$value_of(var_args){
-var G__25986 = arguments.length;
-switch (G__25986) {
+var G__35253 = arguments.length;
+switch (G__35253) {
 case 1:
 return cljc.java_time.temporal.chrono_field.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

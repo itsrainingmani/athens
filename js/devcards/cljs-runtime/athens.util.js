@@ -1,6 +1,8 @@
 goog.provide('athens.util');
 goog.require('cljs.core');
 goog.require('clojure.string');
+goog.require('posh.reagent');
+goog.require('re_frame.core');
 goog.require('tick.alpha.api');
 goog.require('tick.locale_en_us');
 athens.util.gen_block_uid = (function athens$util$gen_block_uid(){
@@ -40,6 +42,32 @@ return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
 athens.util.date_col_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy h':'mma");
 athens.util.US_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("MM-dd-yyyy");
 athens.util.title_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy");
+athens.util.custom_format = (function athens$util$custom_format(uid){
+var vec__40134 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40134,(2),null);
+var newdate = tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null)));
+var title_format = cljs.core.deref((function (){var G__40137 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"title-format","title-format",1252034507)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__40137) : re_frame.core.subscribe.call(null,G__40137));
+})());
+return tick.alpha.api.format.cljs$core$IFn$_invoke$arity$2(tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1(title_format),newdate);
+});
+athens.util.is_timeline_page = (function athens$util$is_timeline_page(uid){
+return cljs.core.boolean$((function (){try{var vec__40141 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(uid,"-");
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(0),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(1),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40141,(2),null);
+return tick.alpha.api.date.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2("-",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [y,m,d], null)));
+}catch (e40139){if((e40139 instanceof Object)){
+var _ = e40139;
+return false;
+} else {
+throw e40139;
+
+}
+}})());
+});
 athens.util.now_ts = (function athens$util$now_ts(){
 return (new Date()).getTime();
 });
@@ -47,8 +75,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__30870 = arguments.length;
-switch (G__30870) {
+var G__40147 = arguments.length;
+switch (G__40147) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -86,8 +114,8 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__30874_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__30874_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__40150_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__40150_SHARP_)].join('');
 }),esc_chars));
 })();
 /**

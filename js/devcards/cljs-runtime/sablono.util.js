@@ -65,14 +65,14 @@ throw cljs.core.missing_protocol("ToURI.to-uri",x);
  */
 sablono.util.as_str = (function sablono$util$as_str(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___45978 = arguments.length;
-var i__4790__auto___45982 = (0);
+var len__4789__auto___46945 = arguments.length;
+var i__4790__auto___46946 = (0);
 while(true){
-if((i__4790__auto___45982 < len__4789__auto___45978)){
-args__4795__auto__.push((arguments[i__4790__auto___45982]));
+if((i__4790__auto___46946 < len__4789__auto___46945)){
+args__4795__auto__.push((arguments[i__4790__auto___46946]));
 
-var G__45984 = (i__4790__auto___45982 + (1));
-i__4790__auto___45982 = G__45984;
+var G__46947 = (i__4790__auto___46946 + (1));
+i__4790__auto___46946 = G__46947;
 continue;
 } else {
 }
@@ -90,9 +90,9 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core
 (sablono.util.as_str.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.util.as_str.cljs$lang$applyTo = (function (seq45924){
+(sablono.util.as_str.cljs$lang$applyTo = (function (seq46886){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq45924));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq46886));
 }));
 
 /**
@@ -100,12 +100,12 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 sablono.util.camel_case = (function sablono$util$camel_case(k){
 if((((k instanceof cljs.core.Keyword)) || (typeof k === 'string') || ((k instanceof cljs.core.Symbol)))){
-var vec__45929 = cljs.core.name(k).split("-");
-var seq__45930 = cljs.core.seq(vec__45929);
-var first__45931 = cljs.core.first(seq__45930);
-var seq__45930__$1 = cljs.core.next(seq__45930);
-var first_word = first__45931;
-var words = seq__45930__$1;
+var vec__46894 = cljs.core.name(k).split("-");
+var seq__46895 = cljs.core.seq(vec__46894);
+var first__46896 = cljs.core.first(seq__46895);
+var seq__46895__$1 = cljs.core.next(seq__46895);
+var first_word = first__46896;
+var words = seq__46895__$1;
 if(((cljs.core.empty_QMARK_(words)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("aria",first_word)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("data",first_word)))){
 return k;
 } else {
@@ -120,17 +120,17 @@ return k;
  */
 sablono.util.camel_case_keys = (function sablono$util$camel_case_keys(m){
 if(cljs.core.map_QMARK_(m)){
-var m__$1 = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__45936){
-var vec__45937 = p__45936;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45937,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45937,(1),null);
+var m__$1 = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__46898){
+var vec__46899 = p__46898;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46899,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46899,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.util.camel_case(k),v], null);
 })),m);
-var G__45940 = m__$1;
+var G__46902 = m__$1;
 if(cljs.core.map_QMARK_(new cljs.core.Keyword(null,"style","style",-496642736).cljs$core$IFn$_invoke$arity$1(m__$1))){
-return cljs.core.update.cljs$core$IFn$_invoke$arity$3(G__45940,new cljs.core.Keyword(null,"style","style",-496642736),sablono.util.camel_case_keys);
+return cljs.core.update.cljs$core$IFn$_invoke$arity$3(G__46902,new cljs.core.Keyword(null,"style","style",-496642736),sablono.util.camel_case_keys);
 } else {
-return G__45940;
+return G__46902;
 }
 } else {
 return m;
@@ -192,30 +192,30 @@ return [base,cljs.core.str.cljs$core$IFn$_invoke$arity$1(x__$1)].join('');
 
 goog.object.set(sablono.util.ToString,"null",true);
 
-var G__45951_45999 = sablono.util.to_str;
-var G__45952_46000 = "null";
-var G__45953_46001 = (function (_){
+var G__46917_46962 = sablono.util.to_str;
+var G__46918_46963 = "null";
+var G__46919_46964 = (function (_){
 return "";
 });
-goog.object.set(G__45951_45999,G__45952_46000,G__45953_46001);
+goog.object.set(G__46917_46962,G__46918_46963,G__46919_46964);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__45954_46002 = sablono.util.to_str;
-var G__45955_46003 = "number";
-var G__45956_46004 = (function (x){
+var G__46920_46966 = sablono.util.to_str;
+var G__46921_46967 = "number";
+var G__46922_46968 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__45954_46002,G__45955_46003,G__45956_46004);
+goog.object.set(G__46920_46966,G__46921_46967,G__46922_46968);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
-var G__45962_46005 = sablono.util.to_str;
-var G__45963_46006 = "_";
-var G__45964_46007 = (function (x){
+var G__46925_46973 = sablono.util.to_str;
+var G__46926_46974 = "_";
+var G__46927_46975 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__45962_46005,G__45963_46006,G__45964_46007);
+goog.object.set(G__46925_46973,G__46926_46974,G__46927_46975);
 (goog.Uri.prototype.sablono$util$ToURI$ = cljs.core.PROTOCOL_SENTINEL);
 
 (goog.Uri.prototype.sablono$util$ToURI$to_uri$arity$1 = (function (x){
@@ -225,11 +225,11 @@ return x__$1;
 
 goog.object.set(sablono.util.ToURI,"_",true);
 
-var G__45967_46010 = sablono.util.to_uri;
-var G__45968_46011 = "_";
-var G__45969_46012 = (function (x){
+var G__46933_46976 = sablono.util.to_uri;
+var G__46934_46977 = "_";
+var G__46935_46978 = (function (x){
 return (new goog.Uri(cljs.core.str.cljs$core$IFn$_invoke$arity$1(x)));
 });
-goog.object.set(G__45967_46010,G__45968_46011,G__45969_46012);
+goog.object.set(G__46933_46976,G__46934_46977,G__46935_46978);
 
 //# sourceMappingURL=sablono.util.js.map
