@@ -108,3 +108,8 @@
   :athena/get-recent
   (fn-traced [db _]
              (:athena/recent-items db)))
+
+(re-frame/reg-sub
+  :title-format
+  (fn-traced [db _]
+             (:title-format db)))
