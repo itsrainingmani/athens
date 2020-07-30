@@ -28,7 +28,8 @@
                :right-sidebar/items {}
                ;;:dragging-global     false
                :daily-notes/items   []
-               :selected/items   []})
+               :selected/items   []
+               :title-format "yyyy-MM-dd"})
 
 
 ;; -- JSON Parsing ----------------------------------------------------
