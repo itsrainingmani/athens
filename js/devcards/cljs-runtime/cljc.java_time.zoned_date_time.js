@@ -30,8 +30,8 @@ cljc.java_time.zoned_date_time.minus_hours = (function cljc$java_time$zoned_date
 return this3749.minusHours(long3750);
 });
 cljc.java_time.zoned_date_time.of = (function cljc$java_time$zoned_date_time$of(var_args){
-var G__35164 = arguments.length;
-switch (G__35164) {
+var G__34222 = arguments.length;
+switch (G__34222) {
 case 3:
 return cljc.java_time.zoned_date_time.of.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -92,8 +92,8 @@ cljc.java_time.zoned_date_time.get_day_of_year = (function cljc$java_time$zoned_
 return this3778.dayOfYear();
 });
 cljc.java_time.zoned_date_time.plus = (function cljc$java_time$zoned_date_time$plus(var_args){
-var G__35166 = arguments.length;
-switch (G__35166) {
+var G__34225 = arguments.length;
+switch (G__34225) {
 case 3:
 return cljc.java_time.zoned_date_time.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -146,8 +146,8 @@ cljc.java_time.zoned_date_time.minus_months = (function cljc$java_time$zoned_dat
 return this3798.minusMonths(long3799);
 });
 cljc.java_time.zoned_date_time.minus = (function cljc$java_time$zoned_date_time$minus(var_args){
-var G__35169 = arguments.length;
-switch (G__35169) {
+var G__34231 = arguments.length;
+switch (G__34231) {
 case 2:
 return cljc.java_time.zoned_date_time.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -242,8 +242,8 @@ cljc.java_time.zoned_date_time.get_chronology = (function cljc$java_time$zoned_d
 return this3841.chronology();
 });
 cljc.java_time.zoned_date_time.parse = (function cljc$java_time$zoned_date_time$parse(var_args){
-var G__35175 = arguments.length;
-switch (G__35175) {
+var G__34233 = arguments.length;
+switch (G__34233) {
 case 1:
 return cljc.java_time.zoned_date_time.parse.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -281,8 +281,8 @@ cljc.java_time.zoned_date_time.hash_code = (function cljc$java_time$zoned_date_t
 return this3849.hashCode();
 });
 cljc.java_time.zoned_date_time.with$ = (function cljc$java_time$zoned_date_time$with(var_args){
-var G__35177 = arguments.length;
-switch (G__35177) {
+var G__34235 = arguments.length;
+switch (G__34235) {
 case 2:
 return cljc.java_time.zoned_date_time.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -308,8 +308,8 @@ return this3852.with(G__3853,G__3854);
 (cljc.java_time.zoned_date_time.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.zoned_date_time.now = (function cljc$java_time$zoned_date_time$now(var_args){
-var G__35179 = arguments.length;
-switch (G__35179) {
+var G__34237 = arguments.length;
+switch (G__34237) {
 case 1:
 return cljc.java_time.zoned_date_time.now.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -353,8 +353,8 @@ cljc.java_time.zoned_date_time.get_month = (function cljc$java_time$zoned_date_t
 return this3866.month();
 });
 cljc.java_time.zoned_date_time.of_instant = (function cljc$java_time$zoned_date_time$of_instant(var_args){
-var G__35181 = arguments.length;
-switch (G__35181) {
+var G__34239 = arguments.length;
+switch (G__34239) {
 case 3:
 return cljc.java_time.zoned_date_time.of_instant.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
