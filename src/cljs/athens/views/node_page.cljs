@@ -10,6 +10,7 @@
     [athens.views.breadcrumbs :refer [breadcrumbs-list breadcrumb]]
     [athens.views.buttons :refer [button]]
     [athens.views.dropdown :refer [dropdown-style menu-style menu-separator-style]]
+    [athens.views.filters :refer [filters-el]]
     [cljsjs.react]
     [cljsjs.react.dom]
     [clojure.string :as string]
@@ -129,6 +130,25 @@
    :transform "translate(-100%, -50%)"})
 
 
+(def items
+  {"Amet"   {:count 6 :state :added}
+   "At"     {:count 130 :state :excluded}
+   "Diam"   {:count 6}
+   "Donec"  {:count 6}
+   "Elit"   {:count 30}
+   "Elitudomin mesucen defibocutruon"  {:count 1}
+   "Erat"   {:count 11}
+   "Est"    {:count 2}
+   "Eu"     {:count 2}
+   "Ipsum"  {:count 2 :state :excluded}
+   "Magnis" {:count 10 :state :added}
+   "Metus"  {:count 29}
+   "Mi"     {:count 7 :state :added}
+   "Quam"   {:count 1}
+   "Turpis" {:count 97}
+   "Vitae"  {:count 1}})
+
+
 ;;; Helpers
 
 
@@ -177,7 +197,10 @@
   [_ _ _ _]
   (let [state (r/atom {:menu/show false
                        :menu/x nil
-                       :menu/y nil})]
+                       :menu/y nil
+                       :lf/show false
+                       :lf/x nil
+                       :lf/y nil})]
     (fn [block editing-uid ref-groups timeline-page?]
       (let [{:block/keys [children uid] title :node/title is-shortcut? :page/sidebar} block
             {:menu/keys [show x y]} @state]
@@ -252,7 +275,23 @@
                 [:h4 (use-style references-heading-style)
                  [(r/adapt-react-class mui-icons/Link)]
                  [:span linked-or-unlinked]
-                 [button {:disabled true} [(r/adapt-react-class mui-icons/FilterList)]]]
+                 [button {:class [(when (:lf/show @state) "active")]
+                          :on-click (fn [e]
+                                      (if (:lf/show @state)
+                                        (swap! state assoc :lf/show false)
+                                        (let [rect (.. e -target getBoundingClientRect)]
+                                          (swap! state merge {:lf/show true
+                                                              :lf/x    (.. rect -left)
+                                                              :lf/y    (.. rect -bottom)}))))}
+                  [(r/adapt-react-class mui-icons/FilterList)]]]
+                (when (:lf/show @state)
+                  [:div (merge (use-style dropdown-style)
+                               {:style {:font-size "14px"
+                                        :position "fixed"
+                                        :left (str (:lf/x @state) "px")
+                                        :top (str (:lf/y @state) "px")}})
+                   [:div (use-style menu-style)
+                    [filters-el uid items]]])
                 [:div (use-style references-list-style)
                  (doall
                    (for [[group-title group] refs]
