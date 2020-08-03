@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__55270_55301 = reitit.impl.into_string;
-var G__55271_55302 = "string";
-var G__55272_55303 = (function (this$){
+var G__55270_55298 = reitit.impl.into_string;
+var G__55271_55299 = "string";
+var G__55272_55300 = (function (this$){
 return this$;
 });
-goog.object.set(G__55270_55301,G__55271_55302,G__55272_55303);
+goog.object.set(G__55270_55298,G__55271_55299,G__55272_55300);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 

@@ -177,8 +177,8 @@ cljc.java_time.local_time.is_supported = (function cljc$java_time$local_time$is_
 return this4305.isSupported(G__4306);
 });
 cljc.java_time.local_time.parse = (function cljc$java_time$local_time$parse(var_args){
-var G__34161 = arguments.length;
-switch (G__34161) {
+var G__34159 = arguments.length;
+switch (G__34159) {
 case 2:
 return cljc.java_time.local_time.parse.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
