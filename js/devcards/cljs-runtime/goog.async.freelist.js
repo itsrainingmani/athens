@@ -1,6 +1,10 @@
 goog.provide("goog.async.FreeList");
 /**
+ * @struct
  * @constructor
+ * @param {function():ITEM} create
+ * @param {function(ITEM):void} reset
+ * @param {number} limit
  * @template ITEM
  */
 goog.async.FreeList = function(create, reset, limit) {
