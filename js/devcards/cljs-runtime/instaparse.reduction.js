@@ -88,8 +88,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56358,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56358,(1),null);
 cljs.core.chunk_append(b__56357,(cljs.core.truth_(new cljs.core.Keyword(null,"red","red",-969428204).cljs$core$IFn$_invoke$arity$1(v))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,v], null):new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(v,new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null)));
 
-var G__56366 = (i__56356 + (1));
-i__56356 = G__56366;
+var G__56367 = (i__56356 + (1));
+i__56356 = G__56367;
 continue;
 } else {
 return true;
