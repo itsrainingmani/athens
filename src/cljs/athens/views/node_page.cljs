@@ -275,23 +275,21 @@
                 [:h4 (use-style references-heading-style)
                  [(r/adapt-react-class mui-icons/Link)]
                  [:span linked-or-unlinked]
-                 [button {:class [(when (:lf/show @state) "active")]
-                          :on-click (fn [e]
-                                      (if (:lf/show @state)
-                                        (swap! state assoc :lf/show false)
-                                        (let [rect (.. e -target getBoundingClientRect)]
-                                          (swap! state merge {:lf/show true
-                                                              :lf/x    (.. rect -left)
-                                                              :lf/y    (.. rect -bottom)}))))}
-                  [(r/adapt-react-class mui-icons/FilterList)]]]
-                (when (:lf/show @state)
-                  [:div (merge (use-style dropdown-style)
-                               {:style {:font-size "14px"
-                                        :position "fixed"
-                                        :left (str (:lf/x @state) "px")
-                                        :top (str (:lf/y @state) "px")}})
-                   [:div (use-style menu-style)
-                    [filters-el uid items]]])
+                 [:div {:style {:position "relative" :display "inline-block"}}
+                  [button {:class [(when (:lf/show @state) "active")]
+                           :on-click #(swap! state assoc :lf/show (not (:lf/show @state)))}
+                   [(r/adapt-react-class mui-icons/FilterList)]]
+                  (when (:lf/show @state)
+                    [:div (merge (use-style dropdown-style)
+                                 {:style {:font-size "14px"
+                                          :display "inline-block"
+                                          :position "absolute"
+                                          :z-index 3
+                                          :width "18rem"
+                                          :left "-1050%"
+                                          :top "0%"}})
+                     [:div (use-style menu-style)
+                      [filters-el uid items]]])]]
                 [:div (use-style references-list-style)
                  (doall
                    (for [[group-title group] refs]
