@@ -25,98 +25,98 @@ time_literals.read_write.print_time_literals_cljs_BANG_ = (function time_literal
 
 (java.time.MonthDay.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_month_day.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_month_day.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_month_day.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_month_day(d__$1));
 }));
 
 (java.time.YearMonth.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.YearMonth.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_year_month.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_year_month.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_year_month.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_year_month(d__$1));
 }));
 
 (java.time.Year.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.Year.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_year.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_year.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_year.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_year(d__$1));
 }));
 
 (java.time.ZonedDateTime.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.ZonedDateTime.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_zoned_date_time.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_zoned_date_time.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_zoned_date_time.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_zoned_date_time(d__$1));
 }));
 
 (java.time.OffsetTime.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.OffsetTime.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_offset_time.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_offset_time.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_offset_time.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_offset_time(d__$1));
 }));
 
 (java.time.Instant.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.Instant.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_instant.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_instant.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_instant.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_instant(d__$1));
 }));
 
 (java.time.ZoneId.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.ZoneId.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_zone.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_zone.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_zone.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_zone(d__$1));
 }));
 
 (java.time.LocalDate.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.LocalDate.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_date.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_date.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_date.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_date(d__$1));
 }));
 
 (java.time.LocalTime.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.LocalTime.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_time.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_time.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_time.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_time(d__$1));
 }));
 
 (java.time.LocalDateTime.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.LocalDateTime.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_date_time.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_date_time.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_date_time.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_date_time(d__$1));
 }));
 
 (java.time.Month.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.Month.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_month.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_month.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_month.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_month(d__$1));
 }));
 
 (java.time.Period.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.Period.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_period.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_period.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_period.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_period(d__$1));
 }));
 
 (java.time.DayOfWeek.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 (java.time.DayOfWeek.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_day_of_week.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_day_of_week.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_day_of_week.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_day_of_week(d__$1));
 }));
 
 (java.time.Duration.prototype.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL);
 
 return (java.time.Duration.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (d,writer,opts){
 var d__$1 = this;
-return cljs.core._write(writer,(time_literals.read_write.print_duration.cljs$core$IFn$_invoke$arity$1 ? time_literals.read_write.print_duration.cljs$core$IFn$_invoke$arity$1(d__$1) : time_literals.read_write.print_duration.call(null,d__$1)));
+return cljs.core._write(writer,time_literals.read_write.print_duration(d__$1));
 }));
 });
 time_literals.read_write.print_time_literals_clj_BANG_ = (function time_literals$read_write$print_time_literals_clj_BANG_(){
@@ -153,57 +153,57 @@ return java.time.LocalDateTime.parse(t);
 }),(function (t){
 return java.time.ZoneId.of(t);
 })]);
-var seq__33588_33613 = cljs.core.seq(time_literals.read_write.tags);
-var chunk__33589_33614 = null;
-var count__33590_33615 = (0);
-var i__33591_33616 = (0);
+var seq__33011_33036 = cljs.core.seq(time_literals.read_write.tags);
+var chunk__33012_33037 = null;
+var count__33013_33038 = (0);
+var i__33014_33039 = (0);
 while(true){
-if((i__33591_33616 < count__33590_33615)){
-var vec__33598_33617 = chunk__33589_33614.cljs$core$IIndexed$_nth$arity$2(null,i__33591_33616);
-var tag_33618 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33598_33617,(0),null);
-var read_fn_33619 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33598_33617,(1),null);
-cljs.reader.register_tag_parser_BANG_(tag_33618,read_fn_33619);
+if((i__33014_33039 < count__33013_33038)){
+var vec__33021_33040 = chunk__33012_33037.cljs$core$IIndexed$_nth$arity$2(null,i__33014_33039);
+var tag_33041 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33021_33040,(0),null);
+var read_fn_33042 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33021_33040,(1),null);
+cljs.reader.register_tag_parser_BANG_(tag_33041,read_fn_33042);
 
 
-var G__33623 = seq__33588_33613;
-var G__33624 = chunk__33589_33614;
-var G__33625 = count__33590_33615;
-var G__33626 = (i__33591_33616 + (1));
-seq__33588_33613 = G__33623;
-chunk__33589_33614 = G__33624;
-count__33590_33615 = G__33625;
-i__33591_33616 = G__33626;
+var G__33043 = seq__33011_33036;
+var G__33044 = chunk__33012_33037;
+var G__33045 = count__33013_33038;
+var G__33046 = (i__33014_33039 + (1));
+seq__33011_33036 = G__33043;
+chunk__33012_33037 = G__33044;
+count__33013_33038 = G__33045;
+i__33014_33039 = G__33046;
 continue;
 } else {
-var temp__5735__auto___33627 = cljs.core.seq(seq__33588_33613);
-if(temp__5735__auto___33627){
-var seq__33588_33628__$1 = temp__5735__auto___33627;
-if(cljs.core.chunked_seq_QMARK_(seq__33588_33628__$1)){
-var c__4609__auto___33629 = cljs.core.chunk_first(seq__33588_33628__$1);
-var G__33630 = cljs.core.chunk_rest(seq__33588_33628__$1);
-var G__33631 = c__4609__auto___33629;
-var G__33632 = cljs.core.count(c__4609__auto___33629);
-var G__33633 = (0);
-seq__33588_33613 = G__33630;
-chunk__33589_33614 = G__33631;
-count__33590_33615 = G__33632;
-i__33591_33616 = G__33633;
+var temp__5735__auto___33047 = cljs.core.seq(seq__33011_33036);
+if(temp__5735__auto___33047){
+var seq__33011_33048__$1 = temp__5735__auto___33047;
+if(cljs.core.chunked_seq_QMARK_(seq__33011_33048__$1)){
+var c__4556__auto___33049 = cljs.core.chunk_first(seq__33011_33048__$1);
+var G__33050 = cljs.core.chunk_rest(seq__33011_33048__$1);
+var G__33051 = c__4556__auto___33049;
+var G__33052 = cljs.core.count(c__4556__auto___33049);
+var G__33053 = (0);
+seq__33011_33036 = G__33050;
+chunk__33012_33037 = G__33051;
+count__33013_33038 = G__33052;
+i__33014_33039 = G__33053;
 continue;
 } else {
-var vec__33601_33634 = cljs.core.first(seq__33588_33628__$1);
-var tag_33635 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33601_33634,(0),null);
-var read_fn_33636 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33601_33634,(1),null);
-cljs.reader.register_tag_parser_BANG_(tag_33635,read_fn_33636);
+var vec__33024_33054 = cljs.core.first(seq__33011_33048__$1);
+var tag_33055 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33024_33054,(0),null);
+var read_fn_33056 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33024_33054,(1),null);
+cljs.reader.register_tag_parser_BANG_(tag_33055,read_fn_33056);
 
 
-var G__33637 = cljs.core.next(seq__33588_33628__$1);
-var G__33638 = null;
-var G__33639 = (0);
-var G__33640 = (0);
-seq__33588_33613 = G__33637;
-chunk__33589_33614 = G__33638;
-count__33590_33615 = G__33639;
-i__33591_33616 = G__33640;
+var G__33057 = cljs.core.next(seq__33011_33048__$1);
+var G__33058 = null;
+var G__33059 = (0);
+var G__33060 = (0);
+seq__33011_33036 = G__33057;
+chunk__33012_33037 = G__33058;
+count__33013_33038 = G__33059;
+i__33014_33039 = G__33060;
 continue;
 }
 } else {

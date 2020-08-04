@@ -13,20 +13,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,counter)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"line","line",212345235),line,new cljs.core.Keyword(null,"column","column",2078222095),col], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.get.cljs$core$IFn$_invoke$arity$2(text,counter))){
-var G__56291 = (line + (1));
-var G__56292 = (1);
-var G__56293 = (counter + (1));
-line = G__56291;
-col = G__56292;
-counter = G__56293;
+var G__55006 = (line + (1));
+var G__55007 = (1);
+var G__55008 = (counter + (1));
+line = G__55006;
+col = G__55007;
+counter = G__55008;
 continue;
 } else {
-var G__56294 = line;
-var G__56295 = (col + (1));
-var G__56296 = (counter + (1));
-line = G__56294;
-col = G__56295;
-counter = G__56296;
+var G__55009 = line;
+var G__55010 = (col + (1));
+var G__55011 = (counter + (1));
+line = G__55009;
+col = G__55010;
+counter = G__55011;
 continue;
 
 }
@@ -45,16 +45,16 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n__$1,(1))){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.complement(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, ["\n",null], null), null)),chars));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.first(chars))){
-var G__56297 = cljs.core.next(chars);
-var G__56298 = (n__$1 - (1));
-chars = G__56297;
-n__$1 = G__56298;
+var G__55012 = cljs.core.next(chars);
+var G__55013 = (n__$1 - (1));
+chars = G__55012;
+n__$1 = G__55013;
 continue;
 } else {
-var G__56299 = cljs.core.next(chars);
-var G__56300 = n__$1;
-chars = G__56299;
-n__$1 = G__56300;
+var G__55014 = cljs.core.next(chars);
+var G__55015 = n__$1;
+chars = G__55014;
+n__$1 = G__55015;
 continue;
 
 }
@@ -108,13 +108,13 @@ return cljs.core.pr.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs
 /**
  * Takes an augmented failure object and prints the error message
  */
-instaparse.failure.pprint_failure = (function instaparse$failure$pprint_failure(p__56277){
-var map__56278 = p__56277;
-var map__56278__$1 = (((((!((map__56278 == null))))?(((((map__56278.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56278.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56278):map__56278);
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56278__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56278__$1,new cljs.core.Keyword(null,"column","column",2078222095));
-var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56278__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
-var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56278__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
+instaparse.failure.pprint_failure = (function instaparse$failure$pprint_failure(p__54987){
+var map__54988 = p__54987;
+var map__54988__$1 = (((((!((map__54988 == null))))?(((((map__54988.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54988.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54988):map__54988);
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54988__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54988__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54988__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
+var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54988__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Parse error at line ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(line),", column ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(column),":"].join('')], 0));
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([text], 0));
@@ -134,57 +134,57 @@ cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$c
 }
 }
 
-var seq__56283_56308 = cljs.core.seq(full_reasons);
-var chunk__56284_56309 = null;
-var count__56285_56310 = (0);
-var i__56286_56311 = (0);
+var seq__54990_55016 = cljs.core.seq(full_reasons);
+var chunk__54991_55017 = null;
+var count__54992_55018 = (0);
+var i__54993_55019 = (0);
 while(true){
-if((i__56286_56311 < count__56285_56310)){
-var r_56312 = chunk__56284_56309.cljs$core$IIndexed$_nth$arity$2(null,i__56286_56311);
-instaparse.failure.print_reason(r_56312);
+if((i__54993_55019 < count__54992_55018)){
+var r_55020 = chunk__54991_55017.cljs$core$IIndexed$_nth$arity$2(null,i__54993_55019);
+instaparse.failure.print_reason(r_55020);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__56313 = seq__56283_56308;
-var G__56314 = chunk__56284_56309;
-var G__56315 = count__56285_56310;
-var G__56316 = (i__56286_56311 + (1));
-seq__56283_56308 = G__56313;
-chunk__56284_56309 = G__56314;
-count__56285_56310 = G__56315;
-i__56286_56311 = G__56316;
+var G__55021 = seq__54990_55016;
+var G__55022 = chunk__54991_55017;
+var G__55023 = count__54992_55018;
+var G__55024 = (i__54993_55019 + (1));
+seq__54990_55016 = G__55021;
+chunk__54991_55017 = G__55022;
+count__54992_55018 = G__55023;
+i__54993_55019 = G__55024;
 continue;
 } else {
-var temp__5735__auto___56317 = cljs.core.seq(seq__56283_56308);
-if(temp__5735__auto___56317){
-var seq__56283_56318__$1 = temp__5735__auto___56317;
-if(cljs.core.chunked_seq_QMARK_(seq__56283_56318__$1)){
-var c__4609__auto___56319 = cljs.core.chunk_first(seq__56283_56318__$1);
-var G__56320 = cljs.core.chunk_rest(seq__56283_56318__$1);
-var G__56321 = c__4609__auto___56319;
-var G__56322 = cljs.core.count(c__4609__auto___56319);
-var G__56323 = (0);
-seq__56283_56308 = G__56320;
-chunk__56284_56309 = G__56321;
-count__56285_56310 = G__56322;
-i__56286_56311 = G__56323;
+var temp__5735__auto___55026 = cljs.core.seq(seq__54990_55016);
+if(temp__5735__auto___55026){
+var seq__54990_55027__$1 = temp__5735__auto___55026;
+if(cljs.core.chunked_seq_QMARK_(seq__54990_55027__$1)){
+var c__4556__auto___55028 = cljs.core.chunk_first(seq__54990_55027__$1);
+var G__55029 = cljs.core.chunk_rest(seq__54990_55027__$1);
+var G__55030 = c__4556__auto___55028;
+var G__55031 = cljs.core.count(c__4556__auto___55028);
+var G__55032 = (0);
+seq__54990_55016 = G__55029;
+chunk__54991_55017 = G__55030;
+count__54992_55018 = G__55031;
+i__54993_55019 = G__55032;
 continue;
 } else {
-var r_56324 = cljs.core.first(seq__56283_56318__$1);
-instaparse.failure.print_reason(r_56324);
+var r_55033 = cljs.core.first(seq__54990_55027__$1);
+instaparse.failure.print_reason(r_55033);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__56325 = cljs.core.next(seq__56283_56318__$1);
-var G__56326 = null;
-var G__56327 = (0);
-var G__56328 = (0);
-seq__56283_56308 = G__56325;
-chunk__56284_56309 = G__56326;
-count__56285_56310 = G__56327;
-i__56286_56311 = G__56328;
+var G__55034 = cljs.core.next(seq__54990_55027__$1);
+var G__55035 = null;
+var G__55036 = (0);
+var G__55037 = (0);
+seq__54990_55016 = G__55034;
+chunk__54991_55017 = G__55035;
+count__54992_55018 = G__55036;
+i__54993_55019 = G__55037;
 continue;
 }
 } else {
@@ -193,57 +193,57 @@ continue;
 break;
 }
 
-var seq__56287 = cljs.core.seq(partial_reasons);
-var chunk__56288 = null;
-var count__56289 = (0);
-var i__56290 = (0);
+var seq__54997 = cljs.core.seq(partial_reasons);
+var chunk__54998 = null;
+var count__54999 = (0);
+var i__55000 = (0);
 while(true){
-if((i__56290 < count__56289)){
-var r = chunk__56288.cljs$core$IIndexed$_nth$arity$2(null,i__56290);
+if((i__55000 < count__54999)){
+var r = chunk__54998.cljs$core$IIndexed$_nth$arity$2(null,i__55000);
 instaparse.failure.print_reason(r);
 
 cljs.core.println();
 
 
-var G__56329 = seq__56287;
-var G__56330 = chunk__56288;
-var G__56331 = count__56289;
-var G__56332 = (i__56290 + (1));
-seq__56287 = G__56329;
-chunk__56288 = G__56330;
-count__56289 = G__56331;
-i__56290 = G__56332;
+var G__55038 = seq__54997;
+var G__55039 = chunk__54998;
+var G__55040 = count__54999;
+var G__55041 = (i__55000 + (1));
+seq__54997 = G__55038;
+chunk__54998 = G__55039;
+count__54999 = G__55040;
+i__55000 = G__55041;
 continue;
 } else {
-var temp__5735__auto__ = cljs.core.seq(seq__56287);
+var temp__5735__auto__ = cljs.core.seq(seq__54997);
 if(temp__5735__auto__){
-var seq__56287__$1 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__56287__$1)){
-var c__4609__auto__ = cljs.core.chunk_first(seq__56287__$1);
-var G__56333 = cljs.core.chunk_rest(seq__56287__$1);
-var G__56334 = c__4609__auto__;
-var G__56335 = cljs.core.count(c__4609__auto__);
-var G__56336 = (0);
-seq__56287 = G__56333;
-chunk__56288 = G__56334;
-count__56289 = G__56335;
-i__56290 = G__56336;
+var seq__54997__$1 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__54997__$1)){
+var c__4556__auto__ = cljs.core.chunk_first(seq__54997__$1);
+var G__55042 = cljs.core.chunk_rest(seq__54997__$1);
+var G__55043 = c__4556__auto__;
+var G__55044 = cljs.core.count(c__4556__auto__);
+var G__55045 = (0);
+seq__54997 = G__55042;
+chunk__54998 = G__55043;
+count__54999 = G__55044;
+i__55000 = G__55045;
 continue;
 } else {
-var r = cljs.core.first(seq__56287__$1);
+var r = cljs.core.first(seq__54997__$1);
 instaparse.failure.print_reason(r);
 
 cljs.core.println();
 
 
-var G__56337 = cljs.core.next(seq__56287__$1);
-var G__56338 = null;
-var G__56339 = (0);
-var G__56340 = (0);
-seq__56287 = G__56337;
-chunk__56288 = G__56338;
-count__56289 = G__56339;
-i__56290 = G__56340;
+var G__55046 = cljs.core.next(seq__54997__$1);
+var G__55047 = null;
+var G__55048 = (0);
+var G__55049 = (0);
+seq__54997 = G__55046;
+chunk__54998 = G__55047;
+count__54999 = G__55048;
+i__55000 = G__55049;
 continue;
 }
 } else {
