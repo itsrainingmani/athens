@@ -19,18 +19,18 @@ while(true){
 if(cljs.core.empty_QMARK_(pending_set__$1)){
 return new cljs.core.Keyword("shadow.remote.runtime.cljs.env","done!","shadow.remote.runtime.cljs.env/done!",615026485);
 } else {
-var G__59842 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (pending_set__$1,started_set,exts,ext_set,pending_set){
+var G__59821 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (pending_set__$1,started_set,exts,ext_set,pending_set){
 return (function (pending_set__$2,ext_id){
-var map__59837 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(exts,ext_id);
-var map__59837__$1 = (((((!((map__59837 == null))))?(((((map__59837.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59837.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59837):map__59837);
-var ext = map__59837__$1;
-var depends_on = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59837__$1,new cljs.core.Keyword(null,"depends-on","depends-on",-1448442022));
-var init_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59837__$1,new cljs.core.Keyword(null,"init-fn","init-fn",777257971));
+var map__59816 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(exts,ext_id);
+var map__59816__$1 = (((((!((map__59816 == null))))?(((((map__59816.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59816.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59816):map__59816);
+var ext = map__59816__$1;
+var depends_on = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59816__$1,new cljs.core.Keyword(null,"depends-on","depends-on",-1448442022));
+var init_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59816__$1,new cljs.core.Keyword(null,"init-fn","init-fn",777257971));
 if(cljs.core.truth_(cljs.core.some(pending_set__$2,depends_on))){
 return pending_set__$2;
 } else {
-var started = (function (){var G__59839 = cljs.core.deref(shadow.remote.runtime.cljs.env.runtime_ref);
-return (init_fn.cljs$core$IFn$_invoke$arity$1 ? init_fn.cljs$core$IFn$_invoke$arity$1(G__59839) : init_fn.call(null,G__59839));
+var started = (function (){var G__59818 = cljs.core.deref(shadow.remote.runtime.cljs.env.runtime_ref);
+return (init_fn.cljs$core$IFn$_invoke$arity$1 ? init_fn.cljs$core$IFn$_invoke$arity$1(G__59818) : init_fn.call(null,G__59818));
 })();
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(shadow.remote.runtime.cljs.env.runtime_ref,cljs.core.assoc,ext_id,started);
 
@@ -38,7 +38,7 @@ return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(pending_set__$2,ext_id);
 }
 });})(pending_set__$1,started_set,exts,ext_set,pending_set))
 ,pending_set__$1,pending_set__$1);
-pending_set__$1 = G__59842;
+pending_set__$1 = G__59821;
 continue;
 
 }
@@ -55,15 +55,15 @@ return null;
 }
 });
 shadow.remote.runtime.cljs.env.init_extension_BANG_ = (function shadow$remote$runtime$cljs$env$init_extension_BANG_(ext_id,depends_on,init_fn,stop_fn){
-var temp__5739__auto___59843 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(shadow.remote.runtime.cljs.env.runtime_ref),ext_id);
-if((temp__5739__auto___59843 == null)){
+var temp__5739__auto___59822 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(shadow.remote.runtime.cljs.env.runtime_ref),ext_id);
+if((temp__5739__auto___59822 == null)){
 } else {
-var started_59844 = temp__5739__auto___59843;
-var map__59840_59845 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(shadow.remote.runtime.cljs.env.extensions_ref),ext_id);
-var map__59840_59846__$1 = (((((!((map__59840_59845 == null))))?(((((map__59840_59845.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59840_59845.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59840_59845):map__59840_59845);
-var old_59847 = map__59840_59846__$1;
-var stop_fn_59848__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59840_59846__$1,new cljs.core.Keyword(null,"stop-fn","stop-fn",-348472246));
-(stop_fn_59848__$1.cljs$core$IFn$_invoke$arity$1 ? stop_fn_59848__$1.cljs$core$IFn$_invoke$arity$1(started_59844) : stop_fn_59848__$1.call(null,started_59844));
+var started_59823 = temp__5739__auto___59822;
+var map__59819_59824 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(shadow.remote.runtime.cljs.env.extensions_ref),ext_id);
+var map__59819_59825__$1 = (((((!((map__59819_59824 == null))))?(((((map__59819_59824.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59819_59824.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59819_59824):map__59819_59824);
+var old_59826 = map__59819_59825__$1;
+var stop_fn_59827__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59819_59825__$1,new cljs.core.Keyword(null,"stop-fn","stop-fn",-348472246));
+(stop_fn_59827__$1.cljs$core$IFn$_invoke$arity$1 ? stop_fn_59827__$1.cljs$core$IFn$_invoke$arity$1(started_59823) : stop_fn_59827__$1.call(null,started_59823));
 
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(shadow.remote.runtime.cljs.env.runtime_ref,cljs.core.dissoc,ext_id);
 }

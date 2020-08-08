@@ -79,10 +79,10 @@ var temp__5733__auto____$1 = cljs.core.second(sq);
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var c2 = temp__5733__auto____$1;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c2,"'")){
-var G__56099 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__56100 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
-sq = G__56099;
-v = G__56100;
+var G__56098 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__56099 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
+sq = G__56098;
+v = G__56099;
 continue;
 } else {
 var G__56101 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);

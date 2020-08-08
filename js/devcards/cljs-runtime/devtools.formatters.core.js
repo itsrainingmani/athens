@@ -35,7 +35,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23856){var _e__20595__auto__ = e23856;
+}catch (e23853){var _e__20632__auto__ = e23853;
 return false;
 }})())?devtools.format._header(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -50,7 +50,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23858){var _e__20595__auto__ = e23858;
+}catch (e23856){var _e__20632__auto__ = e23856;
 return false;
 }})())?devtools.protocols._header(value):devtools.formatters.templating.render_markup(devtools.formatters.markup._LT_header_GT_(value))
 )));
@@ -73,7 +73,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23863){var _e__20595__auto__ = e23863;
+}catch (e23862){var _e__20632__auto__ = e23862;
 return false;
 }})())?devtools.format._has_body(value):(cljs.core.truth_((function (){try{if((!((value == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === value.devtools$protocols$IFormat$)))){
@@ -88,7 +88,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23865){var _e__20595__auto__ = e23865;
+}catch (e23865){var _e__20632__auto__ = e23865;
 return false;
 }})())?devtools.protocols._has_body(value):false
 ))));
@@ -113,7 +113,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23867){var _e__20595__auto__ = e23867;
+}catch (e23867){var _e__20632__auto__ = e23867;
 return false;
 }})())){
 return devtools.format._body(value);
@@ -131,7 +131,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23870){var _e__20595__auto__ = e23870;
+}catch (e23869){var _e__20632__auto__ = e23869;
 return false;
 }})())){
 return devtools.protocols._body(value);
@@ -143,18 +143,18 @@ return null;
 });
 devtools.formatters.core.config_wrapper = (function devtools$formatters$core$config_wrapper(raw_fn){
 return (function (value,config){
-var _STAR_current_state_STAR__orig_val__23874 = devtools.formatters.state._STAR_current_state_STAR_;
-var _STAR_current_state_STAR__temp_val__23875 = (function (){var or__4126__auto__ = config;
+var _STAR_current_state_STAR__orig_val__23871 = devtools.formatters.state._STAR_current_state_STAR_;
+var _STAR_current_state_STAR__temp_val__23872 = (function (){var or__4126__auto__ = config;
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
 return devtools.formatters.state.get_default_state();
 }
 })();
-(devtools.formatters.state._STAR_current_state_STAR_ = _STAR_current_state_STAR__temp_val__23875);
+(devtools.formatters.state._STAR_current_state_STAR_ = _STAR_current_state_STAR__temp_val__23872);
 
 try{return (raw_fn.cljs$core$IFn$_invoke$arity$1 ? raw_fn.cljs$core$IFn$_invoke$arity$1(value) : raw_fn.call(null,value));
-}finally {(devtools.formatters.state._STAR_current_state_STAR_ = _STAR_current_state_STAR__orig_val__23874);
+}finally {(devtools.formatters.state._STAR_current_state_STAR_ = _STAR_current_state_STAR__orig_val__23871);
 }});
 });
 devtools.formatters.core.want_value_QMARK_ = devtools.formatters.core.config_wrapper(devtools.formatters.core.want_value_QMARK__STAR_);

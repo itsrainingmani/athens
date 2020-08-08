@@ -21,10 +21,10 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(p,cljs.core.first(datom));
 }
 }
 })())){
-var G__23962 = cljs.core.rest(pattern);
-var G__23963 = cljs.core.rest(datom);
-pattern = G__23962;
-datom = G__23963;
+var G__23963 = cljs.core.rest(pattern);
+var G__23964 = cljs.core.rest(datom);
+pattern = G__23963;
+datom = G__23964;
 continue;
 } else {
 return null;
@@ -82,28 +82,28 @@ if(cljs.core.empty_QMARK_(patterns)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774),cljs.core.cons(cljs.core.vec(cljs.core.cons(entids,rest_datom)),new_patterns),new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963),leftover_patterns], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rest_datom,cljs.core.rest(cljs.core.first(patterns)))){
-var G__23965 = clojure.set.union.cljs$core$IFn$_invoke$arity$2(entids,((cljs.core.set_QMARK_(cljs.core.ffirst(patterns)))?cljs.core.ffirst(patterns):cljs.core.set(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.ffirst(patterns)], null))));
-var G__23966 = rest_datom;
-var G__23967 = cljs.core.rest(patterns);
-var G__23968 = new_patterns;
-var G__23969 = leftover_patterns;
-entids = G__23965;
-rest_datom = G__23966;
-patterns = G__23967;
-new_patterns = G__23968;
-leftover_patterns = G__23969;
+var G__23968 = clojure.set.union.cljs$core$IFn$_invoke$arity$2(entids,((cljs.core.set_QMARK_(cljs.core.ffirst(patterns)))?cljs.core.ffirst(patterns):cljs.core.set(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.ffirst(patterns)], null))));
+var G__23969 = rest_datom;
+var G__23970 = cljs.core.rest(patterns);
+var G__23971 = new_patterns;
+var G__23972 = leftover_patterns;
+entids = G__23968;
+rest_datom = G__23969;
+patterns = G__23970;
+new_patterns = G__23971;
+leftover_patterns = G__23972;
 continue;
 } else {
-var G__23970 = entids;
-var G__23971 = rest_datom;
-var G__23972 = cljs.core.rest(patterns);
-var G__23973 = new_patterns;
-var G__23974 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
-entids = G__23970;
-rest_datom = G__23971;
-patterns = G__23972;
-new_patterns = G__23973;
-leftover_patterns = G__23974;
+var G__23973 = entids;
+var G__23974 = rest_datom;
+var G__23975 = cljs.core.rest(patterns);
+var G__23976 = new_patterns;
+var G__23977 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
+entids = G__23973;
+rest_datom = G__23974;
+patterns = G__23975;
+new_patterns = G__23976;
+leftover_patterns = G__23977;
 continue;
 }
 }

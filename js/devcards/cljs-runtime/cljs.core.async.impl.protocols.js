@@ -70,7 +70,7 @@ return cljs$core$async$impl$protocols$WritePort$put_BANG_$dyn_40134(port,val,fn1
  */
 cljs.core.async.impl.protocols.Channel = function(){};
 
-var cljs$core$async$impl$protocols$Channel$close_BANG_$dyn_40142 = (function (chan){
+var cljs$core$async$impl$protocols$Channel$close_BANG_$dyn_40139 = (function (chan){
 var x__4428__auto__ = (((chan == null))?null:chan);
 var m__4429__auto__ = (cljs.core.async.impl.protocols.close_BANG_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -88,11 +88,11 @@ cljs.core.async.impl.protocols.close_BANG_ = (function cljs$core$async$impl$prot
 if((((!((chan == null)))) && ((!((chan.cljs$core$async$impl$protocols$Channel$close_BANG_$arity$1 == null)))))){
 return chan.cljs$core$async$impl$protocols$Channel$close_BANG_$arity$1(chan);
 } else {
-return cljs$core$async$impl$protocols$Channel$close_BANG_$dyn_40142(chan);
+return cljs$core$async$impl$protocols$Channel$close_BANG_$dyn_40139(chan);
 }
 });
 
-var cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40146 = (function (chan){
+var cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40143 = (function (chan){
 var x__4428__auto__ = (((chan == null))?null:chan);
 var m__4429__auto__ = (cljs.core.async.impl.protocols.closed_QMARK_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -110,7 +110,7 @@ cljs.core.async.impl.protocols.closed_QMARK_ = (function cljs$core$async$impl$pr
 if((((!((chan == null)))) && ((!((chan.cljs$core$async$impl$protocols$Channel$closed_QMARK_$arity$1 == null)))))){
 return chan.cljs$core$async$impl$protocols$Channel$closed_QMARK_$arity$1(chan);
 } else {
-return cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40146(chan);
+return cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40143(chan);
 }
 });
 
