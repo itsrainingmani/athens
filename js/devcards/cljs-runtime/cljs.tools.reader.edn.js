@@ -75,14 +75,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__26434 = (function (){var G__26371 = sb;
+var G__26433 = (function (){var G__26371 = sb;
 G__26371.append(cljs.tools.reader.reader_types.read_char(rdr));
 
 return G__26371;
 })();
-var G__26435 = cljs.tools.reader.reader_types.peek_char(rdr);
-sb = G__26434;
-ch = G__26435;
+var G__26434 = cljs.tools.reader.reader_types.peek_char(rdr);
+sb = G__26433;
+ch = G__26434;
 continue;
 }
 }
@@ -161,10 +161,10 @@ var d = cljs.tools.reader.impl.utils.char_code(cljs.core.nth.cljs$core$IFn$_invo
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit_in_token(null,cljs.core.nth.cljs$core$IFn$_invoke$arity$2(token,i),token);
 } else {
-var G__26439 = (i + (1));
-var G__26440 = (d + (uc * base));
-i = G__26439;
-uc = G__26440;
+var G__26438 = (i + (1));
+var G__26439 = (d + (uc * base));
+i = G__26438;
+uc = G__26439;
 continue;
 }
 }
@@ -605,10 +605,10 @@ cljs.tools.reader.impl.errors.throw_dup_keys(rdr,new cljs.core.Keyword(null,"set
 return the_set;
 });
 cljs.tools.reader.edn.read_discard = (function cljs$tools$reader$edn$read_discard(rdr,_,opts){
-var G__26416 = rdr;
-(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__26416,true,null,true) : cljs.tools.reader.edn.read.call(null,G__26416,true,null,true));
+var G__26412 = rdr;
+(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__26412,true,null,true) : cljs.tools.reader.edn.read.call(null,G__26412,true,null,true));
 
-return G__26416;
+return G__26412;
 });
 cljs.tools.reader.edn.read_namespaced_map = (function cljs$tools$reader$edn$read_namespaced_map(rdr,_,opts){
 var token = cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3(rdr,new cljs.core.Keyword(null,"namespaced-map","namespaced-map",1235665380),cljs.tools.reader.reader_types.read_char(rdr));
@@ -802,8 +802,8 @@ return cljs.tools.reader.impl.errors.throw_unknown_reader_tag(rdr,tag);
  *            be called with the tag and the value.
  */
 cljs.tools.reader.edn.read = (function cljs$tools$reader$edn$read(var_args){
-var G__26423 = arguments.length;
-switch (G__26423) {
+var G__26422 = arguments.length;
+switch (G__26422) {
 case 1:
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -826,11 +826,11 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,reader);
 }));
 
-(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2 = (function (p__26425,reader){
-var map__26426 = p__26425;
-var map__26426__$1 = (((((!((map__26426 == null))))?(((((map__26426.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26426.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__26426):map__26426);
-var opts = map__26426__$1;
-var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26426__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
+(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2 = (function (p__26423,reader){
+var map__26424 = p__26423;
+var map__26424__$1 = (((((!((map__26424 == null))))?(((((map__26424.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26424.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__26424):map__26424);
+var opts = map__26424__$1;
+var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26424__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
 var eof_error_QMARK_ = (!(cljs.core.contains_QMARK_(opts,new cljs.core.Keyword(null,"eof","eof",-489063237))));
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(reader,eof_error_QMARK_,eof,opts);
 }));

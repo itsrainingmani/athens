@@ -185,14 +185,14 @@ return type;
  */
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___45244 = arguments.length;
-var i__4737__auto___45245 = (0);
+var len__4736__auto___45250 = arguments.length;
+var i__4737__auto___45251 = (0);
 while(true){
-if((i__4737__auto___45245 < len__4736__auto___45244)){
-args__4742__auto__.push((arguments[i__4737__auto___45245]));
+if((i__4737__auto___45251 < len__4736__auto___45250)){
+args__4742__auto__.push((arguments[i__4737__auto___45251]));
 
-var G__45246 = (i__4737__auto___45245 + (1));
-i__4737__auto___45245 = G__45246;
+var G__45252 = (i__4737__auto___45251 + (1));
+i__4737__auto___45251 = G__45252;
 continue;
 } else {
 }

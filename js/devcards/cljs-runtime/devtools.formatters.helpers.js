@@ -53,7 +53,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(cljs.core.IPrintWithWriter,value);
 }
-}catch (e23460){var _e__20802__auto__ = e23460;
+}catch (e23460){var _e__20789__auto__ = e23460;
 return false;
 }})();
 if(cljs.core.truth_(or__4126__auto__)){
@@ -72,7 +72,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23464){var _e__20802__auto__ = e23464;
+}catch (e23464){var _e__20789__auto__ = e23464;
 return false;
 }})();
 if(cljs.core.truth_(or__4126__auto____$1)){
@@ -91,7 +91,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23469){var _e__20802__auto__ = e23469;
+}catch (e23466){var _e__20789__auto__ = e23466;
 return false;
 }}
 }
@@ -144,9 +144,9 @@ return ((value === true) || (value === false));
 devtools.formatters.helpers.instance_of_a_well_known_type_QMARK_ = (function devtools$formatters$helpers$instance_of_a_well_known_type_QMARK_(value){
 var well_known_types = devtools.formatters.helpers.pref(new cljs.core.Keyword(null,"well-known-types","well-known-types",70638649));
 var constructor_fn = devtools.formatters.helpers.get_constructor(value);
-var vec__23478 = devtools.munging.parse_constructor_info(constructor_fn);
-var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23478,(0),null);
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23478,(1),null);
+var vec__23477 = devtools.munging.parse_constructor_info(constructor_fn);
+var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23477,(0),null);
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23477,(1),null);
 var fully_qualified_type_name = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(ns),"/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)].join('');
 return cljs.core.contains_QMARK_(well_known_types,fully_qualified_type_name);
 });
