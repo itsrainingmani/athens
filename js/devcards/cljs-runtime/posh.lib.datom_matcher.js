@@ -21,10 +21,10 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(p,cljs.core.first(datom));
 }
 }
 })())){
-var G__23963 = cljs.core.rest(pattern);
-var G__23964 = cljs.core.rest(datom);
-pattern = G__23963;
-datom = G__23964;
+var G__23962 = cljs.core.rest(pattern);
+var G__23963 = cljs.core.rest(datom);
+pattern = G__23962;
+datom = G__23963;
 continue;
 } else {
 return null;
