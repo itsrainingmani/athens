@@ -142,10 +142,10 @@ var sb = (new goog.string.StringBuffer());
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__20352 = sb.append(cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(coll__$1)));
-var G__20353 = cljs.core.next(coll__$1);
-sb = G__20352;
-coll__$1 = G__20353;
+var G__20346 = sb.append(cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(coll__$1)));
+var G__20347 = cljs.core.next(coll__$1);
+sb = G__20346;
+coll__$1 = G__20347;
 continue;
 } else {
 return sb.toString();
@@ -167,10 +167,10 @@ if((coll__$2 == null)){
 sb.append(separator);
 }
 
-var G__20354 = sb;
-var G__20355 = coll__$2;
-sb = G__20354;
-coll__$1 = G__20355;
+var G__20351 = sb;
+var G__20352 = coll__$2;
+sb = G__20351;
+coll__$1 = G__20352;
 continue;
 } else {
 return sb.toString();
@@ -274,12 +274,12 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
 var m = cljs.core.re_find(re,s__$1);
 if((!((m == null)))){
 var index = s__$1.indexOf(m);
-var G__20365 = s__$1.substring((index + cljs.core.count(m)));
-var G__20366 = (limit__$1 - (1));
-var G__20367 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
-s__$1 = G__20365;
-limit__$1 = G__20366;
-parts = G__20367;
+var G__20358 = s__$1.substring((index + cljs.core.count(m)));
+var G__20359 = (limit__$1 - (1));
+var G__20360 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
+s__$1 = G__20358;
+limit__$1 = G__20359;
+parts = G__20360;
 continue;
 } else {
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
@@ -328,8 +328,8 @@ return "";
 } else {
 var ch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(s,(index - (1)));
 if(((("\n" === ch)) || (("\r" === ch)))){
-var G__20368 = (index - (1));
-index = G__20368;
+var G__20367 = (index - (1));
+index = G__20367;
 continue;
 } else {
 return s.substring((0),index);
@@ -367,8 +367,8 @@ buffer.append(cljs.core.str.cljs$core$IFn$_invoke$arity$1(replacement));
 buffer.append(ch);
 }
 
-var G__20370 = (index + (1));
-index = G__20370;
+var G__20369 = (index + (1));
+index = G__20369;
 continue;
 }
 break;
