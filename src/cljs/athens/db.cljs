@@ -503,10 +503,12 @@
        (remove #(= (:block/uid %) uid))
        count))
 
+;; Pattern for finding links
 (def find-links
-  (re-pattern (str "(\\[\\[.+\\]\\])|(#).+|(#\\[\\[.+\\]\\])")))
+  (re-pattern (str "(\\[\\[(.+)\\]\\])|(#)(.+)|(#\\[\\[(.+)\\]\\])")))
 
 (defn construct-links
+  "Given a node, this gets all links within linked references"
   [title]
   (let [linked-refs (get-linked-references (escape-str title))]
     (->> linked-refs
@@ -514,6 +516,7 @@
          (reduce (fn [acc v] (conj acc (flatten (tree-seq :block/children :block/children v)))) '())
          flatten
          (map #(re-find find-links (:block/string %1)))
-         (map first)
+         (map #(nth %1 2))
          (remove nil?)
-         frequencies)))
+         frequencies
+         (reduce (fn [acc [k v]] (assoc acc k {:count v})) {}))))
