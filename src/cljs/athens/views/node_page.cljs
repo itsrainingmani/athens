@@ -1,7 +1,7 @@
 (ns athens.views.node-page
   (:require
     ["@material-ui/icons" :as mui-icons]
-    [athens.db :as db :refer [get-linked-references get-unlinked-references]]
+    [athens.db :as db :refer [get-linked-references get-unlinked-references construct-links]]
     [athens.parse-renderer :as parse-renderer :refer [pull-node-from-string]]
     [athens.router :refer [navigate-uid navigate]]
     [athens.style :refer [color]]
@@ -289,7 +289,7 @@
                                           :left "-1050%"
                                           :top "0%"}})
                      [:div (use-style menu-style)
-                      [filters-el uid items]]])]]
+                      [filters-el uid (construct-links title)]]])]]
                 [:div (use-style references-list-style)
                  (doall
                    (for [[group-title group] refs]
