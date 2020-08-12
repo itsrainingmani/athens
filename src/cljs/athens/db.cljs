@@ -508,14 +508,21 @@
   (re-pattern (str "(\\[\\[(.+)\\]\\])|(#)(.+)|(#\\[\\[(.+)\\]\\])")))
 
 
+;; This pattern works better at handling nested and multiple links in a string
+;; TODO: Pair this with recursive regex
+(def nested-links
+  (re-pattern "\\[\\[([^\\]\\]]*)\\]\\]|(#)(.+)|#\\[([^\\]\\]]*)\\]\\]"))
+
+
+;; TODO: Implement multiple link handling
 (defn recursive-regex
   "Naive implementation of a Recursive regex"
   [input]
   (loop [all-matches '()
          i input]
-    (let [matched (nth (re-find find-links i) 2)]
-      (if-not (nil? matched)
-        (recur (conj all-matches matched) matched)
+    (let [matches (re-seq nested-links i)]
+      (if-not (nil? matches)
+        (recur (conj all-matches matches) matches)
         all-matches))))
 
 
