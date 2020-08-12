@@ -30,8 +30,8 @@ cljc.java_time.zoned_date_time.minus_hours = (function cljc$java_time$zoned_date
 return this3749.minusHours(long3750);
 });
 cljc.java_time.zoned_date_time.of = (function cljc$java_time$zoned_date_time$of(var_args){
-var G__33650 = arguments.length;
-switch (G__33650) {
+var G__33655 = arguments.length;
+switch (G__33655) {
 case 3:
 return cljc.java_time.zoned_date_time.of.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
