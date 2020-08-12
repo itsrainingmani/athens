@@ -12,14 +12,14 @@ return cljs.core.List.EMPTY;
 }))], null));
 re_frame.loggers.console = (function re_frame$loggers$console(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___49720 = arguments.length;
-var i__4737__auto___49721 = (0);
+var len__4736__auto___49712 = arguments.length;
+var i__4737__auto___49713 = (0);
 while(true){
-if((i__4737__auto___49721 < len__4736__auto___49720)){
-args__4742__auto__.push((arguments[i__4737__auto___49721]));
+if((i__4737__auto___49713 < len__4736__auto___49712)){
+args__4742__auto__.push((arguments[i__4737__auto___49713]));
 
-var G__49722 = (i__4737__auto___49721 + (1));
-i__4737__auto___49721 = G__49722;
+var G__49714 = (i__4737__auto___49713 + (1));
+i__4737__auto___49713 = G__49714;
 continue;
 } else {
 }

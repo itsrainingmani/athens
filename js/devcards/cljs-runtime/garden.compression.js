@@ -26,14 +26,14 @@ return null;
  */
 garden.compression.tokenizer = (function garden$compression$tokenizer(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___38886 = arguments.length;
-var i__4737__auto___38887 = (0);
+var len__4736__auto___38885 = arguments.length;
+var i__4737__auto___38886 = (0);
 while(true){
-if((i__4737__auto___38887 < len__4736__auto___38886)){
-args__4742__auto__.push((arguments[i__4737__auto___38887]));
+if((i__4737__auto___38886 < len__4736__auto___38885)){
+args__4742__auto__.push((arguments[i__4737__auto___38886]));
 
-var G__38888 = (i__4737__auto___38887 + (1));
-i__4737__auto___38887 = G__38888;
+var G__38887 = (i__4737__auto___38886 + (1));
+i__4737__auto___38886 = G__38887;
 continue;
 } else {
 }

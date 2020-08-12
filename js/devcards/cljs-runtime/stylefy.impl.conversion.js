@@ -193,11 +193,11 @@ return stylefy.impl.conversion.class_selector(hash);
 }
 })();
 var css_manual_styles = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (manual_style){
-var manual_selector_and_css_props = clojure.walk.walk((function (p1__40035_SHARP_){
-if(cljs.core.map_QMARK_(p1__40035_SHARP_)){
-return stylefy.impl.utils.remove_special_keywords(p1__40035_SHARP_);
+var manual_selector_and_css_props = clojure.walk.walk((function (p1__40036_SHARP_){
+if(cljs.core.map_QMARK_(p1__40036_SHARP_)){
+return stylefy.impl.utils.remove_special_keywords(p1__40036_SHARP_);
 } else {
-return p1__40035_SHARP_;
+return p1__40036_SHARP_;
 }
 }),cljs.core.identity,manual_style);
 var garden_style_definition = cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [css_parent_selector], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [manual_selector_and_css_props], null));
