@@ -777,10 +777,10 @@ while(true){
 if(cljs.tools.reader.impl.utils.newline_QMARK_(c)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
 } else {
-var G__26167 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-var G__26168 = s.append(c);
-c = G__26167;
-s = G__26168;
+var G__26163 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+var G__26164 = s.append(c);
+c = G__26163;
+s = G__26164;
 continue;
 }
 break;
