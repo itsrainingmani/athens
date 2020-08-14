@@ -33,9 +33,9 @@ var method = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60349__$1,new cljs
 var opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60349__$1,new cljs.core.Keyword(null,"opts","opts",155075701));
 var on_success = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60349__$1,new cljs.core.Keyword(null,"on-success","on-success",1786904109));
 var on_failure = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60349__$1,new cljs.core.Keyword(null,"on-failure","on-failure",842888245));
-var c__42527__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__42528__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__42528__auto__ = (function (){var switch__42492__auto__ = (function (state_60393){
+var f__42529__auto__ = (function (){var switch__42492__auto__ = (function (state_60393){
 var state_val_60394 = (state_60393[(1)]);
 if((state_val_60394 === (7))){
 var inst_60360 = (state_60393[(7)]);
@@ -376,15 +376,15 @@ athens$effects$state_machine__42493__auto__.cljs$core$IFn$_invoke$arity$1 = athe
 return athens$effects$state_machine__42493__auto__;
 })()
 })();
-var state__42529__auto__ = (function (){var statearr_60426 = f__42528__auto__();
-(statearr_60426[(6)] = c__42527__auto__);
+var state__42530__auto__ = (function (){var statearr_60426 = f__42529__auto__();
+(statearr_60426[(6)] = c__42528__auto__);
 
 return statearr_60426;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__42529__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__42530__auto__);
 }));
 
-return c__42527__auto__;
+return c__42528__auto__;
 }));
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"timeout","timeout",-318625318),(function (){var timers = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 return (function (p__60427){

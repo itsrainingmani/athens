@@ -11,13 +11,13 @@ goog.require('reitit.frontend.easy');
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"current-route","current-route",2067529448),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db){
 return new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
 })], 0));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__54767){
-var vec__54768 = p__54767;
-var seq__54769 = cljs.core.seq(vec__54768);
-var first__54770 = cljs.core.first(seq__54769);
-var seq__54769__$1 = cljs.core.next(seq__54769);
-var ___$1 = first__54770;
-var route = seq__54769__$1;
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__54768){
+var vec__54769 = p__54768;
+var seq__54770 = cljs.core.seq(vec__54769);
+var first__54771 = cljs.core.first(seq__54770);
+var seq__54770__$1 = cljs.core.next(seq__54770);
+var ___$1 = first__54771;
+var route = seq__54770__$1;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"navigate!","navigate!",79998348),route], null);
 }));
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__54772,p__54773){

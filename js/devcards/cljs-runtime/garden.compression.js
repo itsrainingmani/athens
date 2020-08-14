@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__38865){
-var vec__38867 = p__38865;
+garden.compression.token_fn = (function garden$compression$token_fn(p__38866){
+var vec__38867 = p__38866;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__38867,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__38867,(1),null);
 return (function (s){
@@ -80,9 +80,9 @@ var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.co
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.core.Keyword(null,"size","size",1098693007));
 var G__38889 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__38890 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__38884 = tag;
-var G__38884__$1 = (((G__38884 instanceof cljs.core.Keyword))?G__38884.fqn:null);
-switch (G__38884__$1) {
+var G__38890 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__38881 = tag;
+var G__38881__$1 = (((G__38881 instanceof cljs.core.Keyword))?G__38881.fqn:null);
+switch (G__38881__$1) {
 case "string":
 return chunk;
 

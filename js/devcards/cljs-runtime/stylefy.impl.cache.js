@@ -96,8 +96,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_styles(instance_
 (stylefy.impl.cache.clear_styles.cljs$lang$maxFixedArity = 1);
 
 stylefy.impl.cache.use_caching_BANG_ = (function stylefy$impl$cache$use_caching_BANG_(var_args){
-var G__42598 = arguments.length;
-switch (G__42598) {
+var G__42596 = arguments.length;
+switch (G__42596) {
 case 1:
 return stylefy.impl.cache.use_caching_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
