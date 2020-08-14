@@ -92,7 +92,7 @@ return cljs$core$async$impl$protocols$Channel$close_BANG_$dyn_40142(chan);
 }
 });
 
-var cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40143 = (function (chan){
+var cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40145 = (function (chan){
 var x__4428__auto__ = (((chan == null))?null:chan);
 var m__4429__auto__ = (cljs.core.async.impl.protocols.closed_QMARK_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -110,7 +110,7 @@ cljs.core.async.impl.protocols.closed_QMARK_ = (function cljs$core$async$impl$pr
 if((((!((chan == null)))) && ((!((chan.cljs$core$async$impl$protocols$Channel$closed_QMARK_$arity$1 == null)))))){
 return chan.cljs$core$async$impl$protocols$Channel$closed_QMARK_$arity$1(chan);
 } else {
-return cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40143(chan);
+return cljs$core$async$impl$protocols$Channel$closed_QMARK_$dyn_40145(chan);
 }
 });
 
@@ -226,7 +226,7 @@ return cljs$core$async$impl$protocols$Buffer$full_QMARK_$dyn_40162(b);
 }
 });
 
-var cljs$core$async$impl$protocols$Buffer$remove_BANG_$dyn_40166 = (function (b){
+var cljs$core$async$impl$protocols$Buffer$remove_BANG_$dyn_40163 = (function (b){
 var x__4428__auto__ = (((b == null))?null:b);
 var m__4429__auto__ = (cljs.core.async.impl.protocols.remove_BANG_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -247,7 +247,7 @@ cljs.core.async.impl.protocols.remove_BANG_ = (function cljs$core$async$impl$pro
 if((((!((b == null)))) && ((!((b.cljs$core$async$impl$protocols$Buffer$remove_BANG_$arity$1 == null)))))){
 return b.cljs$core$async$impl$protocols$Buffer$remove_BANG_$arity$1(b);
 } else {
-return cljs$core$async$impl$protocols$Buffer$remove_BANG_$dyn_40166(b);
+return cljs$core$async$impl$protocols$Buffer$remove_BANG_$dyn_40163(b);
 }
 });
 

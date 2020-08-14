@@ -26,14 +26,14 @@ return null;
  */
 garden.compression.tokenizer = (function garden$compression$tokenizer(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___38885 = arguments.length;
-var i__4737__auto___38886 = (0);
+var len__4736__auto___38886 = arguments.length;
+var i__4737__auto___38887 = (0);
 while(true){
-if((i__4737__auto___38886 < len__4736__auto___38885)){
-args__4742__auto__.push((arguments[i__4737__auto___38886]));
+if((i__4737__auto___38887 < len__4736__auto___38886)){
+args__4742__auto__.push((arguments[i__4737__auto___38887]));
 
-var G__38887 = (i__4737__auto___38886 + (1));
-i__4737__auto___38886 = G__38887;
+var G__38888 = (i__4737__auto___38887 + (1));
+i__4737__auto___38887 = G__38888;
 continue;
 } else {
 }
@@ -74,15 +74,15 @@ var s2 = "";
 while(true){
 var temp__5733__auto__ = garden.compression.stylesheet_tokenizer(s1);
 if(cljs.core.truth_(temp__5733__auto__)){
-var map__38878 = temp__5733__auto__;
-var map__38878__$1 = (((((!((map__38878 == null))))?(((((map__38878.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38878.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38878):map__38878);
-var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
-var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
-var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38878__$1,new cljs.core.Keyword(null,"size","size",1098693007));
+var map__38881 = temp__5733__auto__;
+var map__38881__$1 = (((((!((map__38881 == null))))?(((((map__38881.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38881.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38881):map__38881);
+var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38881__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
+var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38881__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
+var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38881__$1,new cljs.core.Keyword(null,"size","size",1098693007));
 var G__38889 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__38890 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__38881 = tag;
-var G__38881__$1 = (((G__38881 instanceof cljs.core.Keyword))?G__38881.fqn:null);
-switch (G__38881__$1) {
+var G__38890 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__38884 = tag;
+var G__38884__$1 = (((G__38884 instanceof cljs.core.Keyword))?G__38884.fqn:null);
+switch (G__38884__$1) {
 case "string":
 return chunk;
 
