@@ -172,6 +172,13 @@
     [:span (use-style bullet-style)]
     [:span {:on-click #(handle-new-first-child-block-click parent-uid)} "Click here to add content..."]]])
 
+(defn get-added
+  [s]
+  (filter (fn [[_ v]] (= (:state v) :added)) (:items s)))
+
+(defn get-excluded
+  [s]
+  (filter (fn [[_ v]] (= (:state v) :excluded)) (:items s)))
 
 ;; TODO: where to put page-level link filters?
 (defn node-page-el
@@ -281,6 +288,7 @@
                       [:h4 (use-style references-group-title-style)
                        [:a {:on-click #(navigate-uid (:block/uid @(pull-node-from-string group-title)))} group-title]]
                       (doall
+                        (js/console.log (get-added (:items filter-state))) ; TODO this should be triggered on re-render
                         (for [{:block/keys [uid parents] :as block} group]
                           [:div (use-style references-group-block-style {:key (str "ref-" uid)})
                            ;; TODO: expand parent on click
