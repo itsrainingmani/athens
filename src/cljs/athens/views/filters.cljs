@@ -134,10 +134,7 @@
 
 
 (defn filters-el
-  [_uid items]
-  (let [s (r/atom {:sort :lex
-                   :items items
-                   :search ""})]
+  [_uid s]
     (fn [_uid items]
       (let [sort_ (:sort @s)
             filtered-items (reduce-kv
@@ -221,4 +218,4 @@
                    (if added?
                      [:> mui-icons/Check]
                      [:> mui-icons/Block])])]))
-            [:p (use-style no-items-message-style) "No filters found"])]]))))
+            [:p (use-style no-items-message-style) "No filters found"])]])))

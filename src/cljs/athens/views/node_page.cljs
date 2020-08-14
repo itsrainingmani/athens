@@ -130,25 +130,6 @@
    :transform "translate(-100%, -50%)"})
 
 
-(def items
-  {"Amet"   {:count 6 :state :added}
-   "At"     {:count 130 :state :excluded}
-   "Diam"   {:count 6}
-   "Donec"  {:count 6}
-   "Elit"   {:count 30}
-   "Elitudomin mesucen defibocutruon"  {:count 1}
-   "Erat"   {:count 11}
-   "Est"    {:count 2}
-   "Eu"     {:count 2}
-   "Ipsum"  {:count 2 :state :excluded}
-   "Magnis" {:count 10 :state :added}
-   "Metus"  {:count 29}
-   "Mi"     {:count 7 :state :added}
-   "Quam"   {:count 1}
-   "Turpis" {:count 97}
-   "Vitae"  {:count 1}})
-
-
 ;;; Helpers
 
 
@@ -271,6 +252,9 @@
          (doall
            (for [[linked-or-unlinked refs] ref-groups]
              (when (not-empty refs)
+               (let [filter-state (r/atom {:sort :lex
+                                :items (construct-links title)
+                                :search ""})]
                [:section (use-style references-style {:key linked-or-unlinked})
                 [:h4 (use-style references-heading-style)
                  [(r/adapt-react-class mui-icons/Link)]
@@ -289,7 +273,7 @@
                                           :left "-1050%"
                                           :top "0%"}})
                      [:div (use-style menu-style)
-                      [filters-el uid (construct-links title)]]])]]
+                      [filters-el uid filter-state]]])]]
                 [:div (use-style references-list-style)
                  (doall
                    (for [[group-title group] refs]
@@ -306,7 +290,7 @@
                               [(r/adapt-react-class mui-icons/LocationOn)]
                               (doall
                                 (for [{:keys [node/title block/string block/uid]} parents]
-                                  [breadcrumb {:key (str "breadcrumb-" uid) :on-click #(navigate-uid uid)} (or title string)]))])]))]))]])))]))))
+                                  [breadcrumb {:key (str "breadcrumb-" uid) :on-click #(navigate-uid uid)} (or title string)]))])]))]))]]))))]))))
 
 
 (defn node-page-component
