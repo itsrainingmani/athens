@@ -6,7 +6,7 @@ goog.require('reagent.core');
 goog.require('reagent.ratom');
 re_frame.interop.on_load = (function re_frame$interop$on_load(listener){
 try{return goog.events.listen(self,"load",listener);
-}catch (e49695){var _ = e49695;
+}catch (e49699){var _ = e49699;
 return null;
 }});
 re_frame.interop.next_tick = goog.async.nextTick;

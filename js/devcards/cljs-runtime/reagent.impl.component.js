@@ -129,8 +129,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31279 = n;
-switch (G__31279) {
+var G__31281 = n;
+switch (G__31281) {
 case (1):
 return f.call(c);
 
@@ -163,20 +163,20 @@ if(cljs.core.ifn_QMARK_(res)){
 var f__$1 = ((reagent.impl.component.reagent_class_QMARK_(res))?((function (c,f,_,res){
 return (function() { 
 var G__31363__delegate = function (args){
-var G__31280 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
-return (reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__31280) : reagent.impl.component.as_element.call(null,G__31280));
+var G__31282 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,res,args);
+return (reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.as_element.cljs$core$IFn$_invoke$arity$1(G__31282) : reagent.impl.component.as_element.call(null,G__31282));
 };
 var G__31363 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31364__i = 0, G__31364__a = new Array(arguments.length -  0);
-while (G__31364__i < G__31364__a.length) {G__31364__a[G__31364__i] = arguments[G__31364__i + 0]; ++G__31364__i;}
-  args = new cljs.core.IndexedSeq(G__31364__a,0,null);
+var G__31366__i = 0, G__31366__a = new Array(arguments.length -  0);
+while (G__31366__i < G__31366__a.length) {G__31366__a[G__31366__i] = arguments[G__31366__i + 0]; ++G__31366__i;}
+  args = new cljs.core.IndexedSeq(G__31366__a,0,null);
 } 
 return G__31363__delegate.call(this,args);};
 G__31363.cljs$lang$maxFixedArity = 0;
-G__31363.cljs$lang$applyTo = (function (arglist__31365){
-var args = cljs.core.seq(arglist__31365);
+G__31363.cljs$lang$applyTo = (function (arglist__31367){
+var args = cljs.core.seq(arglist__31367);
 return G__31363__delegate(args);
 });
 G__31363.cljs$core$IFn$_invoke$arity$variadic = G__31363__delegate;
@@ -186,8 +186,8 @@ return G__31363;
 :res);
 (c.reagentRender = f__$1);
 
-var G__31366 = c;
-c = G__31366;
+var G__31369 = c;
+c = G__31369;
 continue;
 } else {
 return res;

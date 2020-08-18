@@ -62,8 +62,8 @@ return React.Component.call(this$,props);
 
 goog.inherits(ctor,React.Component);
 
-var x45236_45249 = ctor.prototype;
-(x45236_45249.onChange = (function (event){
+var x45227_45249 = ctor.prototype;
+(x45227_45249.onChange = (function (event){
 var this$ = this;
 var temp__5735__auto__ = this$.props.onChange;
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -76,7 +76,7 @@ return null;
 }
 }));
 
-(x45236_45249.componentWillReceiveProps = (function (new_props){
+(x45227_45249.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
 var element_value = goog.object.get(ReactDOM.findDOMNode(this$),property);
@@ -87,7 +87,7 @@ return sablono.interpreter.update_state(this$,new_props,property,goog.object.get
 }
 }));
 
-(x45236_45249.render = (function (){
+(x45227_45249.render = (function (){
 var this$ = this;
 return React.createElement(element,this$.state);
 }));
@@ -114,8 +114,8 @@ return (sablono.interpreter.wrapped_textarea = sablono.interpreter.wrap_form_ele
  */
 sablono.interpreter.controlled_input_QMARK_ = (function sablono$interpreter$controlled_input_QMARK_(type,props){
 if(cljs.core.object_QMARK_(props)){
-var G__45238 = type;
-switch (G__45238) {
+var G__45235 = type;
+switch (G__45235) {
 case "input":
 return (((!((props.checked == null)))) || ((!((props.value == null)))));
 
