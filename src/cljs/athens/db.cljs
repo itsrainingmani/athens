@@ -247,6 +247,16 @@
        sort-block-children))
 
 
+(defn get-all-child-string
+  [uid]
+  (when-let [eid (e-by-av :block/uid uid)]
+    (->> eid
+         (d/pull @dsdb '[:block/order :block/string :block/uid {:block/children ...}])
+         (tree-seq :block/children :block/children)
+         (rest)
+         (map #(select-keys % [:block/order :block/string])))))
+
+
 (defn get-athens-datoms
   "Copy REPL output to athens-datoms.cljs"
   [id]

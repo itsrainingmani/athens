@@ -470,8 +470,10 @@
 (reg-event-fx
  :page/export-md
  (fn [_ [_ uid]]
-   (prn (str uid "Exporting page to markdown"))
-   (prn (db/get-children-recursively uid))))
+   (let [eid (db/e-by-av :block/uid uid)]
+     (prn (str uid " - Exporting page to markdown"))
+     (prn (db/get-all-child-string uid)))))
+
 
 (reg-event-fx
   :save
