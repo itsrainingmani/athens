@@ -468,6 +468,12 @@
 
 
 (reg-event-fx
+ :page/export-md
+ (fn [_ [_ uid]]
+   (prn (str uid "Exporting page to markdown"))
+   (prn (db/get-children-recursively uid))))
+
+(reg-event-fx
   :save
   (fn [_ _]
     (let [db-filepath (subscribe [:db/filepath])]

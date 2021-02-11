@@ -352,6 +352,10 @@
                                     [:<>
                                      [:> mui-icons/Bookmark]
                                      [:span "Add Shortcut"]]])
+                                 [button {:on-click #(dispatch [:page/export-md uid])}
+                                  [:<>
+                                   [:> mui-icons/Link]
+                                   [:span "Export"]]]
                                  (when-not timeline-page?
                                    [:hr (use-style menu-separator-style)])
                                  (when-not timeline-page?
