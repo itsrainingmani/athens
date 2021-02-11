@@ -106,6 +106,17 @@
             (dispatch [:loading/unset])))))))
 
 
+(defn save-dialog!
+  "Save a file to a location"
+  [uid title]
+  (let [title-ext (str title ".md")
+        res       (.showSaveDialogSync dialog (clj->js {:title       "Save Markdown File"
+                                                        :defaultPath title-ext
+                                                        :properties  ["showHiddenFiles"]
+                                                        :filters     [{:name "Markdown" :extensions [":md" ":mdx"]}]}))]
+    (dispatch [:fs/export-md uid title-ext res])))
+
+
 ;; Image Paste
 (defn save-image
   ([item extension]
@@ -367,6 +378,22 @@
 
                                                      (dispatch [:loading/unset])))
                                     :halt?       true}]}}))
+
+
+(reg-event-fx
+ :fs/export-md
+ (fn [_ [_ uid title-ext res]]
+   (when-not (nil? res)
+     (let [eid (db/e-by-av :block/uid uid)
+           block (db/get-block-document eid)
+           block-children (:block/children block)]
+       (prn (str uid " - Exporting page to markdown"))
+       (prn "args - " uid title-ext res)
+       (prn block-children)
+       ;; (->> block-children
+       ;; (map #(walk-str 0 %))
+       ;; (apply str))
+       ))))
 
 
 ;;; Effects
