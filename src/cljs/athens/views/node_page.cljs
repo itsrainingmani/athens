@@ -2,6 +2,7 @@
   (:require
     ["@material-ui/icons" :as mui-icons]
     [athens.db :as db :refer [get-linked-references get-unlinked-references]]
+    [athens.electron :as electron]
     [athens.keybindings :refer [destruct-key-down arrow-key-direction block-start? block-end?]]
     [athens.parse-renderer :as parse-renderer :refer [pull-node-from-string]]
     [athens.patterns :as patterns]
@@ -352,7 +353,7 @@
                                     [:<>
                                      [:> mui-icons/Bookmark]
                                      [:span "Add Shortcut"]]])
-                                 [button {:on-click #(dispatch [:page/export-md uid])}
+                                 [button {:on-click #(electron/save-dialog! uid title)}
                                   [:<>
                                    [:> mui-icons/Link]
                                    [:span "Export"]]]
