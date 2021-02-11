@@ -468,14 +468,6 @@
 
 
 (reg-event-fx
- :page/export-md
- (fn [_ [_ uid]]
-   (let [eid (db/e-by-av :block/uid uid)]
-     (prn (str uid " - Exporting page to markdown"))
-     (prn (db/get-all-child-string uid)))))
-
-
-(reg-event-fx
   :save
   (fn [_ _]
     (let [db-filepath (subscribe [:db/filepath])]
