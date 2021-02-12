@@ -389,10 +389,9 @@
            block-children (:block/children block)]
        (prn (str uid " - Exporting page to markdown"))
        (prn "args - " uid title-ext res)
-       (prn block-children)
-       ;; (->> block-children
-       ;; (map #(walk-str 0 %))
-       ;; (apply str))
+       (->> block-children
+            (map #(util/walk-str 0 %))
+            (apply str))
        ))))
 
 
