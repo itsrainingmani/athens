@@ -110,14 +110,6 @@
 
 ;; -- Clipboard ----------------------------------------------------------
 
-(defn walk-str
-  "Four spaces per depth level."
-  [depth node]
-  (let [{:block/keys [string children]} node
-        left-offset   (apply str (repeat depth "    "))
-        walk-children (apply str (map #(walk-str (inc depth) %) children))]
-    (str left-offset "- " string "\n" walk-children)))
-
 
 (defn copy
   "If blocks are selected, copy blocks as markdown list.
@@ -126,7 +118,7 @@
   (let [uids @(subscribe [:selected/items])]
     (when (not-empty uids)
       (let [copy-data (->> (map #(db/get-block-document [:block/uid %]) uids)
-                           (map #(walk-str 0 %))
+                           (map #(util/walk-str 0 %))
                            (apply str))]
         (.. e preventDefault)
         (.. e -event_ -clipboardData (setData "text/plain" copy-data))))))
@@ -138,7 +130,7 @@
   (let [uids @(subscribe [:selected/items])]
     (when (not-empty uids)
       (let [copy-data (->> (map #(db/get-block-document [:block/uid %]) uids)
-                           (map #(walk-str 0 %))
+                           (map #(util/walk-str 0 %))
                            (apply str))]
         (.. e preventDefault)
         (.. e -event_ -clipboardData (setData "text/plain" copy-data))

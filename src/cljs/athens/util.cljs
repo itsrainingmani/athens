@@ -182,6 +182,17 @@
   (boolean (uid-to-date uid)))
 
 
+;; -- Tree Walk -------------------------------------------------------
+
+
+(defn walk-str
+  "Four spaces per depth level."
+  [depth node]
+  (let [{:block/keys [string children]} node
+        left-offset   (apply str (repeat depth "    "))
+        walk-children (apply str (map #(walk-str (inc depth) %) children))]
+    (str left-offset "- " string "\n" walk-children)))
+
 
 ;; -- Regex -----------------------------------------------------------
 
