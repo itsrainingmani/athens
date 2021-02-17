@@ -58,7 +58,7 @@ return cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.filter,cljs.core.r
  */
 garden.compiler.IExpandable = function(){};
 
-var garden$compiler$IExpandable$expand$dyn_54338 = (function (this$){
+var garden$compiler$IExpandable$expand$dyn_54337 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (garden.compiler.expand[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -79,7 +79,7 @@ garden.compiler.expand = (function garden$compiler$expand(this$){
 if((((!((this$ == null)))) && ((!((this$.garden$compiler$IExpandable$expand$arity$1 == null)))))){
 return this$.garden$compiler$IExpandable$expand$arity$1(this$);
 } else {
-return garden$compiler$IExpandable$expand$dyn_54338(this$);
+return garden$compiler$IExpandable$expand$dyn_54337(this$);
 }
 });
 
@@ -522,8 +522,8 @@ if((i__54253 < size__4528__auto__)){
 var x = cljs.core._nth(c__4527__auto__,i__54253);
 cljs.core.chunk_append(b__54254,((cljs.core.sequential_QMARK_(x))?garden.compiler.space_separated_list.cljs$core$IFn$_invoke$arity$2(f,x):(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(x) : f.call(null,x))));
 
-var G__54351 = (i__54253 + (1));
-i__54253 = G__54351;
+var G__54355 = (i__54253 + (1));
+i__54253 = G__54355;
 continue;
 } else {
 return true;
@@ -619,8 +619,8 @@ if((i__54266 < size__4528__auto__)){
 var vendor = cljs.core._nth(c__4527__auto__,i__54266);
 cljs.core.chunk_append(b__54267,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [garden.util.vendor_prefix(vendor,cljs.core.name(p)),v], null));
 
-var G__54358 = (i__54266 + (1));
-i__54266 = G__54358;
+var G__54360 = (i__54266 + (1));
+i__54266 = G__54360;
 continue;
 } else {
 return true;

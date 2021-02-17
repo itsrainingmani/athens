@@ -137,13 +137,13 @@ var map__59379 = spec_tools.swagger.core.transform.cljs$core$IFn$_invoke$arity$2
 var map__59379__$1 = (((((!((map__59379 == null))))?(((((map__59379.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59379.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59379):map__59379);
 var properties = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59379__$1,new cljs.core.Keyword(null,"properties","properties",685819552));
 var required = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59379__$1,new cljs.core.Keyword(null,"required","required",1807647006));
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__59382){
-var vec__59383 = p__59382;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59383,(0),null);
-var map__59386 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59383,(1),null);
-var map__59386__$1 = (((((!((map__59386 == null))))?(((((map__59386.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59386.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59386):map__59386);
-var schema = map__59386__$1;
-var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59386__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__59381){
+var vec__59382 = p__59381;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59382,(0),null);
+var map__59385 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59382,(1),null);
+var map__59385__$1 = (((((!((map__59385 == null))))?(((((map__59385.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59385.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59385):map__59385);
+var schema = map__59385__$1;
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59385__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"in","in",-1531184865),cljs.core.name(in$),new cljs.core.Keyword(null,"name","name",1843675177),k,new cljs.core.Keyword(null,"description","description",-1428560544),(function (){var or__4126__auto__ = spec_tools.core.spec_description(spec);
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
@@ -159,8 +159,8 @@ spec_tools.swagger.core.expand = (function (){var method_table__4619__auto__ = c
 var prefer_table__4620__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4621__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4622__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__59388 = cljs.core.get_global_hierarchy;
-return (fexpr__59388.cljs$core$IFn$_invoke$arity$0 ? fexpr__59388.cljs$core$IFn$_invoke$arity$0() : fexpr__59388.call(null));
+var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__59387 = cljs.core.get_global_hierarchy;
+return (fexpr__59387.cljs$core$IFn$_invoke$arity$0 ? fexpr__59387.cljs$core$IFn$_invoke$arity$0() : fexpr__59387.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("spec-tools.swagger.core","expand"),(function (k,_,___$1,___$2){
 return k;
@@ -174,30 +174,30 @@ return or__4126__auto__;
 } else {
 return cljs.core.PersistentArrayMap.EMPTY;
 }
-})(),(function (){var iter__4529__auto__ = (function spec_tools$swagger$core$iter__59389(s__59390){
+})(),(function (){var iter__4529__auto__ = (function spec_tools$swagger$core$iter__59388(s__59389){
 return (new cljs.core.LazySeq(null,(function (){
-var s__59390__$1 = s__59390;
+var s__59389__$1 = s__59389;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__59390__$1);
+var temp__5735__auto__ = cljs.core.seq(s__59389__$1);
 if(temp__5735__auto__){
-var s__59390__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__59390__$2)){
-var c__4527__auto__ = cljs.core.chunk_first(s__59390__$2);
+var s__59389__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__59389__$2)){
+var c__4527__auto__ = cljs.core.chunk_first(s__59389__$2);
 var size__4528__auto__ = cljs.core.count(c__4527__auto__);
-var b__59392 = cljs.core.chunk_buffer(size__4528__auto__);
-if((function (){var i__59391 = (0);
+var b__59391 = cljs.core.chunk_buffer(size__4528__auto__);
+if((function (){var i__59390 = (0);
 while(true){
-if((i__59391 < size__4528__auto__)){
-var vec__59393 = cljs.core._nth(c__4527__auto__,i__59391);
+if((i__59390 < size__4528__auto__)){
+var vec__59393 = cljs.core._nth(c__4527__auto__,i__59390);
 var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59393,(0),null);
 var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59393,(1),null);
-cljs.core.chunk_append(b__59392,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
+cljs.core.chunk_append(b__59391,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
 })()], null));
 
-var G__59410 = (i__59391 + (1));
-i__59391 = G__59410;
+var G__59410 = (i__59390 + (1));
+i__59390 = G__59410;
 continue;
 } else {
 return true;
@@ -205,18 +205,18 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__59392),spec_tools$swagger$core$iter__59389(cljs.core.chunk_rest(s__59390__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__59391),spec_tools$swagger$core$iter__59388(cljs.core.chunk_rest(s__59389__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__59392),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__59391),null);
 }
 } else {
-var vec__59396 = cljs.core.first(s__59390__$2);
+var vec__59396 = cljs.core.first(s__59389__$2);
 var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59396,(0),null);
 var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59396,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
-})()], null),spec_tools$swagger$core$iter__59389(cljs.core.rest(s__59390__$2)));
+})()], null),spec_tools$swagger$core$iter__59388(cljs.core.rest(s__59389__$2)));
 }
 } else {
 return null;

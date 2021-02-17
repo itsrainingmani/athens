@@ -127,17 +127,17 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (garden.stylesheet.at_font_face.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq54350){
+(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq54348){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54350));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54348));
 }));
 
 /**
  * Create a CSS @import rule.
  */
 garden.stylesheet.at_import = (function garden$stylesheet$at_import(var_args){
-var G__54355 = arguments.length;
-switch (G__54355) {
+var G__54354 = arguments.length;
+switch (G__54354) {
 case 1:
 return garden.stylesheet.at_import.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -173,11 +173,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"import","import",-1
 }));
 
 /** @this {Function} */
-(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq54353){
-var G__54354 = cljs.core.first(seq54353);
-var seq54353__$1 = cljs.core.next(seq54353);
+(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq54352){
+var G__54353 = cljs.core.first(seq54352);
+var seq54352__$1 = cljs.core.next(seq54352);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54354,seq54353__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54353,seq54352__$1);
 }));
 
 (garden.stylesheet.at_import.cljs$lang$maxFixedArity = (1));
@@ -247,11 +247,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"feature","feature",
 (garden.stylesheet.at_supports.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq54359){
-var G__54360 = cljs.core.first(seq54359);
-var seq54359__$1 = cljs.core.next(seq54359);
+(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq54358){
+var G__54359 = cljs.core.first(seq54358);
+var seq54358__$1 = cljs.core.next(seq54358);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54360,seq54359__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54359,seq54358__$1);
 }));
 
 /**

@@ -13,8 +13,8 @@ cljc.java_time.day_of_week.values = (function cljc$java_time$day_of_week$values(
 return java.time.DayOfWeek.values();
 });
 cljc.java_time.day_of_week.value_of = (function cljc$java_time$day_of_week$value_of(var_args){
-var G__41872 = arguments.length;
-switch (G__41872) {
+var G__41868 = arguments.length;
+switch (G__41868) {
 case 1:
 return cljc.java_time.day_of_week.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

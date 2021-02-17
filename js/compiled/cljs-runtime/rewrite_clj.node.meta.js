@@ -271,11 +271,11 @@ return (new rewrite_clj.node.meta.MetaNode(tag,prefix,children,null,null,null));
  * Factory function for rewrite-clj.node.meta/MetaNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.meta.map__GT_MetaNode = (function rewrite_clj$node$meta$map__GT_MetaNode(G__29486){
-var extmap__4419__auto__ = (function (){var G__29503 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29486,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
+var extmap__4419__auto__ = (function (){var G__29501 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__29486,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
 if(cljs.core.record_QMARK_(G__29486)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29503);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29501);
 } else {
-return G__29503;
+return G__29501;
 }
 })();
 return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__29486),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__29486),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__29486),null,cljs.core.not_empty(extmap__4419__auto__),null));
