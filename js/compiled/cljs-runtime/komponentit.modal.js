@@ -6,17 +6,17 @@ goog.provide('komponentit.modal');
  * - :on-close   (Optional) callback to be called when modal is closed by clicking outside of the modal
  * - :class      (Optional) additional classes for .modal-dialog; Examples: modal-sm, modal-lg
  */
-komponentit.modal.modal = (function komponentit$modal$modal(p__64108){
-var map__64109 = p__64108;
-var map__64109__$1 = (((((!((map__64109 == null))))?(((((map__64109.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__64109.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__64109):map__64109);
-var title = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64109__$1,new cljs.core.Keyword(null,"title","title",636505583));
-var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64109__$1,new cljs.core.Keyword(null,"content","content",15833224));
-var footer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64109__$1,new cljs.core.Keyword(null,"footer","footer",1606445390));
-var on_close = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64109__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64109__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+komponentit.modal.modal = (function komponentit$modal$modal(p__64100){
+var map__64101 = p__64100;
+var map__64101__$1 = (((((!((map__64101 == null))))?(((((map__64101.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__64101.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__64101):map__64101);
+var title = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64101__$1,new cljs.core.Keyword(null,"title","title",636505583));
+var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64101__$1,new cljs.core.Keyword(null,"content","content",15833224));
+var footer = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64101__$1,new cljs.core.Keyword(null,"footer","footer",1606445390));
+var on_close = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64101__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64101__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [komponentit.mixins.window_event_listener,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-key-down","on-key-down",-1374733765),(function (e){
-var G__64111 = e.keyCode;
-switch (G__64111) {
+var G__64103 = e.keyCode;
+switch (G__64103) {
 case (27):
 return (on_close.cljs$core$IFn$_invoke$arity$0 ? on_close.cljs$core$IFn$_invoke$arity$0() : on_close.call(null));
 
@@ -44,16 +44,16 @@ return null;
  * - :cancel-label Label for Cancel button
  * - :class        (Optional) additional classes for .modal-dialog
  */
-komponentit.modal.confirm_modal = (function komponentit$modal$confirm_modal(p__64112){
-var map__64113 = p__64112;
-var map__64113__$1 = (((((!((map__64113 == null))))?(((((map__64113.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__64113.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__64113):map__64113);
-var title = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64113__$1,new cljs.core.Keyword(null,"title","title",636505583),"Yes or no?");
-var content = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64113__$1,new cljs.core.Keyword(null,"content","content",15833224),"Are you sure?");
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64113__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
-var success = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64113__$1,new cljs.core.Keyword(null,"success","success",1890645906));
-var failure = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64113__$1,new cljs.core.Keyword(null,"failure","failure",720415879));
-var cancel_label = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64113__$1,new cljs.core.Keyword(null,"cancel-label","cancel-label",-1093310551),"Cancel");
-var ok_label = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64113__$1,new cljs.core.Keyword(null,"ok-label","ok-label",808114315),"OK");
+komponentit.modal.confirm_modal = (function komponentit$modal$confirm_modal(p__64104){
+var map__64105 = p__64104;
+var map__64105__$1 = (((((!((map__64105 == null))))?(((((map__64105.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__64105.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__64105):map__64105);
+var title = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64105__$1,new cljs.core.Keyword(null,"title","title",636505583),"Yes or no?");
+var content = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64105__$1,new cljs.core.Keyword(null,"content","content",15833224),"Are you sure?");
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64105__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var success = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64105__$1,new cljs.core.Keyword(null,"success","success",1890645906));
+var failure = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__64105__$1,new cljs.core.Keyword(null,"failure","failure",720415879));
+var cancel_label = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64105__$1,new cljs.core.Keyword(null,"cancel-label","cancel-label",-1093310551),"Cancel");
+var ok_label = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__64105__$1,new cljs.core.Keyword(null,"ok-label","ok-label",808114315),"OK");
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [komponentit.modal.modal,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"class","class",-2030961996),class$,new cljs.core.Keyword(null,"title","title",636505583),title,new cljs.core.Keyword(null,"content","content",15833224),content,new cljs.core.Keyword(null,"footer","footer",1606445390),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.modal__buttons","div.modal__buttons",1365799187),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button.modal__cancel","button.modal__cancel",-1276340681),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),"button",new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (_){
 if(cljs.core.truth_(failure)){
 (failure.cljs$core$IFn$_invoke$arity$0 ? failure.cljs$core$IFn$_invoke$arity$0() : failure.call(null));

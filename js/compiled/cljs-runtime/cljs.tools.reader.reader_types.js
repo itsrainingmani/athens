@@ -92,7 +92,7 @@ return cljs$tools$reader$reader_types$IPushbackReader$unread$dyn_24240(reader,ch
  */
 cljs.tools.reader.reader_types.IndexingReader = function(){};
 
-var cljs$tools$reader$reader_types$IndexingReader$get_line_number$dyn_24242 = (function (reader){
+var cljs$tools$reader$reader_types$IndexingReader$get_line_number$dyn_24241 = (function (reader){
 var x__4428__auto__ = (((reader == null))?null:reader);
 var m__4429__auto__ = (cljs.tools.reader.reader_types.get_line_number[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -113,11 +113,11 @@ cljs.tools.reader.reader_types.get_line_number = (function cljs$tools$reader$rea
 if((((!((reader == null)))) && ((!((reader.cljs$tools$reader$reader_types$IndexingReader$get_line_number$arity$1 == null)))))){
 return reader.cljs$tools$reader$reader_types$IndexingReader$get_line_number$arity$1(reader);
 } else {
-return cljs$tools$reader$reader_types$IndexingReader$get_line_number$dyn_24242(reader);
+return cljs$tools$reader$reader_types$IndexingReader$get_line_number$dyn_24241(reader);
 }
 });
 
-var cljs$tools$reader$reader_types$IndexingReader$get_column_number$dyn_24243 = (function (reader){
+var cljs$tools$reader$reader_types$IndexingReader$get_column_number$dyn_24242 = (function (reader){
 var x__4428__auto__ = (((reader == null))?null:reader);
 var m__4429__auto__ = (cljs.tools.reader.reader_types.get_column_number[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -138,7 +138,7 @@ cljs.tools.reader.reader_types.get_column_number = (function cljs$tools$reader$r
 if((((!((reader == null)))) && ((!((reader.cljs$tools$reader$reader_types$IndexingReader$get_column_number$arity$1 == null)))))){
 return reader.cljs$tools$reader$reader_types$IndexingReader$get_column_number$arity$1(reader);
 } else {
-return cljs$tools$reader$reader_types$IndexingReader$get_column_number$dyn_24243(reader);
+return cljs$tools$reader$reader_types$IndexingReader$get_column_number$dyn_24242(reader);
 }
 });
 
@@ -691,8 +691,8 @@ return (new cljs.tools.reader.reader_types.PushbackReader((new cljs.tools.reader
  * Creates an IndexingPushbackReader from a given string or PushbackReader
  */
 cljs.tools.reader.reader_types.indexing_push_back_reader = (function cljs$tools$reader$reader_types$indexing_push_back_reader(var_args){
-var G__24234 = arguments.length;
-switch (G__24234) {
+var G__24232 = arguments.length;
+switch (G__24232) {
 case 1:
 return cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

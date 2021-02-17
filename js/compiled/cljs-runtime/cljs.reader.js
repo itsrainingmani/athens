@@ -54,19 +54,19 @@ throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1(msg)," Failed:  ",
 return n;
 });
 cljs.reader.parse_and_validate_timestamp = (function cljs$reader$parse_and_validate_timestamp(s){
-var vec__24673 = cljs.core.re_matches(cljs.reader.timestamp_regex,s);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(0),null);
-var years = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(1),null);
-var months = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(2),null);
-var days = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(3),null);
-var hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(4),null);
-var minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(5),null);
-var seconds = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(6),null);
-var fraction = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(7),null);
-var offset_sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(8),null);
-var offset_hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(9),null);
-var offset_minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24673,(10),null);
-var v = vec__24673;
+var vec__24676 = cljs.core.re_matches(cljs.reader.timestamp_regex,s);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(0),null);
+var years = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(1),null);
+var months = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(2),null);
+var days = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(3),null);
+var hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(4),null);
+var minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(5),null);
+var seconds = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(6),null);
+var fraction = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(7),null);
+var offset_sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(8),null);
+var offset_hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(9),null);
+var offset_minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24676,(10),null);
+var v = vec__24676;
 if(cljs.core.not(v)){
 throw (new Error(["Unrecognized date/time syntax: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('')));
 } else {
@@ -135,15 +135,15 @@ return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMP
 cljs.reader.parse_timestamp = (function cljs$reader$parse_timestamp(ts){
 var temp__5733__auto__ = cljs.reader.parse_and_validate_timestamp(ts);
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__24680 = temp__5733__auto__;
-var years = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(0),null);
-var months = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(1),null);
-var days = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(2),null);
-var hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(3),null);
-var minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(4),null);
-var seconds = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(5),null);
-var ms = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(6),null);
-var offset = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24680,(7),null);
+var vec__24685 = temp__5733__auto__;
+var years = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(0),null);
+var months = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(1),null);
+var days = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(2),null);
+var hours = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(3),null);
+var minutes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(4),null);
+var seconds = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(5),null);
+var ms = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(6),null);
+var offset = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24685,(7),null);
 return (new Date((Date.UTC(years,(months - (1)),days,hours,minutes,seconds,ms) - ((offset * (60)) * (1000)))));
 } else {
 throw (new Error(["Unrecognized date/time syntax: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(ts)].join('')));
@@ -231,9 +231,9 @@ var count__24701_24765 = (0);
 var i__24702_24766 = (0);
 while(true){
 if((i__24702_24766 < count__24701_24765)){
-var vec__24712_24767 = chunk__24700_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24702_24766);
-var k_24768 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24767,(0),null);
-var v_24769 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24767,(1),null);
+var vec__24709_24767 = chunk__24700_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24702_24766);
+var k_24768 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(0),null);
+var v_24769 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(1),null);
 goog.object.set(obj,cljs.core.name(k_24768),v_24769);
 
 
@@ -319,8 +319,8 @@ cljs.reader._STAR_tag_table_STAR_ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1
  *            be called with the tag and the value.
  */
 cljs.reader.read = (function cljs$reader$read(var_args){
-var G__24720 = arguments.length;
-switch (G__24720) {
+var G__24719 = arguments.length;
+switch (G__24719) {
 case 1:
 return cljs.reader.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

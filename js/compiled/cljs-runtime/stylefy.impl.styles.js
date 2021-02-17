@@ -253,33 +253,33 @@ var count__55443_55475 = (0);
 var i__55444_55476 = (0);
 while(true){
 if((i__55444_55476 < count__55443_55475)){
-var style_55478 = chunk__55442_55474.cljs$core$IIndexed$_nth$arity$2(null,i__55444_55476);
-stylefy.impl.styles.use_style_BANG_(style_55478,cljs.core.PersistentArrayMap.EMPTY,stylefy.impl.dom.save_style_BANG_);
+var style_55477 = chunk__55442_55474.cljs$core$IIndexed$_nth$arity$2(null,i__55444_55476);
+stylefy.impl.styles.use_style_BANG_(style_55477,cljs.core.PersistentArrayMap.EMPTY,stylefy.impl.dom.save_style_BANG_);
 
-var temp__5735__auto___55480 = cljs.core.vals(new cljs.core.Keyword("stylefy.core","sub-styles","stylefy.core/sub-styles",-1546489432).cljs$core$IFn$_invoke$arity$1(style_55478));
-if(cljs.core.truth_(temp__5735__auto___55480)){
-var sub_styles_55481 = temp__5735__auto___55480;
-stylefy.impl.styles.prepare_styles.cljs$core$IFn$_invoke$arity$2(sub_styles_55481,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"request-dom-update-after-done?","request-dom-update-after-done?",199142510),false], null));
+var temp__5735__auto___55478 = cljs.core.vals(new cljs.core.Keyword("stylefy.core","sub-styles","stylefy.core/sub-styles",-1546489432).cljs$core$IFn$_invoke$arity$1(style_55477));
+if(cljs.core.truth_(temp__5735__auto___55478)){
+var sub_styles_55479 = temp__5735__auto___55478;
+stylefy.impl.styles.prepare_styles.cljs$core$IFn$_invoke$arity$2(sub_styles_55479,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"request-dom-update-after-done?","request-dom-update-after-done?",199142510),false], null));
 } else {
 }
 
 
-var G__55482 = seq__55441_55473;
-var G__55483 = chunk__55442_55474;
-var G__55484 = count__55443_55475;
-var G__55485 = (i__55444_55476 + (1));
-seq__55441_55473 = G__55482;
-chunk__55442_55474 = G__55483;
-count__55443_55475 = G__55484;
-i__55444_55476 = G__55485;
+var G__55480 = seq__55441_55473;
+var G__55481 = chunk__55442_55474;
+var G__55482 = count__55443_55475;
+var G__55483 = (i__55444_55476 + (1));
+seq__55441_55473 = G__55480;
+chunk__55442_55474 = G__55481;
+count__55443_55475 = G__55482;
+i__55444_55476 = G__55483;
 continue;
 } else {
-var temp__5735__auto___55486 = cljs.core.seq(seq__55441_55473);
-if(temp__5735__auto___55486){
-var seq__55441_55487__$1 = temp__5735__auto___55486;
-if(cljs.core.chunked_seq_QMARK_(seq__55441_55487__$1)){
-var c__4556__auto___55488 = cljs.core.chunk_first(seq__55441_55487__$1);
-var G__55489 = cljs.core.chunk_rest(seq__55441_55487__$1);
+var temp__5735__auto___55485 = cljs.core.seq(seq__55441_55473);
+if(temp__5735__auto___55485){
+var seq__55441_55486__$1 = temp__5735__auto___55485;
+if(cljs.core.chunked_seq_QMARK_(seq__55441_55486__$1)){
+var c__4556__auto___55488 = cljs.core.chunk_first(seq__55441_55486__$1);
+var G__55489 = cljs.core.chunk_rest(seq__55441_55486__$1);
 var G__55490 = c__4556__auto___55488;
 var G__55491 = cljs.core.count(c__4556__auto___55488);
 var G__55492 = (0);
@@ -289,7 +289,7 @@ count__55443_55475 = G__55491;
 i__55444_55476 = G__55492;
 continue;
 } else {
-var style_55493 = cljs.core.first(seq__55441_55487__$1);
+var style_55493 = cljs.core.first(seq__55441_55486__$1);
 stylefy.impl.styles.use_style_BANG_(style_55493,cljs.core.PersistentArrayMap.EMPTY,stylefy.impl.dom.save_style_BANG_);
 
 var temp__5735__auto___55494__$1 = cljs.core.vals(new cljs.core.Keyword("stylefy.core","sub-styles","stylefy.core/sub-styles",-1546489432).cljs$core$IFn$_invoke$arity$1(style_55493));
@@ -300,14 +300,14 @@ stylefy.impl.styles.prepare_styles.cljs$core$IFn$_invoke$arity$2(sub_styles_5549
 }
 
 
-var G__55498 = cljs.core.next(seq__55441_55487__$1);
-var G__55499 = null;
-var G__55500 = (0);
-var G__55501 = (0);
-seq__55441_55473 = G__55498;
-chunk__55442_55474 = G__55499;
-count__55443_55475 = G__55500;
-i__55444_55476 = G__55501;
+var G__55496 = cljs.core.next(seq__55441_55486__$1);
+var G__55497 = null;
+var G__55498 = (0);
+var G__55499 = (0);
+seq__55441_55473 = G__55496;
+chunk__55442_55474 = G__55497;
+count__55443_55475 = G__55498;
+i__55444_55476 = G__55499;
 continue;
 }
 } else {

@@ -70,15 +70,15 @@ var sloc = sexpr;
 var i = (0);
 while(true){
 if(cljs.core.truth_(sloc)){
-if(cljs.core.truth_((function (){var G__30431 = cljs.core.first(sloc);
-return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__30431) : zthing_QMARK_.call(null,G__30431));
+if(cljs.core.truth_((function (){var G__30425 = cljs.core.first(sloc);
+return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__30425) : zthing_QMARK_.call(null,G__30425));
 })())){
 return i;
 } else {
-var G__30626 = cljs.core.next(sloc);
-var G__30627 = (i + (1));
-sloc = G__30626;
-i = G__30627;
+var G__30625 = cljs.core.next(sloc);
+var G__30626 = (i + (1));
+sloc = G__30625;
+i = G__30626;
 continue;
 }
 } else {
@@ -230,8 +230,8 @@ return null;
  *   anything, so there isn't a particularly good sentinal here.
  */
 zprint.sutil.sobj_to_vec = (function zprint$sutil$sobj_to_vec(var_args){
-var G__30456 = arguments.length;
-switch (G__30456) {
+var G__30448 = arguments.length;
+switch (G__30448) {
 case 2:
 return zprint.sutil.sobj_to_vec.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -319,13 +319,13 @@ var ns__$1 = null;
 var pair_seq__$1 = pair_seq;
 var out = cljs.core.PersistentVector.EMPTY;
 while(true){
-var vec__30472 = cljs.core.first(pair_seq__$1);
-var seq__30473 = cljs.core.seq(vec__30472);
-var first__30474 = cljs.core.first(seq__30473);
-var seq__30473__$1 = cljs.core.next(seq__30473);
-var k = first__30474;
-var rest_of_pair = seq__30473__$1;
-var pair = vec__30472;
+var vec__30469 = cljs.core.first(pair_seq__$1);
+var seq__30470 = cljs.core.seq(vec__30469);
+var first__30471 = cljs.core.first(seq__30470);
+var seq__30470__$1 = cljs.core.next(seq__30470);
+var k = first__30471;
+var rest_of_pair = seq__30470__$1;
+var pair = vec__30469;
 var current_ns = ((((rest_of_pair) && ((((k instanceof cljs.core.Keyword)) || ((k instanceof cljs.core.Symbol))))))?cljs.core.namespace(k):null);
 if(cljs.core.not(k)){
 if(cljs.core.truth_(ns__$1)){

@@ -260,8 +260,8 @@ return java.time.LocalDate.now();
 (cljc.java_time.local_date.now.cljs$lang$maxFixedArity = 1);
 
 cljc.java_time.local_date.at_start_of_day = (function cljc$java_time$local_date$at_start_of_day(var_args){
-var G__41733 = arguments.length;
-switch (G__41733) {
+var G__41731 = arguments.length;
+switch (G__41731) {
 case 1:
 return cljc.java_time.local_date.at_start_of_day.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
