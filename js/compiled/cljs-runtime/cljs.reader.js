@@ -166,53 +166,53 @@ throw (new Error("Queue literal expects a vector for its elements."));
 cljs.reader.read_js = (function cljs$reader$read_js(form){
 if(cljs.core.vector_QMARK_(form)){
 var arr = [];
-var seq__24689_24742 = cljs.core.seq(form);
-var chunk__24690_24743 = null;
-var count__24691_24744 = (0);
-var i__24692_24745 = (0);
+var seq__24685_24742 = cljs.core.seq(form);
+var chunk__24686_24743 = null;
+var count__24687_24744 = (0);
+var i__24688_24745 = (0);
 while(true){
-if((i__24692_24745 < count__24691_24744)){
-var x_24746 = chunk__24690_24743.cljs$core$IIndexed$_nth$arity$2(null,i__24692_24745);
+if((i__24688_24745 < count__24687_24744)){
+var x_24746 = chunk__24686_24743.cljs$core$IIndexed$_nth$arity$2(null,i__24688_24745);
 arr.push(x_24746);
 
 
-var G__24747 = seq__24689_24742;
-var G__24748 = chunk__24690_24743;
-var G__24749 = count__24691_24744;
-var G__24750 = (i__24692_24745 + (1));
-seq__24689_24742 = G__24747;
-chunk__24690_24743 = G__24748;
-count__24691_24744 = G__24749;
-i__24692_24745 = G__24750;
+var G__24747 = seq__24685_24742;
+var G__24748 = chunk__24686_24743;
+var G__24749 = count__24687_24744;
+var G__24750 = (i__24688_24745 + (1));
+seq__24685_24742 = G__24747;
+chunk__24686_24743 = G__24748;
+count__24687_24744 = G__24749;
+i__24688_24745 = G__24750;
 continue;
 } else {
-var temp__5735__auto___24751 = cljs.core.seq(seq__24689_24742);
+var temp__5735__auto___24751 = cljs.core.seq(seq__24685_24742);
 if(temp__5735__auto___24751){
-var seq__24689_24752__$1 = temp__5735__auto___24751;
-if(cljs.core.chunked_seq_QMARK_(seq__24689_24752__$1)){
-var c__4556__auto___24753 = cljs.core.chunk_first(seq__24689_24752__$1);
-var G__24754 = cljs.core.chunk_rest(seq__24689_24752__$1);
+var seq__24685_24752__$1 = temp__5735__auto___24751;
+if(cljs.core.chunked_seq_QMARK_(seq__24685_24752__$1)){
+var c__4556__auto___24753 = cljs.core.chunk_first(seq__24685_24752__$1);
+var G__24754 = cljs.core.chunk_rest(seq__24685_24752__$1);
 var G__24755 = c__4556__auto___24753;
 var G__24756 = cljs.core.count(c__4556__auto___24753);
 var G__24757 = (0);
-seq__24689_24742 = G__24754;
-chunk__24690_24743 = G__24755;
-count__24691_24744 = G__24756;
-i__24692_24745 = G__24757;
+seq__24685_24742 = G__24754;
+chunk__24686_24743 = G__24755;
+count__24687_24744 = G__24756;
+i__24688_24745 = G__24757;
 continue;
 } else {
-var x_24758 = cljs.core.first(seq__24689_24752__$1);
+var x_24758 = cljs.core.first(seq__24685_24752__$1);
 arr.push(x_24758);
 
 
-var G__24759 = cljs.core.next(seq__24689_24752__$1);
+var G__24759 = cljs.core.next(seq__24685_24752__$1);
 var G__24760 = null;
 var G__24761 = (0);
 var G__24762 = (0);
-seq__24689_24742 = G__24759;
-chunk__24690_24743 = G__24760;
-count__24691_24744 = G__24761;
-i__24692_24745 = G__24762;
+seq__24685_24742 = G__24759;
+chunk__24686_24743 = G__24760;
+count__24687_24744 = G__24761;
+i__24688_24745 = G__24762;
 continue;
 }
 } else {
@@ -225,57 +225,57 @@ return arr;
 } else {
 if(cljs.core.map_QMARK_(form)){
 var obj = ({});
-var seq__24699_24763 = cljs.core.seq(form);
-var chunk__24700_24764 = null;
-var count__24701_24765 = (0);
-var i__24702_24766 = (0);
+var seq__24695_24763 = cljs.core.seq(form);
+var chunk__24696_24764 = null;
+var count__24697_24765 = (0);
+var i__24698_24766 = (0);
 while(true){
-if((i__24702_24766 < count__24701_24765)){
-var vec__24709_24767 = chunk__24700_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24702_24766);
+if((i__24698_24766 < count__24697_24765)){
+var vec__24709_24767 = chunk__24696_24764.cljs$core$IIndexed$_nth$arity$2(null,i__24698_24766);
 var k_24768 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(0),null);
 var v_24769 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24709_24767,(1),null);
 goog.object.set(obj,cljs.core.name(k_24768),v_24769);
 
 
-var G__24770 = seq__24699_24763;
-var G__24771 = chunk__24700_24764;
-var G__24772 = count__24701_24765;
-var G__24773 = (i__24702_24766 + (1));
-seq__24699_24763 = G__24770;
-chunk__24700_24764 = G__24771;
-count__24701_24765 = G__24772;
-i__24702_24766 = G__24773;
+var G__24770 = seq__24695_24763;
+var G__24771 = chunk__24696_24764;
+var G__24772 = count__24697_24765;
+var G__24773 = (i__24698_24766 + (1));
+seq__24695_24763 = G__24770;
+chunk__24696_24764 = G__24771;
+count__24697_24765 = G__24772;
+i__24698_24766 = G__24773;
 continue;
 } else {
-var temp__5735__auto___24774 = cljs.core.seq(seq__24699_24763);
+var temp__5735__auto___24774 = cljs.core.seq(seq__24695_24763);
 if(temp__5735__auto___24774){
-var seq__24699_24775__$1 = temp__5735__auto___24774;
-if(cljs.core.chunked_seq_QMARK_(seq__24699_24775__$1)){
-var c__4556__auto___24776 = cljs.core.chunk_first(seq__24699_24775__$1);
-var G__24777 = cljs.core.chunk_rest(seq__24699_24775__$1);
+var seq__24695_24775__$1 = temp__5735__auto___24774;
+if(cljs.core.chunked_seq_QMARK_(seq__24695_24775__$1)){
+var c__4556__auto___24776 = cljs.core.chunk_first(seq__24695_24775__$1);
+var G__24777 = cljs.core.chunk_rest(seq__24695_24775__$1);
 var G__24778 = c__4556__auto___24776;
 var G__24779 = cljs.core.count(c__4556__auto___24776);
 var G__24780 = (0);
-seq__24699_24763 = G__24777;
-chunk__24700_24764 = G__24778;
-count__24701_24765 = G__24779;
-i__24702_24766 = G__24780;
+seq__24695_24763 = G__24777;
+chunk__24696_24764 = G__24778;
+count__24697_24765 = G__24779;
+i__24698_24766 = G__24780;
 continue;
 } else {
-var vec__24712_24781 = cljs.core.first(seq__24699_24775__$1);
+var vec__24712_24781 = cljs.core.first(seq__24695_24775__$1);
 var k_24782 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24781,(0),null);
 var v_24783 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24712_24781,(1),null);
 goog.object.set(obj,cljs.core.name(k_24782),v_24783);
 
 
-var G__24784 = cljs.core.next(seq__24699_24775__$1);
+var G__24784 = cljs.core.next(seq__24695_24775__$1);
 var G__24785 = null;
 var G__24786 = (0);
 var G__24787 = (0);
-seq__24699_24763 = G__24784;
-chunk__24700_24764 = G__24785;
-count__24701_24765 = G__24786;
-i__24702_24766 = G__24787;
+seq__24695_24763 = G__24784;
+chunk__24696_24764 = G__24785;
+count__24697_24765 = G__24786;
+i__24698_24766 = G__24787;
 continue;
 }
 } else {

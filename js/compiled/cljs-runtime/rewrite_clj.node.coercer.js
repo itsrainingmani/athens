@@ -27,8 +27,8 @@ goog.object.set(rewrite_clj.node.protocols.coerce,"string",(function (n){
 return rewrite_clj.node.coercer.node_with_meta(rewrite_clj.node.stringz.string_node(n),n);
 }));
 rewrite_clj.node.coercer.seq_node = (function rewrite_clj$node$coercer$seq_node(f,sq){
-return rewrite_clj.node.coercer.node_with_meta((function (){var G__29623 = cljs.core.vec(rewrite_clj.node.whitespace.space_separated(cljs.core.map.cljs$core$IFn$_invoke$arity$2(rewrite_clj.node.protocols.coerce,sq)));
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__29623) : f.call(null,G__29623));
+return rewrite_clj.node.coercer.node_with_meta((function (){var G__29622 = cljs.core.vec(rewrite_clj.node.whitespace.space_separated(cljs.core.map.cljs$core$IFn$_invoke$arity$2(rewrite_clj.node.protocols.coerce,sq)));
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__29622) : f.call(null,G__29622));
 })(),sq);
 });
 (cljs.core.PersistentVector.prototype.rewrite_clj$node$protocols$NodeCoerceable$ = cljs.core.PROTOCOL_SENTINEL);
@@ -54,10 +54,10 @@ return rewrite_clj.node.coercer.seq_node(rewrite_clj.node.seq.set_node,sq__$1);
 var comma_29628 = rewrite_clj.node.whitespace.whitespace_node(", ");
 var space_29629 = rewrite_clj.node.whitespace.whitespace_node(" ");
 rewrite_clj.node.coercer.map__GT_children = (function rewrite_clj$node$coercer$map__GT_children(m){
-return cljs.core.vec(cljs.core.butlast(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__29624){
-var vec__29625 = p__29624;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29625,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29625,(1),null);
+return cljs.core.vec(cljs.core.butlast(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__29623){
+var vec__29624 = p__29623;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29624,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29624,(1),null);
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [rewrite_clj.node.protocols.coerce(k),space_29629,rewrite_clj.node.protocols.coerce(v),comma_29628], null);
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([m], 0))));
 });

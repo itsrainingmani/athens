@@ -22,9 +22,9 @@ return athens.views.breadcrumbs.breadcrumbs_list.cljs$core$IFn$_invoke$arity$var
 });
 
 (athens.views.breadcrumbs.breadcrumbs_list.cljs$core$IFn$_invoke$arity$variadic = (function (p__61906,children){
-var map__61907 = p__61906;
-var map__61907__$1 = (((((!((map__61907 == null))))?(((((map__61907.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61907.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61907):map__61907);
-var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61907__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var map__61908 = p__61906;
+var map__61908__$1 = (((((!((map__61908 == null))))?(((((map__61908.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61908.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61908):map__61908);
+var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61908__$1,new cljs.core.Keyword(null,"style","style",-496642736));
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ol","ol",932524051),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.breadcrumbs.breadcrumbs_list_style,style], 0)))], null),children);
 }));
 
@@ -59,11 +59,11 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.breadcrumbs.breadcrumb,cljs.core.PersistentArrayMap.EMPTY,children], null);
 }));
 
-(athens.views.breadcrumbs.breadcrumb.cljs$core$IFn$_invoke$arity$2 = (function (p__61916,children){
-var map__61917 = p__61916;
-var map__61917__$1 = (((((!((map__61917 == null))))?(((((map__61917.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61917.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61917):map__61917);
-var props = map__61917__$1;
-var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61917__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+(athens.views.breadcrumbs.breadcrumb.cljs$core$IFn$_invoke$arity$2 = (function (p__61922,children){
+var map__61923 = p__61922;
+var map__61923__$1 = (((((!((map__61923 == null))))?(((((map__61923.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61923.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61923):map__61923);
+var props = map__61923__$1;
+var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61923__$1,new cljs.core.Keyword(null,"style","style",-496642736));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.breadcrumbs.breadcrumb_style,style], 0))),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([props], 0)),children], null)], null);
 }));
 

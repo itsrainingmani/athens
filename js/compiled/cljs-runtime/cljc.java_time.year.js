@@ -110,8 +110,8 @@ cljc.java_time.year.minus_years = (function cljc$java_time$year$minus_years(this
 return this4540.minusYears(long4541);
 });
 cljc.java_time.year.parse = (function cljc$java_time$year$parse(var_args){
-var G__41866 = arguments.length;
-switch (G__41866) {
+var G__41865 = arguments.length;
+switch (G__41865) {
 case 1:
 return cljc.java_time.year.parse.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

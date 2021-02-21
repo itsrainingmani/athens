@@ -10,13 +10,13 @@ clojure.string.reverse = (function clojure$string$reverse(s){
 return s.replace(clojure.string.re_surrogate_pair,"$2$1").split("").reverse().join("");
 });
 clojure.string.replace_all = (function clojure$string$replace_all(s,re,replacement){
-var r = (new RegExp(re.source,(function (){var G__20317 = "g";
-var G__20317__$1 = (cljs.core.truth_(re.ignoreCase)?[G__20317,"i"].join(''):G__20317);
-var G__20317__$2 = (cljs.core.truth_(re.multiline)?[G__20317__$1,"m"].join(''):G__20317__$1);
+var r = (new RegExp(re.source,(function (){var G__20319 = "g";
+var G__20319__$1 = (cljs.core.truth_(re.ignoreCase)?[G__20319,"i"].join(''):G__20319);
+var G__20319__$2 = (cljs.core.truth_(re.multiline)?[G__20319__$1,"m"].join(''):G__20319__$1);
 if(cljs.core.truth_(re.unicode)){
-return [G__20317__$2,"u"].join('');
+return [G__20319__$2,"u"].join('');
 } else {
-return G__20317__$2;
+return G__20319__$2;
 }
 })()));
 return s.replace(r,replacement);
@@ -26,11 +26,11 @@ return (function() {
 var G__20345__delegate = function (args){
 var matches = cljs.core.drop_last.cljs$core$IFn$_invoke$arity$2((2),args);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(matches),(1))){
-var G__20321 = cljs.core.first(matches);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20321) : f.call(null,G__20321));
-} else {
-var G__20322 = cljs.core.vec(matches);
+var G__20322 = cljs.core.first(matches);
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20322) : f.call(null,G__20322));
+} else {
+var G__20323 = cljs.core.vec(matches);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20323) : f.call(null,G__20323));
 }
 };
 var G__20345 = function (var_args){
@@ -118,8 +118,8 @@ return s.replace(match,replacement);
  *   separated by an optional separator.
  */
 clojure.string.join = (function clojure$string$join(var_args){
-var G__20324 = arguments.length;
-switch (G__20324) {
+var G__20326 = arguments.length;
+switch (G__20326) {
 case 1:
 return clojure.string.join.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -240,8 +240,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.vec(cljs.core.cons
  *   the maximum number of splits. Not lazy. Returns vector of the splits.
  */
 clojure.string.split = (function clojure$string$split(var_args){
-var G__20336 = arguments.length;
-switch (G__20336) {
+var G__20337 = arguments.length;
+switch (G__20337) {
 case 2:
 return clojure.string.split.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
