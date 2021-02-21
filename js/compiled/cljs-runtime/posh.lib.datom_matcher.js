@@ -92,16 +92,16 @@ new_patterns = G__34107;
 leftover_patterns = G__34108;
 continue;
 } else {
-var G__34110 = entids;
-var G__34111 = rest_datom;
-var G__34112 = cljs.core.rest(patterns);
-var G__34113 = new_patterns;
-var G__34114 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
-entids = G__34110;
-rest_datom = G__34111;
-patterns = G__34112;
-new_patterns = G__34113;
-leftover_patterns = G__34114;
+var G__34109 = entids;
+var G__34110 = rest_datom;
+var G__34111 = cljs.core.rest(patterns);
+var G__34112 = new_patterns;
+var G__34113 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
+entids = G__34109;
+rest_datom = G__34110;
+patterns = G__34111;
+new_patterns = G__34112;
+leftover_patterns = G__34113;
 continue;
 }
 }
@@ -119,16 +119,16 @@ if((function (){var id = cljs.core.ffirst(leftover_patterns);
 return ((cljs.core.set_QMARK_(id)) || (typeof id === 'number'));
 })()){
 var r = posh.lib.datom_matcher.combine_entids(cljs.core.PersistentHashSet.EMPTY,cljs.core.rest(cljs.core.first(leftover_patterns)),leftover_patterns,new_patterns,cljs.core.PersistentVector.EMPTY);
-var G__34115 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
-var G__34116 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
-new_patterns = G__34115;
-leftover_patterns = G__34116;
+var G__34114 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
+var G__34115 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
+new_patterns = G__34114;
+leftover_patterns = G__34115;
 continue;
 } else {
-var G__34120 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
-var G__34121 = cljs.core.rest(leftover_patterns);
-new_patterns = G__34120;
-leftover_patterns = G__34121;
+var G__34116 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
+var G__34117 = cljs.core.rest(leftover_patterns);
+new_patterns = G__34116;
+leftover_patterns = G__34117;
 continue;
 }
 }

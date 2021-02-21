@@ -60,13 +60,13 @@ return devtools.prefs.set_pref_BANG_(key,new_val);
 (devtools.prefs.update_pref_BANG_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq20291){
-var G__20292 = cljs.core.first(seq20291);
-var seq20291__$1 = cljs.core.next(seq20291);
-var G__20293 = cljs.core.first(seq20291__$1);
-var seq20291__$2 = cljs.core.next(seq20291__$1);
+(devtools.prefs.update_pref_BANG_.cljs$lang$applyTo = (function (seq20292){
+var G__20293 = cljs.core.first(seq20292);
+var seq20292__$1 = cljs.core.next(seq20292);
+var G__20294 = cljs.core.first(seq20292__$1);
+var seq20292__$2 = cljs.core.next(seq20292__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__20292,G__20293,seq20291__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__20293,G__20294,seq20292__$2);
 }));
 
 

@@ -285,10 +285,10 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"keyframes","keyfram
 
 /** @this {Function} */
 (garden.stylesheet.at_keyframes.cljs$lang$applyTo = (function (seq54363){
-var G__54365 = cljs.core.first(seq54363);
+var G__54364 = cljs.core.first(seq54363);
 var seq54363__$1 = cljs.core.next(seq54363);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54365,seq54363__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__54364,seq54363__$1);
 }));
 
 /**
