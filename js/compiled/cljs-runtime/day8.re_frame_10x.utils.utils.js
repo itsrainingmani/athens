@@ -38,8 +38,8 @@ return (((beginning <= new cljs.core.Keyword(null,"id","id",-1388402092).cljs$co
 }));
 });
 day8.re_frame_10x.utils.utils.spy = (function day8$re_frame_10x$utils$utils$spy(var_args){
-var G__26512 = arguments.length;
-switch (G__26512) {
+var G__26509 = arguments.length;
+switch (G__26509) {
 case 1:
 return day8.re_frame_10x.utils.utils.spy.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

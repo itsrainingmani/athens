@@ -166,9 +166,9 @@ return (new rewrite_clj.node.comment.CommentNode(self__.s,self__.__meta,cljs.cor
 (rewrite_clj.node.comment.CommentNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29347){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29357 = cljs.core.keyword_identical_QMARK_;
-var expr__29358 = k__4388__auto__;
-if(cljs.core.truth_((pred__29357.cljs$core$IFn$_invoke$arity$2 ? pred__29357.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"s","s",1705939918),expr__29358) : pred__29357.call(null,new cljs.core.Keyword(null,"s","s",1705939918),expr__29358)))){
+var pred__29358 = cljs.core.keyword_identical_QMARK_;
+var expr__29359 = k__4388__auto__;
+if(cljs.core.truth_((pred__29358.cljs$core$IFn$_invoke$arity$2 ? pred__29358.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"s","s",1705939918),expr__29359) : pred__29358.call(null,new cljs.core.Keyword(null,"s","s",1705939918),expr__29359)))){
 return (new rewrite_clj.node.comment.CommentNode(G__29347,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.comment.CommentNode(self__.s,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29347),null));
@@ -222,11 +222,11 @@ return (new rewrite_clj.node.comment.CommentNode(s,null,null,null));
  * Factory function for rewrite-clj.node.comment/CommentNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.comment.map__GT_CommentNode = (function rewrite_clj$node$comment$map__GT_CommentNode(G__29351){
-var extmap__4419__auto__ = (function (){var G__29360 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29351,new cljs.core.Keyword(null,"s","s",1705939918));
+var extmap__4419__auto__ = (function (){var G__29362 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29351,new cljs.core.Keyword(null,"s","s",1705939918));
 if(cljs.core.record_QMARK_(G__29351)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29360);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29362);
 } else {
-return G__29360;
+return G__29362;
 }
 })();
 return (new rewrite_clj.node.comment.CommentNode(new cljs.core.Keyword(null,"s","s",1705939918).cljs$core$IFn$_invoke$arity$1(G__29351),null,cljs.core.not_empty(extmap__4419__auto__),null));

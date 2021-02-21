@@ -192,9 +192,9 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.forms.FormsNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29364){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29374 = cljs.core.keyword_identical_QMARK_;
-var expr__29375 = k__4388__auto__;
-if(cljs.core.truth_((pred__29374.cljs$core$IFn$_invoke$arity$2 ? pred__29374.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29375) : pred__29374.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29375)))){
+var pred__29384 = cljs.core.keyword_identical_QMARK_;
+var expr__29385 = k__4388__auto__;
+if(cljs.core.truth_((pred__29384.cljs$core$IFn$_invoke$arity$2 ? pred__29384.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29385) : pred__29384.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29385)))){
 return (new rewrite_clj.node.forms.FormsNode(G__29364,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.forms.FormsNode(self__.children,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29364),null));
@@ -248,11 +248,11 @@ return (new rewrite_clj.node.forms.FormsNode(children,null,null,null));
  * Factory function for rewrite-clj.node.forms/FormsNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.forms.map__GT_FormsNode = (function rewrite_clj$node$forms$map__GT_FormsNode(G__29368){
-var extmap__4419__auto__ = (function (){var G__29377 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29368,new cljs.core.Keyword(null,"children","children",-940561982));
+var extmap__4419__auto__ = (function (){var G__29387 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29368,new cljs.core.Keyword(null,"children","children",-940561982));
 if(cljs.core.record_QMARK_(G__29368)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29377);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29387);
 } else {
-return G__29377;
+return G__29387;
 }
 })();
 return (new rewrite_clj.node.forms.FormsNode(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__29368),null,cljs.core.not_empty(extmap__4419__auto__),null));
