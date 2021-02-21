@@ -176,9 +176,9 @@ return (new rewrite_clj.node.stringz.StringNode(self__.lines,self__.__meta,cljs.
 (rewrite_clj.node.stringz.StringNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29418){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29428 = cljs.core.keyword_identical_QMARK_;
-var expr__29429 = k__4388__auto__;
-if(cljs.core.truth_((pred__29428.cljs$core$IFn$_invoke$arity$2 ? pred__29428.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"lines","lines",-700165781),expr__29429) : pred__29428.call(null,new cljs.core.Keyword(null,"lines","lines",-700165781),expr__29429)))){
+var pred__29432 = cljs.core.keyword_identical_QMARK_;
+var expr__29433 = k__4388__auto__;
+if(cljs.core.truth_((pred__29432.cljs$core$IFn$_invoke$arity$2 ? pred__29432.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"lines","lines",-700165781),expr__29433) : pred__29432.call(null,new cljs.core.Keyword(null,"lines","lines",-700165781),expr__29433)))){
 return (new rewrite_clj.node.stringz.StringNode(G__29418,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.stringz.StringNode(self__.lines,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29418),null));
@@ -232,11 +232,11 @@ return (new rewrite_clj.node.stringz.StringNode(lines,null,null,null));
  * Factory function for rewrite-clj.node.stringz/StringNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.stringz.map__GT_StringNode = (function rewrite_clj$node$stringz$map__GT_StringNode(G__29422){
-var extmap__4419__auto__ = (function (){var G__29431 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29422,new cljs.core.Keyword(null,"lines","lines",-700165781));
+var extmap__4419__auto__ = (function (){var G__29435 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29422,new cljs.core.Keyword(null,"lines","lines",-700165781));
 if(cljs.core.record_QMARK_(G__29422)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29431);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29435);
 } else {
-return G__29431;
+return G__29435;
 }
 })();
 return (new rewrite_clj.node.stringz.StringNode(new cljs.core.Keyword(null,"lines","lines",-700165781).cljs$core$IFn$_invoke$arity$1(G__29422),null,cljs.core.not_empty(extmap__4419__auto__),null));

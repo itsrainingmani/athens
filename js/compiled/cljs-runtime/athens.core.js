@@ -68,6 +68,9 @@ return null;
 return null;
 }
 });
+/**
+ * When the app is initialized, check if we should use the last window size and if so, set the current window size to that value
+ */
 athens.core.init_windowsize = (function athens$core$init_windowsize(){
 if(athens.util.electron_QMARK_()){
 var curWindow = athens.electron.remote.getCurrentWindow();
@@ -76,20 +79,18 @@ var vec__64178 = athens.util.get_window_size();
 var lastx = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64178,(0),null);
 var lasty = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64178,(1),null);
 if(remember_ws_QMARK_){
-cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Window Size on close - ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(lastx),", ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(lasty)].join('')], 0));
-
 curWindow.setSize(lastx,lasty);
+
+curWindow.center();
 } else {
 }
 
-return curWindow.on("resize",(function (e){
+return curWindow.on("resized",(function (e){
 var sender = e.sender;
 var vec__64181 = sender.getSize();
 var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64181,(0),null);
 var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64181,(1),null);
-re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("window","set-size","window/set-size",251809645),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y], null)], null));
-
-return cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Size is - ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),", ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(y)].join('')], 0));
+return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("window","set-size","window/set-size",251809645),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y], null)], null));
 }));
 } else {
 return null;

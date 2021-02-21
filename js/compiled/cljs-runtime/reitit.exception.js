@@ -1,7 +1,7 @@
 goog.provide('reitit.exception');
 reitit.exception.fail_BANG_ = (function reitit$exception$fail_BANG_(var_args){
-var G__59425 = arguments.length;
-switch (G__59425) {
+var G__59421 = arguments.length;
+switch (G__59421) {
 case 1:
 return reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -35,8 +35,8 @@ reitit.exception.format_exception = (function (){var method_table__4619__auto__ 
 var prefer_table__4620__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4621__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4622__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__59426 = cljs.core.get_global_hierarchy;
-return (fexpr__59426.cljs$core$IFn$_invoke$arity$0 ? fexpr__59426.cljs$core$IFn$_invoke$arity$0() : fexpr__59426.call(null));
+var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__59422 = cljs.core.get_global_hierarchy;
+return (fexpr__59422.cljs$core$IFn$_invoke$arity$0 ? fexpr__59422.cljs$core$IFn$_invoke$arity$0() : fexpr__59422.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("reitit.exception","format-exception"),(function (type,_,___$1){
 return type;
