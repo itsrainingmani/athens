@@ -192,9 +192,9 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.forms.FormsNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29364){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29379 = cljs.core.keyword_identical_QMARK_;
-var expr__29380 = k__4388__auto__;
-if(cljs.core.truth_((pred__29379.cljs$core$IFn$_invoke$arity$2 ? pred__29379.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29380) : pred__29379.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29380)))){
+var pred__29384 = cljs.core.keyword_identical_QMARK_;
+var expr__29385 = k__4388__auto__;
+if(cljs.core.truth_((pred__29384.cljs$core$IFn$_invoke$arity$2 ? pred__29384.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29385) : pred__29384.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29385)))){
 return (new rewrite_clj.node.forms.FormsNode(G__29364,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.forms.FormsNode(self__.children,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29364),null));

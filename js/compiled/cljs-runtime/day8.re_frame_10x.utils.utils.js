@@ -15,9 +15,9 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(v,(num - (1)));
  * Gets the index of all items in vec that match the predicate
  */
 day8.re_frame_10x.utils.utils.find_all_indexes_in_vec = (function day8$re_frame_10x$utils$utils$find_all_indexes_in_vec(pred,v){
-return cljs.core.keep_indexed.cljs$core$IFn$_invoke$arity$2((function (p1__26509_SHARP_,p2__26508_SHARP_){
-if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p2__26508_SHARP_) : pred.call(null,p2__26508_SHARP_)))){
-return p1__26509_SHARP_;
+return cljs.core.keep_indexed.cljs$core$IFn$_invoke$arity$2((function (p1__26513_SHARP_,p2__26512_SHARP_){
+if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p2__26512_SHARP_) : pred.call(null,p2__26512_SHARP_)))){
+return p1__26513_SHARP_;
 } else {
 return null;
 }
@@ -79,14 +79,14 @@ return x;
  */
 day8.re_frame_10x.utils.utils.pluralize = (function day8$re_frame_10x$utils$utils$pluralize(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___26535 = arguments.length;
-var i__4737__auto___26536 = (0);
+var len__4736__auto___26538 = arguments.length;
+var i__4737__auto___26539 = (0);
 while(true){
-if((i__4737__auto___26536 < len__4736__auto___26535)){
-args__4742__auto__.push((arguments[i__4737__auto___26536]));
+if((i__4737__auto___26539 < len__4736__auto___26538)){
+args__4742__auto__.push((arguments[i__4737__auto___26539]));
 
-var G__26537 = (i__4737__auto___26536 + (1));
-i__4737__auto___26536 = G__26537;
+var G__26540 = (i__4737__auto___26539 + (1));
+i__4737__auto___26539 = G__26540;
 continue;
 } else {
 }
@@ -144,9 +144,9 @@ var argseq__4743__auto__ = ((((2) < args__4742__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4743__auto__);
 });
 
-(day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26527){
-var vec__26528 = p__26527;
-var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26528,(0),null);
+(day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26530){
+var vec__26531 = p__26530;
+var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26531,(0),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),num)){
 return singular;
 } else {

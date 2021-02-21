@@ -8,13 +8,13 @@ return new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$a
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("current-route","name","current-route/name",-1583049420),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db){
 return new cljs.core.Keyword(null,"name","name",1843675177).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db)));
 })], 0));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__61144){
-var vec__61145 = p__61144;
-var seq__61146 = cljs.core.seq(vec__61145);
-var first__61147 = cljs.core.first(seq__61146);
-var seq__61146__$1 = cljs.core.next(seq__61146);
-var ___$1 = first__61147;
-var route = seq__61146__$1;
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__61143){
+var vec__61144 = p__61143;
+var seq__61145 = cljs.core.seq(vec__61144);
+var first__61146 = cljs.core.first(seq__61145);
+var seq__61145__$1 = cljs.core.next(seq__61145);
+var ___$1 = first__61146;
+var route = seq__61145__$1;
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"navigate!","navigate!",79998348),route,new cljs.core.Keyword("local-storage","set!","local-storage/set!",901741855),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["current-route/uid",new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(cljs.core.second(route))], null)], null);
 }));
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__61148,p__61149){

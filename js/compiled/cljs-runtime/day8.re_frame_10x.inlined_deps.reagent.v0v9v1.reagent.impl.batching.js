@@ -68,8 +68,8 @@ var n__4613__auto__ = fs.length;
 var i = (0);
 while(true){
 if((i < n__4613__auto__)){
-var fexpr__24069_24074 = (fs[i]);
-(fexpr__24069_24074.cljs$core$IFn$_invoke$arity$0 ? fexpr__24069_24074.cljs$core$IFn$_invoke$arity$0() : fexpr__24069_24074.call(null));
+var fexpr__24070_24074 = (fs[i]);
+(fexpr__24070_24074.cljs$core$IFn$_invoke$arity$0 ? fexpr__24070_24074.cljs$core$IFn$_invoke$arity$0() : fexpr__24070_24074.call(null));
 
 var G__24075 = (i + (1));
 i = G__24075;

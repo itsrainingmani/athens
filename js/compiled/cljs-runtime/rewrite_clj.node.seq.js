@@ -59,9 +59,9 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (rewrite_clj.node.seq.SeqNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k29572,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__29579 = k29572;
-var G__29579__$1 = (((G__29579 instanceof cljs.core.Keyword))?G__29579.fqn:null);
-switch (G__29579__$1) {
+var G__29576 = k29572;
+var G__29576__$1 = (((G__29576 instanceof cljs.core.Keyword))?G__29576.fqn:null);
+switch (G__29576__$1) {
 case "tag":
 return self__.tag;
 
@@ -91,10 +91,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k29572,else__
 (rewrite_clj.node.seq.SeqNode.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4399__auto__,f__4400__auto__,init__4401__auto__){
 var self__ = this;
 var this__4399__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__29580){
-var vec__29581 = p__29580;
-var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29581,(0),null);
-var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29581,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4402__auto__,p__29577){
+var vec__29578 = p__29577;
+var k__4403__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29578,(0),null);
+var v__4404__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29578,(1),null);
 return (f__4400__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4400__auto__.cljs$core$IFn$_invoke$arity$3(ret__4402__auto__,k__4403__auto__,v__4404__auto__) : f__4400__auto__.call(null,ret__4402__auto__,k__4403__auto__,v__4404__auto__));
 }),init__4401__auto__,this__4399__auto____$1);
 }));
@@ -171,8 +171,8 @@ return false;
 (rewrite_clj.node.seq.SeqNode.prototype.rewrite_clj$node$protocols$Node$sexpr$arity$1 = (function (this$){
 var self__ = this;
 var this$__$1 = this;
-var G__29589 = rewrite_clj.node.protocols.sexprs(self__.children);
-return (self__.seq_fn.cljs$core$IFn$_invoke$arity$1 ? self__.seq_fn.cljs$core$IFn$_invoke$arity$1(G__29589) : self__.seq_fn.call(null,G__29589));
+var G__29587 = rewrite_clj.node.protocols.sexprs(self__.children);
+return (self__.seq_fn.cljs$core$IFn$_invoke$arity$1 ? self__.seq_fn.cljs$core$IFn$_invoke$arity$1(G__29587) : self__.seq_fn.call(null,G__29587));
 }));
 
 (rewrite_clj.node.seq.SeqNode.prototype.rewrite_clj$node$protocols$Node$length$arity$1 = (function (_){
@@ -221,21 +221,21 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.seq.SeqNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4387__auto__,k__4388__auto__,G__29571){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var pred__29592 = cljs.core.keyword_identical_QMARK_;
-var expr__29593 = k__4388__auto__;
-if(cljs.core.truth_((pred__29592.cljs$core$IFn$_invoke$arity$2 ? pred__29592.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29593) : pred__29592.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29593)))){
+var pred__29591 = cljs.core.keyword_identical_QMARK_;
+var expr__29592 = k__4388__auto__;
+if(cljs.core.truth_((pred__29591.cljs$core$IFn$_invoke$arity$2 ? pred__29591.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29592) : pred__29591.call(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),expr__29592)))){
 return (new rewrite_clj.node.seq.SeqNode(G__29571,self__.wrap_fn,self__.wrap_length,self__.seq_fn,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29592.cljs$core$IFn$_invoke$arity$2 ? pred__29592.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130),expr__29593) : pred__29592.call(null,new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130),expr__29593)))){
+if(cljs.core.truth_((pred__29591.cljs$core$IFn$_invoke$arity$2 ? pred__29591.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130),expr__29592) : pred__29591.call(null,new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130),expr__29592)))){
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,G__29571,self__.wrap_length,self__.seq_fn,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29592.cljs$core$IFn$_invoke$arity$2 ? pred__29592.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"wrap-length","wrap-length",-268108519),expr__29593) : pred__29592.call(null,new cljs.core.Keyword(null,"wrap-length","wrap-length",-268108519),expr__29593)))){
+if(cljs.core.truth_((pred__29591.cljs$core$IFn$_invoke$arity$2 ? pred__29591.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"wrap-length","wrap-length",-268108519),expr__29592) : pred__29591.call(null,new cljs.core.Keyword(null,"wrap-length","wrap-length",-268108519),expr__29592)))){
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,self__.wrap_fn,G__29571,self__.seq_fn,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29592.cljs$core$IFn$_invoke$arity$2 ? pred__29592.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"seq-fn","seq-fn",-991013231),expr__29593) : pred__29592.call(null,new cljs.core.Keyword(null,"seq-fn","seq-fn",-991013231),expr__29593)))){
+if(cljs.core.truth_((pred__29591.cljs$core$IFn$_invoke$arity$2 ? pred__29591.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"seq-fn","seq-fn",-991013231),expr__29592) : pred__29591.call(null,new cljs.core.Keyword(null,"seq-fn","seq-fn",-991013231),expr__29592)))){
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,self__.wrap_fn,self__.wrap_length,G__29571,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__29592.cljs$core$IFn$_invoke$arity$2 ? pred__29592.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29593) : pred__29592.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29593)))){
+if(cljs.core.truth_((pred__29591.cljs$core$IFn$_invoke$arity$2 ? pred__29591.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"children","children",-940561982),expr__29592) : pred__29591.call(null,new cljs.core.Keyword(null,"children","children",-940561982),expr__29592)))){
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,self__.wrap_fn,self__.wrap_length,self__.seq_fn,G__29571,self__.__meta,self__.__extmap,null));
 } else {
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,self__.wrap_fn,self__.wrap_length,self__.seq_fn,self__.children,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4388__auto__,G__29571),null));

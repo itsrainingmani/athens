@@ -1,33 +1,33 @@
 goog.provide('sci.impl.io');
-sci.impl.io.in$ = (function (){var _STAR_unrestricted_STAR__orig_val__62643 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
-var _STAR_unrestricted_STAR__temp_val__62644 = true;
-(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62644);
+sci.impl.io.in$ = (function (){var _STAR_unrestricted_STAR__orig_val__62645 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
+var _STAR_unrestricted_STAR__temp_val__62646 = true;
+(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62646);
 
-try{var G__62645 = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"*in*","*in*",1130010229,null));
-sci.impl.vars.unbind(G__62645);
+try{var G__62647 = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"*in*","*in*",1130010229,null));
+sci.impl.vars.unbind(G__62647);
 
-return G__62645;
-}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62643);
+return G__62647;
+}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62645);
 }})();
-sci.impl.io.out = (function (){var _STAR_unrestricted_STAR__orig_val__62647 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
-var _STAR_unrestricted_STAR__temp_val__62648 = true;
-(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62648);
+sci.impl.io.out = (function (){var _STAR_unrestricted_STAR__orig_val__62648 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
+var _STAR_unrestricted_STAR__temp_val__62649 = true;
+(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62649);
 
-try{var G__62649 = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"*out*","*out*",1277591796,null));
-sci.impl.vars.unbind(G__62649);
+try{var G__62650 = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"*out*","*out*",1277591796,null));
+sci.impl.vars.unbind(G__62650);
 
-return G__62649;
-}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62647);
+return G__62650;
+}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62648);
 }})();
-sci.impl.io.err = (function (){var _STAR_unrestricted_STAR__orig_val__62650 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
-var _STAR_unrestricted_STAR__temp_val__62651 = true;
-(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62651);
+sci.impl.io.err = (function (){var _STAR_unrestricted_STAR__orig_val__62651 = sci.impl.unrestrict._STAR_unrestricted_STAR_;
+var _STAR_unrestricted_STAR__temp_val__62652 = true;
+(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__temp_val__62652);
 
 try{var G__62653 = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"*err*","*err*",2070937226,null));
 sci.impl.vars.unbind(G__62653);
 
 return G__62653;
-}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62650);
+}finally {(sci.impl.unrestrict._STAR_unrestricted_STAR_ = _STAR_unrestricted_STAR__orig_val__62651);
 }})();
 sci.impl.io.print_length = sci.impl.vars.dynamic_var.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol(null,"*print-length*","*print-length*",-687693654,null),null);
 sci.impl.io.pr = (function sci$impl$io$pr(var_args){
@@ -112,14 +112,14 @@ return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 sci.impl.io.print = (function sci$impl$io$print(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___62690 = arguments.length;
-var i__4737__auto___62691 = (0);
+var len__4736__auto___62695 = arguments.length;
+var i__4737__auto___62696 = (0);
 while(true){
-if((i__4737__auto___62691 < len__4736__auto___62690)){
-args__4742__auto__.push((arguments[i__4737__auto___62691]));
+if((i__4737__auto___62696 < len__4736__auto___62695)){
+args__4742__auto__.push((arguments[i__4737__auto___62696]));
 
-var G__62692 = (i__4737__auto___62691 + (1));
-i__4737__auto___62691 = G__62692;
+var G__62697 = (i__4737__auto___62696 + (1));
+i__4737__auto___62696 = G__62697;
 continue;
 } else {
 }
@@ -168,12 +168,12 @@ return sci.impl.io.println.cljs$core$IFn$_invoke$arity$variadic(argseq__4743__au
 });
 
 (sci.impl.io.println.cljs$core$IFn$_invoke$arity$variadic = (function (objs){
-var _STAR_print_length_STAR__orig_val__62667 = cljs.core._STAR_print_length_STAR_;
-var _STAR_print_length_STAR__temp_val__62668 = cljs.core.deref(sci.impl.io.print_length);
-(cljs.core._STAR_print_length_STAR_ = _STAR_print_length_STAR__temp_val__62668);
+var _STAR_print_length_STAR__orig_val__62664 = cljs.core._STAR_print_length_STAR_;
+var _STAR_print_length_STAR__temp_val__62665 = cljs.core.deref(sci.impl.io.print_length);
+(cljs.core._STAR_print_length_STAR_ = _STAR_print_length_STAR__temp_val__62665);
 
 try{return cljs.core.deref(sci.impl.io.out).append(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.println_str,objs));
-}finally {(cljs.core._STAR_print_length_STAR_ = _STAR_print_length_STAR__orig_val__62667);
+}finally {(cljs.core._STAR_print_length_STAR_ = _STAR_print_length_STAR__orig_val__62664);
 }}));
 
 (sci.impl.io.println.cljs$lang$maxFixedArity = (0));
@@ -186,14 +186,14 @@ return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 sci.impl.io.with_out_str = (function sci$impl$io$with_out_str(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___62701 = arguments.length;
-var i__4737__auto___62702 = (0);
+var len__4736__auto___62703 = arguments.length;
+var i__4737__auto___62705 = (0);
 while(true){
-if((i__4737__auto___62702 < len__4736__auto___62701)){
-args__4742__auto__.push((arguments[i__4737__auto___62702]));
+if((i__4737__auto___62705 < len__4736__auto___62703)){
+args__4742__auto__.push((arguments[i__4737__auto___62705]));
 
-var G__62703 = (i__4737__auto___62702 + (1));
-i__4737__auto___62702 = G__62703;
+var G__62706 = (i__4737__auto___62705 + (1));
+i__4737__auto___62705 = G__62706;
 continue;
 } else {
 }

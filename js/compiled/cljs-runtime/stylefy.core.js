@@ -51,8 +51,8 @@ goog.provide('stylefy.core');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__55492 = arguments.length;
-switch (G__55492) {
+var G__55466 = arguments.length;
+switch (G__55466) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -97,8 +97,8 @@ return stylefy.impl.styles.use_style_BANG_(style,options,stylefy.impl.dom.save_s
  * take a look at sub-style function.
  */
 stylefy.core.use_sub_style = (function stylefy$core$use_sub_style(var_args){
-var G__55498 = arguments.length;
-switch (G__55498) {
+var G__55471 = arguments.length;
+switch (G__55471) {
 case 2:
 return stylefy.core.use_sub_style.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -168,11 +168,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 (stylefy.core.sub_style.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq55499){
-var G__55500 = cljs.core.first(seq55499);
-var seq55499__$1 = cljs.core.next(seq55499);
+(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq55485){
+var G__55486 = cljs.core.first(seq55485);
+var seq55485__$1 = cljs.core.next(seq55485);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55500,seq55499__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55486,seq55485__$1);
 }));
 
 /**

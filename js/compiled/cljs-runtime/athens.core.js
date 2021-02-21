@@ -79,11 +79,13 @@ var vec__64177 = athens.util.get_window_size();
 var lastx = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64177,(0),null);
 var lasty = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64177,(1),null);
 if(remember_ws_QMARK_){
-curWindow.setSize(lastx,lasty)(curWindow.center());
+curWindow.setSize(lastx,lasty);
+
+curWindow.center();
 } else {
 }
 
-return curWindow.on("resized",(function (e){
+return curWindow.on("close",(function (e){
 var sender = e.sender;
 var vec__64180 = sender.getSize();
 var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64180,(0),null);
