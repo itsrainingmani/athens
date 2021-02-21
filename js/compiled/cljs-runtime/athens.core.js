@@ -31,9 +31,9 @@ return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2("off",localStorage.getIte
  */
 athens.core.init_sentry = (function athens$core$init_sentry(){
 if(athens.core.sentry_on_QMARK_()){
-return module$node_modules$$sentry$react$dist$index.init(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"dsn","dsn",1561266567),athens.core.SENTRY_DSN,new cljs.core.Keyword(null,"release","release",-1534371381),["athens@",cljs.core.str.cljs$core$IFn$_invoke$arity$1(athens.util.athens_version())].join(''),new cljs.core.Keyword(null,"integrations","integrations",1844532423),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new module$node_modules$$sentry$tracing$dist$index.Integrations.BrowserTracing()),(new module$node_modules$$sentry$integrations$dist$index.CaptureConsole(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"levels","levels",-950747887),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["warn","error","debug","assert"], null)], null))))], null),new cljs.core.Keyword(null,"environment","environment",-666037640),((athens.config.debug_QMARK_)?"development":"production"),new cljs.core.Keyword(null,"beforeSend","beforeSend",-1560616376),(function (p1__64168_SHARP_){
+return module$node_modules$$sentry$react$dist$index.init(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"dsn","dsn",1561266567),athens.core.SENTRY_DSN,new cljs.core.Keyword(null,"release","release",-1534371381),["athens@",cljs.core.str.cljs$core$IFn$_invoke$arity$1(athens.util.athens_version())].join(''),new cljs.core.Keyword(null,"integrations","integrations",1844532423),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new module$node_modules$$sentry$tracing$dist$index.Integrations.BrowserTracing()),(new module$node_modules$$sentry$integrations$dist$index.CaptureConsole(cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"levels","levels",-950747887),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["warn","error","debug","assert"], null)], null))))], null),new cljs.core.Keyword(null,"environment","environment",-666037640),((athens.config.debug_QMARK_)?"development":"production"),new cljs.core.Keyword(null,"beforeSend","beforeSend",-1560616376),(function (p1__64177_SHARP_){
 if(athens.core.sentry_on_QMARK_()){
-return p1__64168_SHARP_;
+return p1__64177_SHARP_;
 } else {
 return null;
 }
@@ -68,12 +68,41 @@ return null;
 return null;
 }
 });
+athens.core.init_windowsize = (function athens$core$init_windowsize(){
+if(athens.util.electron_QMARK_()){
+var curWindow = athens.electron.remote.getCurrentWindow();
+var remember_ws_QMARK_ = athens.util.remember_ws_QMARK_();
+var vec__64178 = athens.util.get_window_size();
+var lastx = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64178,(0),null);
+var lasty = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64178,(1),null);
+if(remember_ws_QMARK_){
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Window Size on close - ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(lastx),", ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(lasty)].join('')], 0));
+
+curWindow.setSize(lastx,lasty);
+} else {
+}
+
+return curWindow.on("resize",(function (e){
+var sender = e.sender;
+var vec__64181 = sender.getSize();
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64181,(0),null);
+var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64181,(1),null);
+re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("window","set-size","window/set-size",251809645),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y], null)], null));
+
+return cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Size is - ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x),", ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(y)].join('')], 0));
+}));
+} else {
+return null;
+}
+});
 athens.core.init = (function athens$core$init(){
 athens.core.set_global_alert_BANG_();
 
 athens.core.init_sentry();
 
 athens.core.init_ipcRenderer();
+
+athens.core.init_windowsize();
 
 athens.style.init();
 

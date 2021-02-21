@@ -79,12 +79,12 @@ return G__26577__$1.reagentRender;
 })() == null)))));
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.react_class_QMARK_ = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$react_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__26579 = c;
-var G__26579__$1 = (((G__26579 == null))?null:G__26579.prototype);
-if((G__26579__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__26581 = c;
+var G__26581__$1 = (((G__26581 == null))?null:G__26581.prototype);
+if((G__26581__$1 == null)){
 return null;
 } else {
-return G__26579__$1.render;
+return G__26581__$1.render;
 }
 })() == null)))));
 });
@@ -358,10 +358,10 @@ break;
 case "componentWillUnmount":
 return (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__26597_26626 = goog.object.get(c,"cljsRatom");
-if((G__26597_26626 == null)){
+var G__26597_26627 = goog.object.get(c,"cljsRatom");
+if((G__26597_26627 == null)){
 } else {
-day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.ratom.dispose_BANG_(G__26597_26626);
+day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.ratom.dispose_BANG_(G__26597_26627);
 }
 
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.batching.mark_rendered(c);
