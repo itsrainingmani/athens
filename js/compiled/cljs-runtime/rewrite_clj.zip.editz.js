@@ -24,14 +24,14 @@ return (rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node
  */
 rewrite_clj.zip.editz.edit = (function rewrite_clj$zip$editz$edit(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___29894 = arguments.length;
-var i__4737__auto___29895 = (0);
+var len__4736__auto___29896 = arguments.length;
+var i__4737__auto___29897 = (0);
 while(true){
-if((i__4737__auto___29895 < len__4736__auto___29894)){
-args__4742__auto__.push((arguments[i__4737__auto___29895]));
+if((i__4737__auto___29897 < len__4736__auto___29896)){
+args__4742__auto__.push((arguments[i__4737__auto___29897]));
 
-var G__29896 = (i__4737__auto___29895 + (1));
-i__4737__auto___29895 = G__29896;
+var G__29898 = (i__4737__auto___29897 + (1));
+i__4737__auto___29897 = G__29898;
 continue;
 } else {
 }
@@ -103,12 +103,12 @@ var n = cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(clojure.zip.node(zloc)
 return clojure.zip.replace(zloc,n);
 });
 rewrite_clj.zip.editz.prefix = (function rewrite_clj$zip$editz$prefix(zloc,s){
-var G__29891 = rewrite_clj.zip.base.tag(zloc);
-var G__29891__$1 = (((G__29891 instanceof cljs.core.Keyword))?G__29891.fqn:null);
-switch (G__29891__$1) {
+var G__29893 = rewrite_clj.zip.base.tag(zloc);
+var G__29893__$1 = (((G__29893 instanceof cljs.core.Keyword))?G__29893.fqn:null);
+switch (G__29893__$1) {
 case "token":
-return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__29889_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29889_SHARP_)].join('');
+return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__29891_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29891_SHARP_)].join('');
 }));
 
 break;
@@ -117,25 +117,25 @@ return rewrite_clj.zip.editz.edit_multi_line(zloc,(function (lines){
 if(cljs.core.empty_QMARK_(lines)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [s], null);
 } else {
-return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(lines,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0)], null),(function (p1__29890_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29890_SHARP_)].join('');
+return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(lines,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0)], null),(function (p1__29892_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29892_SHARP_)].join('');
 }));
 }
 }));
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__29891__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__29893__$1)].join('')));
 
 }
 });
 rewrite_clj.zip.editz.suffix = (function rewrite_clj$zip$editz$suffix(zloc,s){
-var G__29893 = rewrite_clj.zip.base.tag(zloc);
-var G__29893__$1 = (((G__29893 instanceof cljs.core.Keyword))?G__29893.fqn:null);
-switch (G__29893__$1) {
+var G__29895 = rewrite_clj.zip.base.tag(zloc);
+var G__29895__$1 = (((G__29895 instanceof cljs.core.Keyword))?G__29895.fqn:null);
+switch (G__29895__$1) {
 case "token":
-return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__29892_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29892_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
+return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__29894_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__29894_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
 }));
 
 break;
@@ -150,7 +150,7 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(cljs.core.butlast(lines),[
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__29893__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__29895__$1)].join('')));
 
 }
 });

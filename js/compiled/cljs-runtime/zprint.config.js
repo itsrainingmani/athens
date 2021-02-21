@@ -101,14 +101,14 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fr
  */
 zprint.config.merge_deep_doc = (function zprint$config$merge_deep_doc(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___30329 = arguments.length;
-var i__4737__auto___30330 = (0);
+var len__4736__auto___30331 = arguments.length;
+var i__4737__auto___30332 = (0);
 while(true){
-if((i__4737__auto___30330 < len__4736__auto___30329)){
-args__4742__auto__.push((arguments[i__4737__auto___30330]));
+if((i__4737__auto___30332 < len__4736__auto___30331)){
+args__4742__auto__.push((arguments[i__4737__auto___30332]));
 
-var G__30331 = (i__4737__auto___30330 + (1));
-i__4737__auto___30330 = G__30331;
+var G__30333 = (i__4737__auto___30332 + (1));
+i__4737__auto___30332 = G__30333;
 continue;
 } else {
 }
@@ -392,9 +392,9 @@ return errors;
 } else {
 zprint.config.reset_options_BANG_.cljs$core$IFn$_invoke$arity$2(zprint_options,doc_map);
 
-var G__30196_30341 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
-var G__30197_30342 = "internal";
-(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30196_30341,G__30197_30342) : zprint.config.config_set_options_BANG_.call(null,G__30196_30341,G__30197_30342));
+var G__30196_30355 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
+var G__30197_30356 = "internal";
+(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30196_30355,G__30197_30356) : zprint.config.config_set_options_BANG_.call(null,G__30196_30355,G__30197_30356));
 
 if(cljs.core.truth_(zprint.config.is_in_repl_QMARK_())){
 zprint.config.internal_set_options_BANG_("REPL execution default",zprint.config.get_explained_all_options(),zprint.config.get_options(),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"parallel?","parallel?",-25273892),true], null));
